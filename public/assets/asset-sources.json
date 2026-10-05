@@ -1,0 +1,604 @@
+{
+  "opencode-screen.png": {
+    "source": "https://raw.githubusercontent.com/anomalyco/opencode/dev/packages/web/src/assets/lander/screenshot.png",
+    "bytes": 470646
+  },
+  "openhands-screen.png": {
+    "source": "https://assets.openhands.dev/screenshot/automation-preview.png",
+    "bytes": 409689
+  },
+  "webui-screen.png": {
+    "source": "https://raw.githubusercontent.com/open-webui/open-webui/main/demo.png",
+    "bytes": 288037
+  },
+  "openproject-screen.png": {
+    "source": "https://raw.githubusercontent.com/opf/openproject/dev/GitHub-tab-new.png",
+    "bytes": 646436
+  },
+  "openobserve-screen.png": {
+    "source": "https://raw.githubusercontent.com/openobserve/openobserve/main/screenshots/home.png",
+    "bytes": 129790
+  },
+  "openobserve-logs.png": {
+    "source": "https://raw.githubusercontent.com/openobserve/openobserve/main/screenshots/logs.png",
+    "bytes": 666918
+  },
+  "speedtest-screen.png": {
+    "source": "https://open.cachefly.net/assets/images/OSTV2-SS.png",
+    "bytes": 144958
+  },
+  "actual-screen.png": {
+    "source": "https://raw.githubusercontent.com/actualbudget/actual/master/demo.png",
+    "bytes": 109791
+  },
+  "appflowy-screen.png": {
+    "source": "https://appflowy.com/_next/static/media/tasks.796c753e.png",
+    "bytes": 163960
+  },
+  "opencut-logo.svg": {
+    "source": "https://assets.opencut.app/branding/symbol.svg",
+    "bytes": 605
+  },
+  "openrefine-logo.png": {
+    "source": "https://raw.githubusercontent.com/OpenRefine/OpenRefine/master/graphics/icon/open-refine-320px.png",
+    "bytes": 5946
+  },
+  "kdenlive-logo.png": {
+    "source": "https://raw.githubusercontent.com/KDE/kdenlive/master/data/pics/kdenlive-logo.png",
+    "bytes": 15792
+  },
+  "wger-logo.png": {
+    "source": "https://raw.githubusercontent.com/wger-project/wger/master/wger/core/static/images/logos/logo.png",
+    "bytes": 8494
+  },
+  "opencode-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/66570915?v=4&s=128",
+    "bytes": 3176
+  },
+  "opencut-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/217499887?v=4&s=128",
+    "bytes": 12694
+  },
+  "openhands-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/225919603?v=4&s=128",
+    "bytes": 5796
+  },
+  "open-webui-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/158137808?v=4&s=128",
+    "bytes": 16809
+  },
+  "openproject-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/1756674?v=4&s=128",
+    "bytes": 1831
+  },
+  "opentofu-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/142061836?v=4&s=128",
+    "bytes": 4174
+  },
+  "openobserve-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/95867656?v=4&s=128",
+    "bytes": 6735
+  },
+  "openrefine-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/2538880?v=4&s=128",
+    "bytes": 2104
+  },
+  "openboard-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/19806012?v=4&s=128",
+    "bytes": 4116
+  },
+  "speed-test-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/51720450?v=4&s=128",
+    "bytes": 10624
+  },
+  "penpot-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/30179644?v=4&s=128",
+    "bytes": 4172
+  },
+  "actual-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/37879538?v=4&s=128",
+    "bytes": 3493
+  },
+  "wger-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/17430347?v=4&s=128",
+    "bytes": 2546
+  },
+  "clients-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/15990069?v=4&s=128",
+    "bytes": 1803
+  },
+  "appflowy-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/86002201?v=4&s=128",
+    "bytes": 4265
+  },
+  "kdenlive-icon.png": {
+    "source": "https://avatars.githubusercontent.com/u/14312869?v=4&s=128",
+    "bytes": 3875
+  },
+  "voicestudio-screen.png": {
+    "source": "https://github.com/user-attachments/assets/b474497d-a453-49a3-a2dd-f023ec6b7659",
+    "bytes": 2012752
+  },
+  "opencode-official.png": {
+    "repo": "anomalyco/opencode",
+    "source": "https://raw.githubusercontent.com/anomalyco/opencode/dev/packages/ui/src/assets/favicon/apple-touch-icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 1541,
+    "sha256": "2f2d5687a641f7fc1c3931072249a5984660375c091064fe8b374e4e43a8656c"
+  },
+  "opencut-official.svg": {
+    "repo": "OpenCut-app/OpenCut",
+    "source": "https://raw.githubusercontent.com/OpenCut-app/OpenCut/main/brand/marks/icon.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 1998,
+    "sha256": "ab338b6515837b356b0c8aecb1196e78edb6b4f36157e81d33ab7810fb328016"
+  },
+  "openhands-official.png": {
+    "repo": "OpenHands/OpenHands",
+    "source": "https://raw.githubusercontent.com/OpenHands/OpenHands/main/public/apple-touch-icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 12234,
+    "sha256": "b4beb7a5fa931f4ac8bb47894e689f5e95358f1a6fe3667650a993acbe2e3854"
+  },
+  "open-webui-official.png": {
+    "repo": "open-webui/open-webui",
+    "source": "https://raw.githubusercontent.com/open-webui/open-webui/main/static/static/apple-touch-icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 1658,
+    "sha256": "5f03e55a378426d5fa7593503d3cf051b3d8bb1c7861650f7e78419e5a71c731"
+  },
+  "openproject-official.svg": {
+    "repo": "opf/openproject",
+    "source": "https://raw.githubusercontent.com/opf/openproject/dev/app/assets/images/icon_logo.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 2582,
+    "sha256": "955af4346e973d13afd9f5a3d0d4c63f8002be1125bcd41d8036ff67ee1cdd51"
+  },
+  "opentofu-official.png": {
+    "repo": "opentofu/opentofu",
+    "source": "https://avatars.githubusercontent.com/u/142061836?v=4?s=128",
+    "kind": "Official project organization avatar",
+    "bytes": 16660,
+    "sha256": "0a7c174e3e0356f66926c8c5ba9d27cbb0677ba9d2d6c54a6d07484aaec6eb74"
+  },
+  "openobserve-official.png": {
+    "repo": "openobserve/openobserve",
+    "source": "https://raw.githubusercontent.com/openobserve/openobserve/main/web/src/assets/images/common/openobserve_favicon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 15739,
+    "sha256": "5f9612ad3452dc4f0b4b4d710052039f25bb9d649b2ac59e2e35d63116edcf94"
+  },
+  "openrefine-official.svg": {
+    "repo": "OpenRefine/OpenRefine",
+    "source": "https://raw.githubusercontent.com/OpenRefine/OpenRefine/master/main/webapp/modules/core/images/logo-gem-126.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 740,
+    "sha256": "48a9ea4b01011bf7ef4434f139b4bb92a0dc93f9991ec4ced5cdb0c296457ad9"
+  },
+  "openboard-official.png": {
+    "repo": "OpenBoard-org/OpenBoard",
+    "source": "https://raw.githubusercontent.com/OpenBoard-org/OpenBoard/master/resources/startupHints/assets/hint1/openboard-logo.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 11942,
+    "sha256": "b9b764fcb6826d1d68be5a658f6b0fb30e617fd2314600670762e040c2384129"
+  },
+  "openspeedtest-official.png": {
+    "repo": "openspeedtest/Speed-Test",
+    "source": "https://raw.githubusercontent.com/openspeedtest/Speed-Test/main/assets/images/icons/apple-touch-icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 10905,
+    "sha256": "7e02e40c7b6e825b2bdc00f07dee7d00383d5384c3cde6058217e06ff95313ec"
+  },
+  "penpot-official.svg": {
+    "repo": "penpot/penpot",
+    "source": "https://raw.githubusercontent.com/penpot/penpot/develop/frontend/resources/images/assets/penpot-logo-icon.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 1248,
+    "sha256": "fd78bc6b5a9f49da0e8dc7020f1783ae3d7674740c86f707e97ab7cb4496f8c9"
+  },
+  "actual-official.png": {
+    "repo": "actualbudget/actual",
+    "source": "https://raw.githubusercontent.com/actualbudget/actual/master/packages/desktop-client/public/apple-touch-icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 19967,
+    "sha256": "be4ec41e9fe6ddaf61311005060f25038654ee540cda6a2847782ec0ad863164"
+  },
+  "wger-official.png": {
+    "repo": "wger-project/wger",
+    "source": "https://raw.githubusercontent.com/wger-project/wger/master/wger/core/static/images/logos/logo.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 8494,
+    "sha256": "5c22ca2d49308601b470c4e4be9ebc297980eecdac54604bff9200635f89d68a"
+  },
+  "bitwarden-official.png": {
+    "repo": "bitwarden/clients",
+    "source": "https://raw.githubusercontent.com/bitwarden/clients/main/apps/browser/src/images/icon128.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 5763,
+    "sha256": "98c340b8ab05ae178c69ee7255e61aa52ca260489504679e82e23d40e28ce1f5"
+  },
+  "appflowy-official.png": {
+    "repo": "AppFlowy-IO/AppFlowy",
+    "source": "https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/main/frontend/appflowy_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/180.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 11737,
+    "sha256": "97374235693f43e14dbcd6092c4c9a16861d2e575a5fa1e1cef7f3f570d8c3a9"
+  },
+  "kdenlive-official.png": {
+    "repo": "KDE/kdenlive",
+    "source": "https://raw.githubusercontent.com/KDE/kdenlive/master/data/icons/128-apps-kdenlive.png",
+    "bytes": 2468,
+    "sha256": "5a903a9d7136720177ba74c99cbc3aa588ee2cb6178f6fdcef06ad88dd37765f",
+    "kind": "Official application icon or project logo"
+  },
+  "t3code-official.png": {
+    "repo": "pingdotgg/t3code",
+    "source": "https://raw.githubusercontent.com/pingdotgg/t3code/main/apps/marketing/public/apple-touch-icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 2903,
+    "sha256": "d3f2bd6ffd7d255e7254136da1a3b4d52f76ed2395da60c6c5a71cd4d0ca020d"
+  },
+  "hyperframes-official.svg": {
+    "repo": "heygen-com/hyperframes",
+    "source": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/docs/logo/symbol-light.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 1112,
+    "sha256": "c4c61c8a5f6b2b3a9d4d8e6672b3e37412e3fd814d2874c2618b76d10648bb01"
+  },
+  "voicestudio-official.png": {
+    "repo": "debpalash/VoiceStudio",
+    "source": "https://raw.githubusercontent.com/debpalash/VoiceStudio/main/docs/logo-256.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 23757,
+    "sha256": "03022edd0ca308a50392ece5a4f83c7fcc0d58384ea98ae218f7930bf78638bb"
+  },
+  "caddy-official.png": {
+    "repo": "caddyserver/caddy",
+    "source": "https://avatars.githubusercontent.com/u/12955528?v=4?s=128",
+    "kind": "Official project organization avatar",
+    "bytes": 102996,
+    "sha256": "4e16cb4e244e2ba7af7cbdf27862669f467b5d12c4f4354c942b5513783a2334"
+  },
+  "yoinks-official.svg": {
+    "repo": "pablostanley/yoinks",
+    "source": "https://raw.githubusercontent.com/pablostanley/yoinks/main/assets/logo-light.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 3070,
+    "sha256": "7f5bf7535bf492e1ccbb795f83ebc0c0c50becb2f502380f82123806af1d50b5"
+  },
+  "paperclip-official.png": {
+    "repo": "paperclipai/paperclip",
+    "source": "https://raw.githubusercontent.com/paperclipai/paperclip/master/ui/public/apple-touch-icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 8062,
+    "sha256": "079bb1e71acf7a51aaa82564647f164f910bbda2ee9251d6fc75584cc2d53488"
+  },
+  "openshot-official.svg": {
+    "repo": "OpenShot/openshot-qt",
+    "source": "https://raw.githubusercontent.com/OpenShot/openshot-qt/develop/images/openshot.svg",
+    "bytes": 182356,
+    "sha256": "46881d2d62c4cb4788e90d39440c12e4d2de25e2c5efdd86df12d8b5672a142d",
+    "kind": "Official application icon or project logo"
+  },
+  "openscad-official.png": {
+    "repo": "openscad/openscad",
+    "source": "https://raw.githubusercontent.com/openscad/openscad/master/resources/icons/openscad.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 82391,
+    "sha256": "dbd0e6ff6abe4dbfee7a61b93db7d779807f725116f188c5b1db106fb808d1e8"
+  },
+  "openvpn-official.png": {
+    "repo": "OpenVPN/openvpn",
+    "source": "https://avatars.githubusercontent.com/u/1569141?v=4?s=128",
+    "kind": "Official project organization avatar",
+    "bytes": 11158,
+    "sha256": "821ca2e4594fe57dd09b0bed728c8da5e3de9d89d637e93a99146a5e9b06633b"
+  },
+  "openwrt-official.svg": {
+    "repo": "openwrt/openwrt",
+    "source": "https://raw.githubusercontent.com/openwrt/openwrt/main/include/logo.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 16994,
+    "sha256": "2e831c3b3af1440b4cdb75c99e75a5a27421656dadd0c5c80575b9176e752f44"
+  },
+  "openmediavault-official.png": {
+    "repo": "openmediavault/openmediavault",
+    "source": "https://raw.githubusercontent.com/openmediavault/openmediavault/master/deb/openmediavault/workbench/src/favicon_180x180.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 3302,
+    "sha256": "fe7c1486261fa3d6348eb89af0319cb2a897e9a49a3f791f20dcc3f7db2a4415"
+  },
+  "opencloud-official.svg": {
+    "repo": "opencloud-eu/opencloud",
+    "source": "https://raw.githubusercontent.com/opencloud-eu/opencloud/main/services/web/assets/themes/opencloud/assets/favicon.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 1015,
+    "sha256": "77b8afc0644b41105470eddd7259a63e9349477f23fda8882de567fc91309ea5"
+  },
+  "opensign-official.png": {
+    "repo": "OpenSignLabs/OpenSign",
+    "source": "https://avatars.githubusercontent.com/u/146751146?v=4?s=256",
+    "bytes": 1941,
+    "sha256": "6de6a9a819589e0649f6717ede7ff22d155058990ef09e2fa1c16b061571a945",
+    "kind": "Official repository organization brand"
+  },
+  "openstatus-official.ico": {
+    "repo": "openstatusHQ/openstatus",
+    "source": "https://raw.githubusercontent.com/openstatusHQ/openstatus/main/apps/dashboard/src/app/favicon.ico",
+    "kind": "Official application icon or project logo",
+    "bytes": 4158,
+    "sha256": "7e95d616fa241edfc52ec49a3a004c3c0c9b8b99edde9de2af7632520e52b8c9"
+  },
+  "openpanel-official.png": {
+    "repo": "Openpanel-dev/openpanel",
+    "source": "https://raw.githubusercontent.com/Openpanel-dev/openpanel/main/apps/public/public/apple-touch-icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 9766,
+    "sha256": "2177f569b781bb32549ca99b2cdafbae8fef06d8d38796d743910f7037f986c4"
+  },
+  "openreplay-official.png": {
+    "repo": "openreplay/openreplay",
+    "source": "https://raw.githubusercontent.com/openreplay/openreplay/main/frontend/app/assets/apple-touch-icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 6181,
+    "sha256": "764a2c9857e92d18d6d6958270bdd49676664364e07a209d9c91197adf81663c"
+  },
+  "openlit-official.png": {
+    "repo": "openlit/openlit",
+    "source": "https://raw.githubusercontent.com/openlit/openlit/main/docs/favicon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 59975,
+    "sha256": "b604d37883e09e7804c2a1d481cf72bf80058ffc775682f73ad80b81d4097733"
+  },
+  "openbb-official.png": {
+    "repo": "OpenBB-finance/OpenBB",
+    "source": "https://raw.githubusercontent.com/OpenBB-finance/OpenBB/develop/desktop/src-tauri/icons/Square150x150Logo.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 1406,
+    "sha256": "41d2363563553a726242af35b521750088aa3d90e9fe1a1b0e03aa0c64fd7aa4"
+  },
+  "open-notebook-official.svg": {
+    "repo": "lfnovo/open-notebook",
+    "source": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/frontend/public/logo.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 2352,
+    "sha256": "a53a4d9a8fab0e1fd90fb8fb229bc3c94f8badbf4875f256f0cb91f3ab8f3c70"
+  },
+  "openpencil-official.svg": {
+    "repo": "open-pencil/open-pencil",
+    "source": "https://raw.githubusercontent.com/open-pencil/open-pencil/master/assets/brand/mark.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 1389,
+    "sha256": "905dd2539006ce77c4b8f1c592a303d37612022e84c586cb26c21b44c73a5129"
+  },
+  "open-lovable-official.ico": {
+    "repo": "firecrawl/open-lovable",
+    "source": "https://raw.githubusercontent.com/firecrawl/open-lovable/main/app/favicon.ico",
+    "kind": "Official application icon or project logo",
+    "bytes": 25931,
+    "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+  },
+  "openresume-official.svg": {
+    "repo": "xitanggg/open-resume",
+    "source": "https://raw.githubusercontent.com/xitanggg/open-resume/main/public/logo.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 9102,
+    "sha256": "5c5d0445b3bec2b728ba8c355d9b8d384bdd51022b12bc4d7f92a097b69c0567"
+  },
+  "openlist-official.svg": {
+    "repo": "OpenListTeam/OpenList",
+    "source": "https://raw.githubusercontent.com/OpenListTeam/Logo/main/logo.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 1759,
+    "sha256": "fe09f04c24101c9b4b8baada86cf77913bc50731082b102f61ad6260626b43db"
+  },
+  "openclaw-official.png": {
+    "repo": "openclaw/openclaw",
+    "source": "https://raw.githubusercontent.com/openclaw/openclaw/main/apps/ios/Sources/Assets.xcassets/AppIcon.appiconset/180.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 11950,
+    "sha256": "58c2a4b53b6aa6e47dba7fa7de2bb977c37a628ec51e781b83034c6511df6340"
+  },
+  "openinterpreter-official.svg": {
+    "repo": "OpenInterpreter/open-interpreter",
+    "source": "https://raw.githubusercontent.com/OpenInterpreter/open-interpreter/main/logo/light.svg",
+    "bytes": 186,
+    "sha256": "5f56263893987bd512b9a0053a6e0ae9f18b3980e54b75b3e657f26724e860ad",
+    "kind": "Official application icon or project logo"
+  },
+  "openbao-official.svg": {
+    "repo": "openbao/openbao",
+    "source": "https://raw.githubusercontent.com/openbao/openbao/main/website/public/img/favicon.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 18736,
+    "sha256": "e6b7e8124dd40277a9357e5e8a7ee0e6b908979958fd235778daebdefad891d9"
+  },
+  "opensearch-official.png": {
+    "repo": "opensearch-project/OpenSearch",
+    "source": "https://avatars.githubusercontent.com/u/80134844?v=4?s=128",
+    "kind": "Official project organization avatar",
+    "bytes": 3632,
+    "sha256": "76492f1377dc9891ff047ec840d524e226da2af21b9a534b0ee32d82f829b0f3"
+  },
+  "openhab-official.png": {
+    "repo": "openhab/openhab-core",
+    "source": "https://avatars.githubusercontent.com/u/1007353?v=4?s=128",
+    "kind": "Official project organization avatar",
+    "bytes": 5527,
+    "sha256": "5ba746f80e007c136acd408d9638a3162bc78480d8c364d728b03aa6d4734a7f"
+  },
+  "openslides-official.svg": {
+    "repo": "OpenSlides/OpenSlides",
+    "source": "https://raw.githubusercontent.com/OpenSlides/OpenSlides/main/logo/svg/openslides-favicon.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 4074,
+    "sha256": "6b438138cbddf58a10bad79b571ebaf9554defc0a1ed5fa30c8b9d5668241732"
+  },
+  "openttd-official.png": {
+    "repo": "OpenTTD/OpenTTD",
+    "source": "https://raw.githubusercontent.com/OpenTTD/OpenTTD/master/media/openttd.128.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 19290,
+    "sha256": "00372df66a5d38f4078ea9d76b218d5ba616c39eff0a556419d2131724a2cd03"
+  },
+  "openra-official.png": {
+    "repo": "OpenRA/OpenRA",
+    "source": "https://raw.githubusercontent.com/OpenRA/OpenRA/bleed/packaging/artwork/ra_128x128.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 16234,
+    "sha256": "0614fb4be0024d27e407d63cbc34fdaad52b24f04996a1ffed9b2b0caf3b724d"
+  },
+  "openrct2-official.png": {
+    "repo": "OpenRCT2/OpenRCT2",
+    "source": "https://raw.githubusercontent.com/OpenRCT2/OpenRCT2/develop/resources/logo/icon_x128.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 11782,
+    "sha256": "74e893094e421dfcc05b14f475f5c096bf188c162a621f04db7b76408ae1b182"
+  },
+  "openmpt-official.ico": {
+    "repo": "OpenMPT/openmpt",
+    "source": "https://openmpt.org/favicon.ico",
+    "kind": "Official application icon or project logo",
+    "bytes": 3638,
+    "sha256": "ce0e2387fdaabd86113ab75a92d146dd7bd2b3e02b20620195c6631b3ae4e8d7"
+  },
+  "openfire-official.ico": {
+    "repo": "igniterealtime/Openfire",
+    "source": "https://raw.githubusercontent.com/igniterealtime/Openfire/main/xmppserver/src/main/webapp/favicon.ico",
+    "kind": "Official application icon or project logo",
+    "bytes": 1150,
+    "sha256": "77f3ee8d61b2602c5e49b6d4efa1b22e8a801e1bfedca8fca061698d02ca94e8"
+  },
+  "openmeetings-official.svg": {
+    "repo": "apache/openmeetings",
+    "source": "https://raw.githubusercontent.com/apache/openmeetings/master/openmeetings-web/src/main/webapp/images/icons/openmeetings-logo-icon.svg",
+    "bytes": 206834,
+    "sha256": "d9ba91262568d560ea0692013e15ee3b825e742aba5d29ca1e4357066cc94121",
+    "kind": "Official application icon or project logo"
+  },
+  "openwhispr-official.png": {
+    "repo": "OpenWhispr/openwhispr",
+    "source": "https://raw.githubusercontent.com/OpenWhispr/openwhispr/main/src/assets/icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 38026,
+    "sha256": "7afaa4525727413a484491e4742d3a1d83259fb774d815cc0e97870f14b531a3"
+  },
+  "openmtp-official.png": {
+    "repo": "ganeshrvel/openmtp",
+    "source": "https://raw.githubusercontent.com/ganeshrvel/openmtp/master/build/icons/128x128.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 15977,
+    "sha256": "80fa7b9af1a276747f46d201b6d68075d4726e12438d81313516b814324f09de"
+  },
+  "opensnitch-official.png": {
+    "repo": "evilsocket/opensnitch",
+    "source": "https://raw.githubusercontent.com/evilsocket/opensnitch/master/ui/opensnitch/res/icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 7780,
+    "sha256": "356dd6a00c8ed248c806a94a9101f0d97427bee42c4d645caf2a1c6cb9d5c2c5"
+  },
+  "openrgb-official.png": {
+    "repo": "CalcProgrammer1/OpenRGB",
+    "source": "https://raw.githubusercontent.com/CalcProgrammer1/OpenRGB/master/qt/org.openrgb.OpenRGB.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 8914,
+    "sha256": "493f21265a2783ba29b6a2cd94a3e8c040e7bf45e57d5ac18762b0edfbf4ed54"
+  },
+  "opencart-official.png": {
+    "repo": "opencart/opencart",
+    "source": "https://avatars.githubusercontent.com/u/214225?v=4?s=256",
+    "bytes": 1147,
+    "sha256": "f434adeb96d97cabd52880e4d708d1bab0f0530f706b73404a299ab7bd36a119",
+    "kind": "Official repository organization brand"
+  },
+  "openwork-official.png": {
+    "repo": "different-ai/openwork",
+    "source": "https://raw.githubusercontent.com/different-ai/openwork/dev/apps/desktop/resources/icons/icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 45140,
+    "sha256": "b614ff04a431fda9b5ac304e1a04ed0b1ce6b03b37b6b7ae8044cd63b2c5dc04"
+  },
+  "openlogi-official.png": {
+    "repo": "AprilNEA/OpenLogi",
+    "source": "https://raw.githubusercontent.com/AprilNEA/OpenLogi/master/design/icon/openlogi-128.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 18210,
+    "sha256": "ddbe81dd8bcc74c21a8056a8ed1b110cb8a43f30b7d4bc990c12c22415483b99"
+  },
+  "openstock-official.png": {
+    "repo": "Open-Dev-Society/OpenStock",
+    "source": "https://raw.githubusercontent.com/Open-Dev-Society/OpenStock/main/public/assets/images/logo.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 32771,
+    "sha256": "b4ac7a0c28429007fc694a245f3cf739be522d2248a314779b2f9f42ca070b98"
+  },
+  "opendesign-official.png": {
+    "repo": "nexu-io/open-design",
+    "source": "https://raw.githubusercontent.com/nexu-io/open-design/main/apps/web/public/app-icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 77017,
+    "sha256": "3141cc3b348ac538c68d615cde8cf642abc0b1fb60f44a520853b499982a74cb"
+  },
+  "open-notebook-screen.png": {
+    "source": "https://raw.githubusercontent.com/lfnovo/open-notebook/main/docs/assets/asset_list.png",
+    "bytes": 113487
+  },
+  "openpencil-screen.png": {
+    "source": "https://raw.githubusercontent.com/open-pencil/open-pencil/master/packages/docs/public/screenshot.png",
+    "bytes": 838671
+  },
+  "openstatus-screen.png": {
+    "source": "https://www.openstatus.dev/assets/landing/statuspage-meow.png",
+    "bytes": 125710
+  },
+  "openlit-screen.png": {
+    "source": "https://raw.githubusercontent.com/openlit/openlit/main/docs/images/readme-hero-coding-agent-trace.png",
+    "bytes": 549915
+  },
+  "opendesign-screen.png": {
+    "source": "https://raw.githubusercontent.com/nexu-io/open-design/main/docs/screenshots/product-tour/home-workspace-2026-09-30-220844.png",
+    "bytes": 488909
+  },
+  "openstock-official.ico": {
+    "repo": "Open-Dev-Society/OpenStock",
+    "source": "https://raw.githubusercontent.com/Open-Dev-Society/OpenStock/main/app/favicon.ico",
+    "bytes": 181736,
+    "sha256": "09aca9c44ca2713964a75d97d6bd22d06cb4359e8ca6d343ce9b5afeeb774360",
+    "kind": "Official application icon or project logo"
+  },
+  "openstatus-official.svg": {
+    "repo": "openstatusHQ/openstatus",
+    "source": "https://raw.githubusercontent.com/openstatusHQ/openstatus/main/apps/dashboard/src/app/icon.svg",
+    "bytes": 409,
+    "sha256": "1d8287c63f9e8d3f5c280723c2baff789eb306010f2fff94e8bddc21bc7b6628",
+    "kind": "Official application icon or project logo"
+  },
+  "openresume-official.ico": {
+    "repo": "xitanggg/open-resume",
+    "source": "https://raw.githubusercontent.com/xitanggg/open-resume/main/src/app/favicon.ico",
+    "bytes": 2080,
+    "sha256": "daa500632be17250aedae790a76a25b77ab814d225ba909d1e3575ea46e69532",
+    "kind": "Official application icon or project logo"
+  },
+  "open-lovable-official.png": {
+    "repo": "firecrawl/open-lovable",
+    "source": "https://avatars.githubusercontent.com/u/135057108?v=4?s=256",
+    "bytes": 5926,
+    "sha256": "3b77085d30c6d804d7b673c79c337d60c37508bdcf3845222bfe9d1bb959dfe7",
+    "kind": "Official repository organization brand"
+  },
+  "openfire-official.gif": {
+    "repo": "igniterealtime/Openfire",
+    "source": "https://raw.githubusercontent.com/igniterealtime/IgniteRealtime-Website/main/src/main/webapp/images/logo_openfire.gif",
+    "bytes": 1533,
+    "sha256": "74caf66bdd56affa5cfd873564a7f44d928510036e9dd07c479aee5f8eb38770",
+    "kind": "Official application icon or project logo"
+  },
+  "opengym-official.png": {
+    "repo": "DuarteSantos8/openGym",
+    "source": "https://raw.githubusercontent.com/DuarteSantos8/openGym/main/frontend/public/icon-512.png",
+    "bytes": 2301,
+    "sha256": "ea39aa27c660688cfe9d23035e24e9f7a3c5a0777e71998b74e4ee793edf2905",
+    "kind": "Official application icon or project logo"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "fetchedAt": "2026-10-05T18:05:15.266698+00:00",
+  "methodology": "Published product-level user-review aggregates. Ratings reflect their listed products and may include hosted or paid editions. GitHub stars are not customer reviews. Small samples below 20 are identified. No score is inferred for unrated projects.",
+  "projects": {
+    "openproject": {
+      "rating": 4.6,
+      "count": 189,
+      "provider": "Capterra",
+      "url": "https://www.capterra.com/p/152761/OpenProject/reviews/",
+      "summary": "Reviewers highlight project planning, Gantt charts, and agile boards.",
+      "useCase": "Project planning and coordination",
+      "capturedAt": "2026-10-05T18:05:15.266698+00:00",
+      "smallSample": false
+    },
+    "openshot": {
+      "rating": 4.3,
+      "count": 176,
+      "provider": "Capterra",
+      "url": "https://www.capterra.com/p/173466/OpenShot-Video-Editor/reviews/",
+      "summary": "Reviewers value accessible editing and cross-platform use. Some report slow rendering and limited advanced features.",
+      "useCase": "Everyday video editing",
+      "capturedAt": "2026-10-05T18:05:15.266698+00:00",
+      "smallSample": false,
+      "feedbackUrl": "https://www.g2.com/products/openshot-video-editor/reviews",
+      "feedbackProvider": "G2"
+    },
+    "opencart": {
+      "rating": 4.3,
+      "count": 153,
+      "provider": "Capterra",
+      "url": "https://www.capterra.com/p/143516/OpenCart/reviews/",
+      "summary": "Reviewers highlight product, order, and customer management in an extensible online store.",
+      "useCase": "Self-hosted e-commerce",
+      "capturedAt": "2026-10-05T18:05:15.266698+00:00",
+      "smallSample": false
+    },
+    "opensign": {
+      "rating": 4.6,
+      "count": 12,
+      "provider": "G2",
+      "url": "https://www.g2.com/products/opensign/reviews",
+      "summary": "Reviewers praise ease of use and affordable signing workflows. Some report issues with form elements.",
+      "useCase": "Document signing",
+      "capturedAt": "2026-10-05T18:05:15.266698+00:00",
+      "smallSample": true
+    },
+    "openrefine": {
+      "rating": 4.6,
+      "count": 12,
+      "provider": "G2",
+      "url": "https://www.g2.com/products/openrefine/reviews",
+      "summary": "Published reviews support its use for data cleaning; learning its expression language helps with advanced transformations.",
+      "useCase": "Cleaning messy datasets",
+      "capturedAt": "2026-10-05T18:05:15.266698+00:00",
+      "smallSample": true
+    },
+    "openscad": {
+      "rating": 4.0,
+      "count": 3,
+      "provider": "Capterra",
+      "url": "https://www.capterra.com/p/233632/OpenSCAD/",
+      "summary": "A small review sample for a script-based CAD workflow. Consider it alongside the official documentation and your own modeling needs.",
+      "useCase": "Scripted parametric CAD",
+      "capturedAt": "2026-10-05T18:05:15.266698+00:00",
+      "smallSample": true
+    }
+  }
+}
