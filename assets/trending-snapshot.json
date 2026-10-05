@@ -1,0 +1,86 @@
+{
+  "fetchedAt": "2026-10-05T17:23:57.672125+00:00",
+  "source": "https://github.com/trending?since=weekly",
+  "repositories": [
+    {
+      "repo": "pbakaus/impeccable",
+      "weeklyStars": 4242
+    },
+    {
+      "repo": "paperclipai/paperclip",
+      "weeklyStars": 8732
+    },
+    {
+      "repo": "vectorize-io/hindsight",
+      "weeklyStars": 10623
+    },
+    {
+      "repo": "heygen-com/hyperframes",
+      "weeklyStars": 3096
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "weeklyStars": 14689
+    },
+    {
+      "repo": "Panniantong/Agent-Reach",
+      "weeklyStars": 4789
+    },
+    {
+      "repo": "Effect-TS/effect",
+      "weeklyStars": 702
+    },
+    {
+      "repo": "Gaurav-Gosain/tuios",
+      "weeklyStars": 708
+    },
+    {
+      "repo": "pingdotgg/t3code",
+      "weeklyStars": 1304
+    },
+    {
+      "repo": "rohitg00/ai-engineering-from-scratch",
+      "weeklyStars": 4904
+    },
+    {
+      "repo": "alirezarezvani/claude-skills",
+      "weeklyStars": 1024
+    },
+    {
+      "repo": "cloudflare/cloudflare-os",
+      "weeklyStars": 655
+    },
+    {
+      "repo": "tile-ai/tilelang",
+      "weeklyStars": 839
+    },
+    {
+      "repo": "cursor/plugins",
+      "weeklyStars": 994
+    },
+    {
+      "repo": "TencentCloud/Octop",
+      "weeklyStars": 1496
+    },
+    {
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "weeklyStars": 2291
+    },
+    {
+      "repo": "caddyserver/caddy",
+      "weeklyStars": 358
+    },
+    {
+      "repo": "msitarzewski/agency-agents",
+      "weeklyStars": 1866
+    },
+    {
+      "repo": "pablostanley/yoinks",
+      "weeklyStars": 2361
+    },
+    {
+      "repo": "mvschwarz/openrig",
+      "weeklyStars": 4251
+    }
+  ]
+}

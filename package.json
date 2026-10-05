@@ -1,0 +1,4 @@
+{
+  "name": "openstore", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": { "dev": "python3 scripts/serve.py", "start": "python3 scripts/serve.py", "build": "node scripts/build.mjs", "test": "node --test tests/catalog.test.mjs" }
+}

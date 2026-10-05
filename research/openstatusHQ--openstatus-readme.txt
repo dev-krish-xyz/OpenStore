@@ -1,0 +1,195 @@
+<p align="center" style="margin-top: 120px">
+
+  <h3 align="center">openstatus</h3>
+
+  <p align="center">The open-source status page and uptime monitoring platform.
+    <br />
+    <a href="https://www.openstatus.dev"><strong>Learn more »</strong></a>
+    <br />
+    <br />
+    <a href="https://www.openstatus.dev/docs">Documentation</a>
+    ·
+    <a href="https://www.openstatus.dev">Website</a>
+    ·
+    <a href="https://www.openstatus.dev/discord">Discord</a>
+  </p>
+
+  <p align="center">
+  <a href="https://status.openstatus.dev"><img src="https://status.openstatus.dev/badge/v2?variant=outline" alt="openstatus status"></a>
+
+  </p>
+  <p align="center">
+      <a href="https://github.com/openstatushq/openstatus/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-blue.svg" alt="License"></a>
+      <a href="https://github.com/openstatushq/openstatus/stargazers"><img src="https://img.shields.io/github/stars/openstatushq/openstatus?style=social" alt="GitHub stars"></a>
+      <a href="https://www.openstatus.dev/discord"><img src="https://img.shields.io/discord/1129008226264940625?color=7289da&logo=discord&logoColor=white" alt="Discord"></a>
+</p>
+
+## About openstatus
+
+openstatus is the open-source **uptime monitoring** and **status page** platform built for **infra as code**. Declare monitors and status pages in code. Let your agents update them.
+
+Monitors, status pages, and notification channels are declared in YAML or Terraform, applied from the CLI or CI, and operable from Claude, ChatGPT, or Cursor over MCP. Available as a managed service or self-hosted.
+
+<p align="center">
+  <img src="https://www.openstatus.dev/assets/landing/statuspage-meow.png" alt="openstatus status page" width="720" />
+</p>
+
+## Why openstatus?
+
+- **Infra as code** — monitors, status pages, and notifications in YAML or Terraform, applied from the CLI or CI
+- **Built for humans and agents** — MCP server, `--json` CLI, typed API, read-only or read-write key scopes, every mutation in the audit log
+- **Status pages + monitoring in one tool** — no need to wire up a separate monitoring service
+- **28 global regions** checking in parallel across 3 cloud providers
+- **Flat pricing, unlimited members** — no per-seat or per-subscriber charges
+- **Open source & self-hostable** — AGPL-3.0, private-locations run in a single 8.5MB Docker image
+- **Incident management** — declare and run incidents from the dashboard or Slack, with severity, commander, and a full timeline
+- **Incident communication** — subscriber notifications via email, RSS, and webhooks
+
+### Status pages
+
+Beautiful, customizable status pages with custom domains, password protection, maintenance windows, and subscriber notifications via email and RSS. Build trust and keep your users informed during incidents.
+
+### Uptime Monitoring
+
+Monitor your servers, websites and APIs from 28 regions across multiple cloud providers globally. Get notified via Slack, Discord, PagerDuty, email, and more when your services are down or slow.
+
+### Incident management
+
+Declare, coordinate, and resolve incidents from the dashboard or right inside Slack.
+
+- **Dashboard** — declare an incident, set its severity (critical, major, minor), assign a commander, and move it from open → mitigated → resolved. Every change lands on the incident timeline.
+- **Slack** — mention the openstatus agent to declare, update, resolve, or add notes to an incident without leaving the conversation. Bind an incident to a Slack channel so the team coordinates in one place.
+- **Status page updates** — link a status report to an incident so your users see what your team is working on.
+- **Agents** — the same incident tools are available over MCP, so Claude, ChatGPT, or Cursor can manage incidents too.
+
+## Recognitions
+<br />
+<br />
+<p align="center">
+  <a href="https://vercel.com/open-source-program">
+    <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge-2026.svg" />
+  </a>
+</p>
+<br />
+<br />
+
+<a href="https://trendshift.io/repositories/1780" target="_blank"><img src="https://trendshift.io/api/badge/repositories/1780" alt="openstatus | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://news.ycombinator.com/item?id=37740870"><img alt="Featured on Hacker News" src="https://hackerbadge.now.sh/api?id=37740870" style="width: 250px; height: 55px;" width="250" height="55" /></a>
+<a href="https://www.producthunt.com/posts/openstatus-2?utm_source=badge-top-post-badge&utm_medium=badge" target="_blank"><img alt="openstatus - #2 Product of the Day on Product Hunt" src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=openstatus-2&theme=light&period=daily" style="width: 250px; height: 55px;" width="250" height="55" /></a>
+
+## Tooling
+
+Everything the dashboard does is reachable from your terminal, your infrastructure code, and your AI assistant — all sharing a single API key.
+
+- **[API](https://www.openstatus.dev/tooling/api)** — typed JSON-over-HTTP (ConnectRPC) with a [Node SDK](https://github.com/openstatusHQ/sdk-node)
+- **[CLI](https://www.openstatus.dev/tooling/cli)** — interactive for humans, `--json` for agents, YAML monitoring as code
+- **[Terraform](https://www.openstatus.dev/tooling/terraform)** — monitors, notifications, and status pages as HCL
+- **[MCP server](https://www.openstatus.dev/tooling/mcp-server)** — connect Claude, ChatGPT, Cursor, or any MCP client to your workspace
+
+## Getting Started
+
+### With Docker (Recommended)
+
+The fastest way to get started for both development and self-hosting:
+
+```sh
+# 1. Copy environment file
+cp .env.docker.example .env.docker
+
+# 2. Start all services
+docker compose up -d
+
+# 3. Access the application
+open http://localhost:3002  # Dashboard
+open http://localhost:3003  # Status Pages
+```
+
+Full guide: [DOCKER.md](DOCKER.md)
+
+### Self-Hosting with Coolify
+
+We provide pre-built Docker images for easy deployment:
+
+```bash
+ghcr.io/openstatushq/openstatus-server:latest
+ghcr.io/openstatushq/openstatus-dashboard:latest
+ghcr.io/openstatushq/openstatus-workflows:latest
+ghcr.io/openstatushq/openstatus-private-location:latest
+ghcr.io/openstatushq/openstatus-status-page:latest
+ghcr.io/openstatushq/openstatus-checker:latest
+```
+
+[Complete Coolify Deployment Guide](./COOLIFY_DEPLOYMENT.md)
+
+### Self-Hosting with Railway
+
+Deploy the full stack (dashboard, status pages, API, workflows, probes, libSQL, and Tinybird Local) to one Railway project with one click:
+
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/openstatus?utm_medium=integration&utm_source=button&utm_campaign=openstatus)
+
+The template source and the setup instructions are in [ephraimduncan/openstatus-railway](https://github.com/ephraimduncan/openstatus-railway).
+
+### Manual Setup
+
+#### Requirements
+
+- [Node.js](https://nodejs.org/en/)
+- [pnpm](https://pnpm.io/)
+- [Deno](https://deno.com/)
+- [Turso CLI](https://docs.turso.tech/quickstart).
+
+#### Dashboard
+
+See [apps/dashboard/README.md](apps/dashboard/README.md) for full steps (env, db, login, troubleshooting).
+
+#### Status page
+
+1. Install dependencies
+
+`pnpm install`
+
+2. Run the server
+
+`pnpm -w dev:status-page`.
+
+#### Web (marketing site)
+
+1. Install dependencies
+
+`pnpm install`
+
+2. Run the server
+
+`pnpm -w dev:web`.
+
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) - Dashboard
+- [Hono](https://hono.dev/) - API server
+- [Go](https://go.dev/) - Checker
+- [Turso](https://turso.tech/) - Database
+- [Drizzle](https://orm.drizzle.team/) - ORM
+- [Tinybird](https://tinybird.co/?ref=openstatus.dev) - Analytics
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [shadcn/ui](https://ui.shadcn.com/) - UI components
+
+## Contributing
+
+If you want to help us build the best status page and monitoring platform, check our [contributing guidelines](CONTRIBUTING.md).
+
+<a href="https://github.com/openstatushq/openstatus/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=openstatushq/openstatus" />
+</a>
+
+![openstatus repository activity](https://repobeats.axiom.co/api/embed/180eee159c0128f683a30f15f51ac35bdbd9fa44.svg "Repobeats analytics image")
+
+## Contact
+
+Interested in our enterprise plan or need special features? Email us at [ping@openstatus.dev](mailto:ping@openstatus.dev) or book a call.
+
+<a href="https://cal.com/team/openstatus/30min"><img alt="Book us with Cal.com" src="https://cal.com/book-with-cal-dark.svg" /></a>
+
+## License
+
+Distributed under the [AGPL-3.0 License](LICENSE).

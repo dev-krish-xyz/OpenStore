@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" fill="none">
+  <rect x="52" y="31" width="300" height="168" rx="12" fill="#81ac93" fill-opacity=".18" stroke="#83aa92" stroke-opacity=".35" transform="rotate(5 202 115)"/>
+  <path d="M22 115h35m290 0h31M200 13v22m0 164v22" stroke="#8aaa97" stroke-opacity=".5"/>
+  <g transform="rotate(-3 192 117)">
+    <rect x="28" y="39" width="328" height="174" rx="11" fill="#14251e" fill-opacity=".18"/>
+    <rect x="28" y="31" width="328" height="174" rx="11" fill="#19231e" stroke="#658674"/>
+    <path d="M29 61h326" stroke="#34493c"/>
+    <circle cx="44" cy="46" r="3" fill="#db897a"/><circle cx="56" cy="46" r="3" fill="#dac17d"/><circle cx="68" cy="46" r="3" fill="#85b58e"/>
+    <text x="174" y="49" fill="#a0b5a7" font-family="ui-monospace, monospace" font-size="8">~/ideas</text>
+    <text x="46" y="87" font-family="ui-monospace, monospace" font-size="13" fill="#c5e0d0"><tspan fill="#87bd9c">❯</tspan> opencode</text>
+    <path d="M46 104h105" stroke="#678774" stroke-width="3" stroke-linecap="round"/>
+    <text x="46" y="128" font-family="ui-monospace, monospace" font-size="10" fill="#b6c8bc"><tspan fill="#90bbda">const</tspan> idea = <tspan fill="#e2c793">&quot;something great&quot;</tspan>;</text>
+    <text x="46" y="147" font-family="ui-monospace, monospace" font-size="10" fill="#b6c8bc"><tspan fill="#bda7dc">await</tspan> build(idea);</text>
+    <path d="M46 165h135m-135 12h86" stroke="#607468" stroke-width="3" stroke-linecap="round"/>
+    <rect x="46" y="189" width="6" height="2" fill="#a1c7b0"/>
+  </g>
+  <g transform="rotate(5 316 172)">
+    <rect x="256" y="137" width="122" height="73" rx="9" fill="#15271d" fill-opacity=".13"/>
+    <rect x="256" y="132" width="122" height="73" rx="9" fill="#eef5ef" stroke="#a5c3b1"/>
+    <circle cx="271" cy="146" r="3" fill="#42845e"/><path d="M282 146h47" stroke="#869d8d" stroke-width="3" stroke-linecap="round"/>
+    <rect x="266" y="158" width="102" height="15" rx="3" fill="#dbeadb"/><path d="M273 165h5m-2.5-2.5v5m11-2.5h60" stroke="#47835b" stroke-width="1.5" stroke-linecap="round"/>
+    <rect x="266" y="178" width="102" height="15" rx="3" fill="#dbeadb"/><path d="M273 185h5m-2.5-2.5v5m11-2.5h43" stroke="#47835b" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>

@@ -1,0 +1,4080 @@
+{
+  "fetchedAt": "2026-10-05T17:57:21.962380+00:00",
+  "query": "open in:name stars:>1000 archived:false, top 300 results; followed by curated specialist search",
+  "repositories": [
+    {
+      "full_name": "openclaw/openclaw",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
+      "stargazers_count": 391430,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openclaw.ai"
+    },
+    {
+      "full_name": "anomalyco/opencode",
+      "description": "The open source coding agent.",
+      "stargazers_count": 211854,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://opencode.ai"
+    },
+    {
+      "full_name": "open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "stargazers_count": 154004,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://openwebui.com"
+    },
+    {
+      "full_name": "nexu-io/open-design",
+      "description": "\ud83c\udfa8 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. \ud83d\udda5\ufe0f Local-first desktop app. \ud83d\uddbc\ufe0f Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video \u2014 real files, HTML/PDF/PPTX/MP4 export. \ud83e\udd16 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
+      "stargazers_count": 99536,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://open-design.ai"
+    },
+    {
+      "full_name": "OpenCut-app/OpenCut",
+      "description": "The open-source CapCut alternative",
+      "stargazers_count": 92586,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://opencut.app"
+    },
+    {
+      "full_name": "opencv/opencv",
+      "description": "Open Source Computer Vision Library",
+      "stargazers_count": 91076,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opencv.org"
+    },
+    {
+      "full_name": "OpenHands/OpenHands",
+      "description": "\ud83d\ude4c OpenHands: AI-Driven Development",
+      "stargazers_count": 90036,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openhands.dev"
+    },
+    {
+      "full_name": "openai/openai-cookbook",
+      "description": "Examples and guides for using the OpenAI API",
+      "stargazers_count": 76355,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://cookbook.openai.com"
+    },
+    {
+      "full_name": "openbq-org/OpenBB",
+      "description": "Open Data Platform for analysts, quants and AI agents.",
+      "stargazers_count": 73868,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://openbb.co"
+    },
+    {
+      "full_name": "Fission-AI/OpenSpec",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "stargazers_count": 71081,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openspec.dev/"
+    },
+    {
+      "full_name": "code-yeongyu/oh-my-openagent",
+      "description": "OmO: Just type \"mass ulw\" keyword with your prompt. Now you are the master of graph engineering.",
+      "stargazers_count": 69817,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://omo.dev"
+    },
+    {
+      "full_name": "openinterpreter/openinterpreter",
+      "description": "A coding agent for open models like Kimi K3 and GLM 5.3",
+      "stargazers_count": 68510,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "http://openinterpreter.com/"
+    },
+    {
+      "full_name": "commaai/openpilot",
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "stargazers_count": 63817,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://comma.ai/openpilot"
+    },
+    {
+      "full_name": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "stargazers_count": 63810,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://www.openmontage.video/"
+    },
+    {
+      "full_name": "FoundationAgents/OpenManus",
+      "description": "No fortress, purely open ground.  OpenManus is Coming.",
+      "stargazers_count": 58469,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openmanus.github.io/"
+    },
+    {
+      "full_name": "VoltAgent/awesome-openclaw-skills",
+      "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.\ud83e\udd9e",
+      "stargazers_count": 52959,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://clawskills.sh/"
+    },
+    {
+      "full_name": "dkhamsing/open-source-ios-apps",
+      "description": ":iphone: Collaborative List of Open-Source iOS Apps",
+      "stargazers_count": 52417,
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "serhii-londar/open-source-mac-os-apps",
+      "description": "\ud83d\ude80 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps",
+      "stargazers_count": 50651,
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "archived": false,
+      "homepage": "https://serhii-londar.github.io/open-source-mac-os-apps/"
+    },
+    {
+      "full_name": "alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stargazers_count": 43835,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://open-codereview.ai"
+    },
+    {
+      "full_name": "tinyhumansai/openhuman",
+      "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
+      "stargazers_count": 40650,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://tinyhumans.ai/openhuman"
+    },
+    {
+      "full_name": "THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom \u2014 Get an immersive, multi-agent learning experience in just one click",
+      "stargazers_count": 39987,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "lfnovo/open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "stargazers_count": 39829,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://www.open-notebook.ai"
+    },
+    {
+      "full_name": "volcengine/OpenViking",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "stargazers_count": 39240,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://openviking.ai"
+    },
+    {
+      "full_name": "myshell-ai/OpenVoice",
+      "description": "Instant voice cloning by MIT and MyShell. Audio foundation model.",
+      "stargazers_count": 37770,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://research.myshell.ai/open-voice"
+    },
+    {
+      "full_name": "LAION-AI/Open-Assistant",
+      "description": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.",
+      "stargazers_count": 37383,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://open-assistant.io"
+    },
+    {
+      "full_name": "open-guides/og-aws",
+      "description": "\ud83d\udcd9 Amazon Web Services \u2014 a practical guide",
+      "stargazers_count": 36463,
+      "license": {
+        "key": "cc-by-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdx_id": "CC-BY-4.0",
+        "url": "https://api.github.com/licenses/cc-by-4.0",
+        "node_id": "MDc6TGljZW5zZTI1"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "CMU-Perceptual-Computing-Lab/openpose",
+      "description": "OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation",
+      "stargazers_count": 34483,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://cmu-perceptual-computing-lab.github.io/openpose"
+    },
+    {
+      "full_name": "Twigpine/openclaude",
+      "description": "runs anywhere. uses anything",
+      "stargazers_count": 33649,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://openclaude.gitlawb.com"
+    },
+    {
+      "full_name": "open-mmlab/mmdetection",
+      "description": "OpenMMLab Detection Toolbox and Benchmark",
+      "stargazers_count": 32979,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://mmdetection.readthedocs.io"
+    },
+    {
+      "full_name": "Trinea/android-open-project",
+      "description": "A categorized collection of Android Open Source Projects,  More powerful web version:",
+      "stargazers_count": 31806,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://p.codekk.com/"
+    },
+    {
+      "full_name": "openai/openai-python",
+      "description": "The official Python library for the OpenAI API",
+      "stargazers_count": 31749,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://pypi.org/project/openai/"
+    },
+    {
+      "full_name": "hesamsheikh/awesome-openclaw-usecases",
+      "description": "A community collection of OpenClaw use cases for making life easier.",
+      "stargazers_count": 31675,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "OAI/OpenAPI-Specification",
+      "description": "The OpenAPI Specification Repository",
+      "stargazers_count": 31238,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openapis.org"
+    },
+    {
+      "full_name": "openssl/openssl",
+      "description": "General purpose TLS and crypto library",
+      "stargazers_count": 30891,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openssl-library.org/"
+    },
+    {
+      "full_name": "opentofu/opentofu",
+      "description": "OpenTofu lets you declaratively manage your cloud infrastructure.",
+      "stargazers_count": 30389,
+      "license": {
+        "key": "mpl-2.0",
+        "name": "Mozilla Public License 2.0",
+        "spdx_id": "MPL-2.0",
+        "url": "https://api.github.com/licenses/mpl-2.0",
+        "node_id": "MDc6TGljZW5zZTE0"
+      },
+      "archived": false,
+      "homepage": "https://opentofu.org"
+    },
+    {
+      "full_name": "jackwener/OpenCLI",
+      "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+      "stargazers_count": 29855,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opencli.info/"
+    },
+    {
+      "full_name": "hpcaitech/Open-Sora",
+      "description": "Open-Sora: Democratizing Efficient Video Production for All",
+      "stargazers_count": 29850,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://hpcaitech.github.io/Open-Sora/"
+    },
+    {
+      "full_name": "openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "stargazers_count": 29843,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openai.github.io/openai-agents-python/"
+    },
+    {
+      "full_name": "Anil-matcha/Open-Generative-AI",
+      "description": "Unrestricted Open-source alternative to AI video platforms \u2014 Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "stargazers_count": 29674,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://muapi.ai/open-generative-ai?utm_source=github&utm_medium=about&utm_campaign=open-generative-ai"
+    },
+    {
+      "full_name": "opendataloader-project/opendataloader-pdf",
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "stargazers_count": 29479,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opendataloader.org"
+    },
+    {
+      "full_name": "openwrt/openwrt",
+      "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins.  We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
+      "stargazers_count": 28646,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://openwrt.org"
+    },
+    {
+      "full_name": "firecrawl/open-lovable",
+      "description": "\ud83d\udd25 Clone and recreate any website as a modern React app in seconds",
+      "stargazers_count": 28637,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "vernesong/OpenClash",
+      "description": "A Clash Client For OpenWrt",
+      "stargazers_count": 27688,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "OpenZeppelin/openzeppelin-contracts",
+      "description": "OpenZeppelin Contracts is a library for secure smart contract development.",
+      "stargazers_count": 27266,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openzeppelin.com/contracts"
+    },
+    {
+      "full_name": "OpenAPITools/openapi-generator",
+      "description": "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)",
+      "stargazers_count": 26770,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openapi-generator.tech"
+    },
+    {
+      "full_name": "huggingface/open-r1",
+      "description": "Fully open reproduction of DeepSeek-R1",
+      "stargazers_count": 26472,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "zai-org/Open-AutoGLM",
+      "description": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone",
+      "stargazers_count": 26346,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://autoglm.z.ai/blog"
+    },
+    {
+      "full_name": "OpenListTeam/OpenList",
+      "description": "A new AList Fork to Anti Trust Crisis",
+      "stargazers_count": 24930,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://doc.oplist.org"
+    },
+    {
+      "full_name": "different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "stargazers_count": 23869,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://openworklabs.com"
+    },
+    {
+      "full_name": "ForrestKnight/open-source-cs",
+      "description": "Video discussing this curriculum:",
+      "stargazers_count": 23765,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://youtu.be/NyOvFSP_IpQ"
+    },
+    {
+      "full_name": "AprilNEA/OpenLogi",
+      "description": "\u26a1\ufe0fA native, local-first alternative to Logitech Options+, written in Rust \ud83e\udd80 \u2014 remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "stargazers_count": 22812,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openlogi.org"
+    },
+    {
+      "full_name": "wandb/openui",
+      "description": "OpenUI let's you describe UI using your imagination, then see it rendered live.",
+      "stargazers_count": 22562,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openui.fly.dev"
+    },
+    {
+      "full_name": "every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "stargazers_count": 22399,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openseo.so"
+    },
+    {
+      "full_name": "openobserve/openobserve",
+      "description": "Open source observability platform for logs, metrics, traces, RUM (web, android, ios), Session replay, pipelines, SLO and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
+      "stargazers_count": 22261,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://openobserve.ai"
+    },
+    {
+      "full_name": "Nyr/openvpn-install",
+      "description": "OpenVPN road warrior installer for Ubuntu, Debian, AlmaLinux, Rocky Linux, CentOS and Fedora",
+      "stargazers_count": 20650,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "open-ani/animeko",
+      "description": "\u96c6\u627e\u756a\u3001\u8ffd\u756a\u3001\u770b\u756a\u7684\u4e00\u7ad9\u5f0f\u5f39\u5e55\u8ffd\u756a\u5e73\u53f0\uff0c\u4e91\u6536\u85cf\u540c\u6b65 (Bangumi)\uff0c\u79bb\u7ebf\u7f13\u5b58\uff0cBitTorrent\uff0c\u5f39\u5e55\u4e91\u8fc7\u6ee4\u3002100% Kotlin/Compose Multiplatform",
+      "stargazers_count": 20494,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://animeko.org"
+    },
+    {
+      "full_name": "Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights \u2014 built openly, for everyone, forever free.",
+      "stargazers_count": 19717,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://openstock-ods.vercel.app"
+    },
+    {
+      "full_name": "game1024/OpenSpeedy",
+      "description": "\ud83c\udfae An open-source game speed modifier.",
+      "stargazers_count": 19048,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://game1024.github.io/OpenSpeedy/"
+    },
+    {
+      "full_name": "dortania/OpenCore-Legacy-Patcher",
+      "description": "Experience macOS just like before",
+      "stargazers_count": 18439,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://dortania.github.io/OpenCore-Legacy-Patcher/"
+    },
+    {
+      "full_name": "andrewyng/openworker",
+      "description": null,
+      "stargazers_count": 18434,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "http://openworker.com"
+    },
+    {
+      "full_name": "RightNow-AI/openfang",
+      "description": "Open-source Agent Operating System",
+      "stargazers_count": 18205,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://www.openfang.sh/"
+    },
+    {
+      "full_name": "AsyncFuncAI/deepwiki-open",
+      "description": "Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme",
+      "stargazers_count": 18124,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://grok-wiki.com/"
+    },
+    {
+      "full_name": "OpenEmu/OpenEmu",
+      "description": "\ud83d\udd79 Retro video game emulation for macOS",
+      "stargazers_count": 17805,
+      "license": null,
+      "archived": false,
+      "homepage": "https://openemu.org"
+    },
+    {
+      "full_name": "OpenRA/OpenRA",
+      "description": "Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL. Runs on Windows, Linux, *BSD and Mac OS X.",
+      "stargazers_count": 17489,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://www.openra.net"
+    },
+    {
+      "full_name": "NVIDIA/open-gpu-kernel-modules",
+      "description": "NVIDIA Linux open GPU kernel module source",
+      "stargazers_count": 17439,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "langchain-ai/openwiki",
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "stargazers_count": 16975,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "lidge-jun/opencodex",
+      "description": "Universal provider proxy for OpenAI Codex & Claude Code \u2014 use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama\u2026) with Codex CLI, App, SDK, and Claude Code",
+      "stargazers_count": 16964,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://opencodex.me/"
+    },
+    {
+      "full_name": "openimsdk/open-im-server",
+      "description": "IM Chat OpenClaw",
+      "stargazers_count": 16681,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openim.io"
+    },
+    {
+      "full_name": "OpenRCT2/OpenRCT2",
+      "description": "An open source re-implementation of RollerCoaster Tycoon 2 \ud83c\udfa2",
+      "stargazers_count": 16339,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://openrct2.io"
+    },
+    {
+      "full_name": "opf/openproject",
+      "description": "OpenProject is the leading open source project management software for product, project and portfolio management. A powerful Jira alternative with agile planning, issue tracking, roadmaps, Gantt charts, time tracking, collaboration features, and more. Available on premises or in the cloud. \u2b50 Star us on GitHub",
+      "stargazers_count": 16314,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://www.openproject.org"
+    },
+    {
+      "full_name": "angristan/openvpn-install",
+      "description": "Set up your own OpenVPN server on Debian, Ubuntu, Fedora, CentOS, Arch Linux and more",
+      "stargazers_count": 16158,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://stanislas.blog/2019/01/how-to-setup-vpn-server-wireguard-nat-ipv6/"
+    },
+    {
+      "full_name": "bagisto/opensource-ecommerce-mobile-app",
+      "description": "This open-source mobile ecommerce app seamlessly transforms your Bagisto store into a powerful mobile platform, providing real-time synchronization of products and categories. ",
+      "stargazers_count": 16062,
+      "license": null,
+      "archived": false,
+      "homepage": "https://bagisto.com/en/open-source-ecommerce-mobile-app/"
+    },
+    {
+      "full_name": "wasp-lang/open-saas",
+      "description": "A 100% free modern JS SaaS boilerplate (React, NodeJS, Prisma). Full-featured: Auth (email, google, github, slack, MS), Email sending, Background jobs, Landing page, Payments (Stripe, Polar.sh), Shadcn UI, S3 file upload. AI-ready with tailored AGENTS.md, skills, and Claude Code plugin. One cmd deploy. Powered by Wasp full-stack framework.",
+      "stargazers_count": 16055,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://opensaas.sh"
+    },
+    {
+      "full_name": "HKUDS/OpenHarness",
+      "description": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\"",
+      "stargazers_count": 15915,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "github/opensource.guide",
+      "description": "\ud83d\udcda Community guides for open source creators",
+      "stargazers_count": 15718,
+      "license": {
+        "key": "cc-by-4.0",
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdx_id": "CC-BY-4.0",
+        "url": "https://api.github.com/licenses/cc-by-4.0",
+        "node_id": "MDc6TGljZW5zZTI1"
+      },
+      "archived": false,
+      "homepage": "https://opensource.guide/"
+    },
+    {
+      "full_name": "opensandbox-group/OpenSandbox",
+      "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+      "stargazers_count": 15678,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://open-sandbox.ai"
+    },
+    {
+      "full_name": "bobeff/open-source-games",
+      "description": "A list of open source games.",
+      "stargazers_count": 15656,
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "acidanthera/OpenCorePkg",
+      "description": "OpenCore bootloader",
+      "stargazers_count": 15505,
+      "license": {
+        "key": "bsd-3-clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdx_id": "BSD-3-Clause",
+        "url": "https://api.github.com/licenses/bsd-3-clause",
+        "node_id": "MDc6TGljZW5zZTU="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "cmusatyalab/openface",
+      "description": "Face recognition with deep neural networks.",
+      "stargazers_count": 15444,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "http://cmusatyalab.github.io/openface/"
+    },
+    {
+      "full_name": "open-metadata/OpenMetadata",
+      "description": "The Open Context Layer for Data and AI ,  OpenMetadata is the open platform for building trusted data context and business semantics for humans, AI assistants, and agents.",
+      "stargazers_count": 15377,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://open-metadata.org"
+    },
+    {
+      "full_name": "open-android/Android",
+      "description": "GitHub\u4e0a\u6700\u706b\u7684Android\u5f00\u6e90\u9879\u76ee,\u6240\u6709\u5f00\u6e90\u9879\u76ee\u90fd\u6709\u8be6\u7ec6\u8d44\u6599\u548c\u914d\u5957\u89c6\u9891",
+      "stargazers_count": 15367,
+      "license": null,
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "rmyndharis/OpenWA",
+      "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "stargazers_count": 15056,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://www.open-wa.org"
+    },
+    {
+      "full_name": "NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "stargazers_count": 14966,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://docs.nvidia.com/openshell/latest/"
+    },
+    {
+      "full_name": "kyegomez/OpenMythos",
+      "description": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
+      "stargazers_count": 14902,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://discord.gg/EamjgSaEQf"
+    },
+    {
+      "full_name": "OpenVPN/openvpn",
+      "description": "OpenVPN  is  an open source VPN daemon",
+      "stargazers_count": 14641,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "http://community.openvpn.net"
+    },
+    {
+      "full_name": "oblien/openship",
+      "description": "Self-hosted deployment platform",
+      "stargazers_count": 14529,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openship.io"
+    },
+    {
+      "full_name": "SFTtech/openage",
+      "description": "Clone of the Age of Empires II engine \ud83d\ude80 ",
+      "stargazers_count": 14475,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "http://openage.dev"
+    },
+    {
+      "full_name": "mlfoundations/open_clip",
+      "description": "An open source implementation of CLIP.",
+      "stargazers_count": 14187,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "evilsocket/opensnitch",
+      "description": "OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch.",
+      "stargazers_count": 14123,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "Physical-Intelligence/openpi",
+      "description": null,
+      "stargazers_count": 14096,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "openresty/openresty",
+      "description": "High Performance Web Platform Based on Nginx and LuaJIT",
+      "stargazers_count": 14062,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://openresty.org"
+    },
+    {
+      "full_name": "isl-org/Open3D",
+      "description": "Open3D: A Modern Library for 3D Data Processing",
+      "stargazers_count": 14031,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "http://www.open3d.org"
+    },
+    {
+      "full_name": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D avatar running locally across platforms",
+      "stargazers_count": 13988,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://open-llm-vtuber.github.io/"
+    },
+    {
+      "full_name": "OpenNHP/opennhp",
+      "description": "A lightweight, cryptography-powered, open-source toolkit built to enforce Zero Trust security for infrastructure, applications, and data in the AI-driven world.",
+      "stargazers_count": 13940,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "http://opennhp.org/"
+    },
+    {
+      "full_name": "opensearch-project/OpenSearch",
+      "description": "\ud83d\udd0e Open source distributed and RESTful search engine.",
+      "stargazers_count": 13812,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opensearch.org/docs/latest/opensearch/index/"
+    },
+    {
+      "full_name": "seemoo-lab/openhaystack",
+      "description": "Build your own 'AirTags' \ud83c\udff7 today! Framework for tracking personal Bluetooth devices via Apple's massive Find My network.",
+      "stargazers_count": 13757,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://owlink.org"
+    },
+    {
+      "full_name": "anomalyco/opentui",
+      "description": "OpenTUI is a library to build terminal user interfaces (TUI)",
+      "stargazers_count": 13480,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://opentui.com/"
+    },
+    {
+      "full_name": "nasa/openmct",
+      "description": "A web based mission control framework. ",
+      "stargazers_count": 13152,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://nasa.github.io/openmct/"
+    },
+    {
+      "full_name": "openreplay/openreplay",
+      "description": "Session replay, cobrowsing and product analytics you can self-host. Best for reproducing issues and iterating on your product.",
+      "stargazers_count": 12938,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://openreplay.com"
+    },
+    {
+      "full_name": "eugeneyan/open-llms",
+      "description": "\ud83d\udccb A list of open LLMs available for commercial use.",
+      "stargazers_count": 12890,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "JoeyDeVries/LearnOpenGL",
+      "description": "Code repository of all OpenGL chapters from the book and its accompanying website https://learnopengl.com",
+      "stargazers_count": 12647,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://learnopengl.com"
+    },
+    {
+      "full_name": "openlayers/openlayers",
+      "description": "OpenLayers",
+      "stargazers_count": 12605,
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdx_id": "BSD-2-Clause",
+        "url": "https://api.github.com/licenses/bsd-2-clause",
+        "node_id": "MDc6TGljZW5zZTQ="
+      },
+      "archived": false,
+      "homepage": "https://openlayers.org"
+    },
+    {
+      "full_name": "krillinai/OpenCreator",
+      "description": "Formerly KrillinAI. Open-source AI workspace for creators, powered by Codex. Create videos, images, voice, avatars, video translation, and edits with Agents in one place.",
+      "stargazers_count": 12592,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://www.open-creator.ai/"
+    },
+    {
+      "full_name": "bentoml/OpenLLM",
+      "description": "Run any open-source LLMs, such as DeepSeek and Llama, as OpenAI compatible API endpoint in the cloud.",
+      "stargazers_count": 12550,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://bentoml.com"
+    },
+    {
+      "full_name": "open-policy-agent/opa",
+      "description": "Open Policy Agent (OPA) is an open source, general-purpose policy engine.",
+      "stargazers_count": 12322,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://www.openpolicyagent.org"
+    },
+    {
+      "full_name": "PKU-YuanGroup/Open-Sora-Plan",
+      "description": "This project aim to reproduce Sora (Open AI T2V model), we wish the open source community contribute to this project.",
+      "stargazers_count": 12208,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "OpenRefine/OpenRefine",
+      "description": "OpenRefine is a free, open source power tool for working with messy data and improving it",
+      "stargazers_count": 12020,
+      "license": {
+        "key": "bsd-3-clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdx_id": "BSD-3-Clause",
+        "url": "https://api.github.com/licenses/bsd-3-clause",
+        "node_id": "MDc6TGljZW5zZTU="
+      },
+      "archived": false,
+      "homepage": "https://openrefine.org/"
+    },
+    {
+      "full_name": "hackstoic/golang-open-source-projects",
+      "description": "\u4e3a\u4e92\u8054\u7f51IT\u4eba\u6253\u9020\u7684\u4e2d\u6587\u7248awesome-go",
+      "stargazers_count": 11561,
+      "license": null,
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "openalpr/openalpr",
+      "description": "Automatic License Plate Recognition library",
+      "stargazers_count": 11459,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "http://www.openalpr.com"
+    },
+    {
+      "full_name": "Tracer-Cloud/opensre",
+      "description": "Build your own AI SRE agents. The open source toolkit for the AI era.",
+      "stargazers_count": 11382,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://discord.com/invite/opensre"
+    },
+    {
+      "full_name": "openai/openai-node",
+      "description": "Official JavaScript / TypeScript library for the OpenAI API",
+      "stargazers_count": 11201,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://www.npmjs.com/package/openai"
+    },
+    {
+      "full_name": "openchamber/openchamber",
+      "description": "Agentic Development Environment based on OpenCode AI agent",
+      "stargazers_count": 11157,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openchamber.dev/"
+    },
+    {
+      "full_name": "openvinotoolkit/openvino",
+      "description": "OpenVINO\u2122 is an open source toolkit for optimizing and deploying AI inference",
+      "stargazers_count": 10952,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://docs.openvino.ai"
+    },
+    {
+      "full_name": "langchain-ai/open-swe",
+      "description": "An Open-Source Asynchronous Coding Agent",
+      "stargazers_count": 10805,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://www.langchain.com/blog/open-swe-an-open-source-framework-for-internal-coding-agents"
+    },
+    {
+      "full_name": "sashabaranov/go-openai",
+      "description": "OpenAI, GPT 6.1, GPT-Image-2, Whisper API clients for Go. Zero-dependency.",
+      "stargazers_count": 10781,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "numman-ali/openskills",
+      "description": "Universal skills loader for AI coding agents - npm i -g openskills",
+      "stargazers_count": 10773,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "open-jarvis/OpenJarvis",
+      "description": "Personal AI, On Personal Devices",
+      "stargazers_count": 10586,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openjarvis.stanford.edu/"
+    },
+    {
+      "full_name": "pcqpcq/open-source-android-apps",
+      "description": "Open-Source Android Apps",
+      "stargazers_count": 10520,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "awesome-opencode/awesome-opencode",
+      "description": "A curated list of awesome plugins, themes, agents, projects, and resources for https://opencode.ai",
+      "stargazers_count": 10488,
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "openframeworks/openFrameworks",
+      "description": "openFrameworks is a community-developed cross platform toolkit for creative coding in C++.",
+      "stargazers_count": 10433,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "http://openframeworks.cc"
+    },
+    {
+      "full_name": "openscad/openscad",
+      "description": "OpenSCAD - The Programmers Solid 3D CAD Modeller  ",
+      "stargazers_count": 10362,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://www.openscad.org"
+    },
+    {
+      "full_name": "open-mmlab/Amphion",
+      "description": "Amphion (/\u00e6m\u02c8fa\u026a\u0259n/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.",
+      "stargazers_count": 10304,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openhlt.github.io/amphion/"
+    },
+    {
+      "full_name": "opencv/opencv_contrib",
+      "description": "Repository for OpenCV's extra modules",
+      "stargazers_count": 10212,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "open-gsd/gsd-core",
+      "description": "Git. Ship. Done - Core",
+      "stargazers_count": 10198,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://opengsd.net"
+    },
+    {
+      "full_name": "OpenCTI-Platform/opencti",
+      "description": "Open Cyber Threat Intelligence Platform",
+      "stargazers_count": 10088,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://opencti.io"
+    },
+    {
+      "full_name": "OpenRLHF/OpenRLHF",
+      "description": "An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)",
+      "stargazers_count": 10067,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openrlhf.readthedocs.io/"
+    },
+    {
+      "full_name": "BYVoid/OpenCC",
+      "description": "Library for conversion between Traditional and Simplified Chinese",
+      "stargazers_count": 10031,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opencc.byvoid.com/"
+    },
+    {
+      "full_name": "thesysdev/openui",
+      "description": "The Open Standard for Generative UI",
+      "stargazers_count": 9986,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://www.openui.com"
+    },
+    {
+      "full_name": "open-mmlab/mmsegmentation",
+      "description": "OpenMMLab Semantic Segmentation Toolbox and Benchmark.",
+      "stargazers_count": 9965,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://mmsegmentation.readthedocs.io/en/main/"
+    },
+    {
+      "full_name": "Openwrt-Passwall/openwrt-passwall",
+      "description": null,
+      "stargazers_count": 9947,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://t.me/psw_group"
+    },
+    {
+      "full_name": "MiCode/Xiaomi_Kernel_OpenSource",
+      "description": "Xiaomi Mobile Phone Kernel OpenSource",
+      "stargazers_count": 9883,
+      "license": null,
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "openebs/openebs",
+      "description": "A popular & widely deployed Open Source Container Native Storage platform for Stateful Persistent Applications on Kubernetes.",
+      "stargazers_count": 9827,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openebs.io"
+    },
+    {
+      "full_name": "seemoo-lab/opendrop",
+      "description": "An open Apple AirDrop implementation written in Python",
+      "stargazers_count": 9761,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "nasa-jpl/open-source-rover",
+      "description": "A build-it-yourself, 6-wheel rover based on the rovers on Mars!",
+      "stargazers_count": 9683,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://open-source-rover.readthedocs.io"
+    },
+    {
+      "full_name": "ntegrals/openbrowser",
+      "description": "Let AI agents browse the web. An autonomous toolkit for browser-based AI agents.",
+      "stargazers_count": 9554,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "freeCodeCamp/how-to-contribute-to-open-source",
+      "description": "A guide to contributing to open source",
+      "stargazers_count": 9339,
+      "license": {
+        "key": "cc-by-sa-4.0",
+        "name": "Creative Commons Attribution Share Alike 4.0 International",
+        "spdx_id": "CC-BY-SA-4.0",
+        "url": "https://api.github.com/licenses/cc-by-sa-4.0",
+        "node_id": "MDc6TGljZW5zZTI2"
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "alvinunreal/oh-my-opencode-slim",
+      "description": "Lean, fine tuned Opencode multi agent suite \u00b7 Mix any models \u00b7 Auto delegate tasks",
+      "stargazers_count": 9307,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://ohmyopencodeslim.com"
+    },
+    {
+      "full_name": "elder-frog/OpenCourseCatalog",
+      "description": "Bilibili \u516c\u5f00\u8bfe\u76ee\u5f55",
+      "stargazers_count": 9199,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "openstatusHQ/openstatus",
+      "description": "\ud83e\uded6 Status page with uptime monitoring & API monitoring as code   \ud83e\uded6",
+      "stargazers_count": 9167,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://openstatus.dev"
+    },
+    {
+      "full_name": "kylemanna/docker-openvpn",
+      "description": "\ud83d\udd12 OpenVPN server in a Docker container complete with an EasyRSA PKI CA",
+      "stargazers_count": 9092,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://hub.docker.com/r/kylemanna/openvpn/"
+    },
+    {
+      "full_name": "OpenWhispr/openwhispr",
+      "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+      "stargazers_count": 9052,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openwhispr.com"
+    },
+    {
+      "full_name": "open-circle/valibot",
+      "description": "The modular and type safe schema library for validating structural data \ud83e\udd16",
+      "stargazers_count": 9028,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://valibot.dev"
+    },
+    {
+      "full_name": "togethercomputer/OpenChatKit",
+      "description": null,
+      "stargazers_count": 8981,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "open-slide/open-slide",
+      "description": "A slide framework built for agents.",
+      "stargazers_count": 8965,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://open-slide.dev"
+    },
+    {
+      "full_name": "xitanggg/open-resume",
+      "description": "OpenResume is a powerful open-source resume builder and resume parser. https://open-resume.com/",
+      "stargazers_count": 8909,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://open-resume.com"
+    },
+    {
+      "full_name": "open-source-parsers/jsoncpp",
+      "description": "A C++ library for interacting with JSON.",
+      "stargazers_count": 8899,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "btw-so/open-source-alternatives",
+      "description": "List of open-source alternatives to everyday SaaS products.",
+      "stargazers_count": 8803,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "open-pencil/open-pencil",
+      "description": "AI-native design editor. Open-source Figma alternative.",
+      "stargazers_count": 8750,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openpencil.dev"
+    },
+    {
+      "full_name": "digitalinnovationone/dio-lab-open-source",
+      "description": "Reposit\u00f3rio do lab \"Contribuindo em um Projeto Open Source no GitHub\" da Digital Innovation One.",
+      "stargazers_count": 8670,
+      "license": null,
+      "archived": false,
+      "homepage": "https://digitalinnovationone.github.io/dio-lab-open-source/"
+    },
+    {
+      "full_name": "openapi-ts/openapi-typescript",
+      "description": "Generate TypeScript types from OpenAPI 3 specs",
+      "stargazers_count": 8391,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openapi-ts.dev"
+    },
+    {
+      "full_name": "OpenTTD/OpenTTD",
+      "description": "OpenTTD is an open source simulation game based upon Transport Tycoon Deluxe",
+      "stargazers_count": 8332,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://www.openttd.org/"
+    },
+    {
+      "full_name": "openbao/openbao",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "stargazers_count": 8315,
+      "license": {
+        "key": "mpl-2.0",
+        "name": "Mozilla Public License 2.0",
+        "spdx_id": "MPL-2.0",
+        "url": "https://api.github.com/licenses/mpl-2.0",
+        "node_id": "MDc6TGljZW5zZTE0"
+      },
+      "archived": false,
+      "homepage": "https://openbao.org/"
+    },
+    {
+      "full_name": "PowerShell/Win32-OpenSSH",
+      "description": "Win32 port of OpenSSH",
+      "stargazers_count": 8299,
+      "license": null,
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "opencart/opencart",
+      "description": "A free shopping cart system. OpenCart is an open source PHP-based online e-commerce solution.",
+      "stargazers_count": 8212,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://www.opencart.com"
+    },
+    {
+      "full_name": "openedx/openedx-platform",
+      "description": "The Open edX LMS & Studio, powering education sites around the world!",
+      "stargazers_count": 8197,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://openedx.org"
+    },
+    {
+      "full_name": "joeycastillo/The-Open-Book",
+      "description": null,
+      "stargazers_count": 8084,
+      "license": {
+        "key": "cc-by-sa-4.0",
+        "name": "Creative Commons Attribution Share Alike 4.0 International",
+        "spdx_id": "CC-BY-SA-4.0",
+        "url": "https://api.github.com/licenses/cc-by-sa-4.0",
+        "node_id": "MDc6TGljZW5zZTI2"
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "deepseek-ai/open-infra-index",
+      "description": "Production-tested AI infrastructure tools for efficient AGI development and community-driven innovation",
+      "stargazers_count": 8077,
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "OpenCoworkAI/open-codesign",
+      "description": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt \u2192 prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
+      "stargazers_count": 8009,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://opencoworkai.github.io/open-codesign/"
+    },
+    {
+      "full_name": "open-mmlab/mmpose",
+      "description": "OpenMMLab Pose Estimation Toolbox and Benchmark.",
+      "stargazers_count": 7946,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://mmpose.readthedocs.io/en/latest/"
+    },
+    {
+      "full_name": "open-cli-tools/concurrently",
+      "description": "Run commands concurrently. Like `npm run watch-js & npm run watch-less` but better.",
+      "stargazers_count": 7854,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://www.npmjs.com/package/concurrently"
+    },
+    {
+      "full_name": "opentoonz/opentoonz",
+      "description": "OpenToonz - An open-source full-featured 2D animation creation software",
+      "stargazers_count": 7787,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://opentoonz.github.io/"
+    },
+    {
+      "full_name": "TadasBaltrusaitis/OpenFace",
+      "description": "OpenFace \u2013 a state-of-the art tool intended for facial landmark detection, head pose estimation, facial action unit recognition, and eye-gaze estimation.",
+      "stargazers_count": 7779,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "Azure-Samples/azure-search-openai-demo",
+      "description": "A sample app for the Retrieval-Augmented Generation pattern running in Azure, using Azure AI Search for retrieval and Azure OpenAI large language models  to power ChatGPT-style and Q&A experiences.",
+      "stargazers_count": 7776,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://azure.microsoft.com/products/search"
+    },
+    {
+      "full_name": "HKUDS/OpenSpace",
+      "description": "\"OpenSpace: The Skill Management Layer for AI Agents\" -- https://open-space.cloud/",
+      "stargazers_count": 7741,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "hust-open-atom-club/linux-insides-zh",
+      "description": "Linux \u5185\u6838\u63ed\u79d8",
+      "stargazers_count": 7715,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://linux-insides.openatom.club"
+    },
+    {
+      "full_name": "open-telemetry/opentelemetry-collector",
+      "description": "OpenTelemetry Collector",
+      "stargazers_count": 7638,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opentelemetry.io"
+    },
+    {
+      "full_name": "OpenMathLib/OpenBLAS",
+      "description": "OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version. ",
+      "stargazers_count": 7608,
+      "license": {
+        "key": "bsd-3-clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdx_id": "BSD-3-Clause",
+        "url": "https://api.github.com/licenses/bsd-3-clause",
+        "node_id": "MDc6TGljZW5zZTU="
+      },
+      "archived": false,
+      "homepage": "http://www.openblas.net"
+    },
+    {
+      "full_name": "di-sukharev/opencommit",
+      "description": "top #1 and most feature rich GPT wrapper for git \u2014 generate commit messages with an LLM in 1 sec \u2014 works with Claude, GPT and every other provider, supports local Ollama models too",
+      "stargazers_count": 7542,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://www.npmjs.com/package/opencommit"
+    },
+    {
+      "full_name": "openlm-research/open_llama",
+      "description": "OpenLLaMA, a permissively licensed open source reproduction of Meta AI\u2019s LLaMA 7B trained on the RedPajama dataset",
+      "stargazers_count": 7524,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "PixarAnimationStudios/OpenUSD",
+      "description": "Universal Scene Description",
+      "stargazers_count": 7519,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "http://www.openusd.org"
+    },
+    {
+      "full_name": "algorithmicsuperintelligence/openevolve",
+      "description": "Open-source implementation of AlphaEvolve",
+      "stargazers_count": 7494,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "open-compass/opencompass",
+      "description": "OpenCompass is an LLM evaluation platform, supporting a wide range of models from OpenAI, Anthropic, Gemini, Qwen, GLM, DeepSeek, etc, across 100+ datasets covering knowledge, reasoning, coding, science, language, long-context, and safety.",
+      "stargazers_count": 7493,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opencompass.org.cn/"
+    },
+    {
+      "full_name": "ganeshrvel/openmtp",
+      "description": "OpenMTP  - Advanced Android File Transfer Application for macOS",
+      "stargazers_count": 7477,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openmtp.ganeshrvel.com"
+    },
+    {
+      "full_name": "open-mmlab/mmagic",
+      "description": "OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic \ud83e\ude84: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc.",
+      "stargazers_count": 7472,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://mmagic.readthedocs.io/en/latest/"
+    },
+    {
+      "full_name": "traceloop/openllmetry",
+      "description": "Open-source observability for your GenAI or LLM application, based on OpenTelemetry",
+      "stargazers_count": 7470,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://www.traceloop.com/openllmetry"
+    },
+    {
+      "full_name": "anomalyco/openauth",
+      "description": "\u25a6 Universal, standards-based auth provider.",
+      "stargazers_count": 7409,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openauth.js.org"
+    },
+    {
+      "full_name": "open-source-flash/open-source-flash",
+      "description": "Petition to open source Flash and Shockwave spec",
+      "stargazers_count": 7313,
+      "license": null,
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "TraderAlice/OpenAlice",
+      "description": "Your one-person Wall Street. An AI trading agent covering equities, crypto, commodities, forex, and macro \u2014 from research through position entry, ongoing management, to exit.",
+      "stargazers_count": 7201,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://openalice.ai"
+    },
+    {
+      "full_name": "kenzok8/openwrt-packages",
+      "description": "openwrt\u5e38\u7528\u8f6f\u4ef6\u5305",
+      "stargazers_count": 7201,
+      "license": null,
+      "archived": false,
+      "homepage": "https://down.dllkids.xyz/openwrt-feed/"
+    },
+    {
+      "full_name": "arvids-unavailable/openGym",
+      "description": "https://github.com/DuarteSantos8/openGym",
+      "stargazers_count": 7092,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "Openpanel-dev/openpanel",
+      "description": "OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.",
+      "stargazers_count": 7087,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://openpanel.dev"
+    },
+    {
+      "full_name": "TokenRhythm/opensquilla",
+      "description": "OpenSquilla \u2014 Token-Efficient AI Agent with same budget, higher intelligence density",
+      "stargazers_count": 7086,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opensquilla.ai"
+    },
+    {
+      "full_name": "OpenSignLabs/OpenSign",
+      "description": "\ud83d\udd25 The free & Open Source DocuSign alternative",
+      "stargazers_count": 7057,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://www.opensignlabs.com"
+    },
+    {
+      "full_name": "OpenNMT/OpenNMT-py",
+      "description": "Open Source Neural Machine Translation and (Large) Language Models in PyTorch",
+      "stargazers_count": 7021,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://opennmt.net/"
+    },
+    {
+      "full_name": "Ji4n1ng/OpenInTerminal",
+      "description": "\u2728 Finder Toolbar app for macOS to open the current directory in Terminal, iTerm, Hyper or Alacritty.",
+      "stargazers_count": 7020,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "openai/openai-realtime-agents",
+      "description": "This is a simple demonstration of more advanced, agentic patterns built on top of the Realtime API.",
+      "stargazers_count": 6990,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "openmediavault/openmediavault",
+      "description": "openmediavault is the next generation network attached storage (NAS) solution based on Debian Linux. Thanks to the modular design of the framework it can be enhanced via plugins. openmediavault is primarily designed to be used in home environments or small home offices.",
+      "stargazers_count": 6987,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://www.openmediavault.org"
+    },
+    {
+      "full_name": "open-multi-agent/open-multi-agent",
+      "description": "Self-hosted TypeScript agent runtime with durable approvals and verifiable run records. Own it, approve it, audit it.",
+      "stargazers_count": 6979,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://open-multi-agent.com/go/repo"
+    },
+    {
+      "full_name": "open-source-ideas/ideas",
+      "description": "\ud83d\udca1 Looking for inspiration for your next open source project? Or perhaps you've got a brilliant idea you can't wait to share with others? Open Source Ideas is a community built specifically for this! \ud83d\udc4b",
+      "stargazers_count": 6819,
+      "license": null,
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "apache/openwhisk",
+      "description": "Apache OpenWhisk is an open source serverless cloud platform",
+      "stargazers_count": 6802,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openwhisk.apache.org/"
+    },
+    {
+      "full_name": "opencost/opencost",
+      "description": "Cost monitoring for Kubernetes workloads and cloud costs",
+      "stargazers_count": 6766,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "http://opencost.io"
+    },
+    {
+      "full_name": "piotrkulpinski/open-source-alternatives",
+      "description": "Curated list of open source alternatives to proprietary software.",
+      "stargazers_count": 6766,
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "archived": false,
+      "homepage": "https://openalternative.co"
+    },
+    {
+      "full_name": "internetarchive/openlibrary",
+      "description": "One webpage for every book ever published!",
+      "stargazers_count": 6730,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://openlibrary.org"
+    },
+    {
+      "full_name": "ClemensElflein/OpenMower",
+      "description": "Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots!",
+      "stargazers_count": 6720,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "open-power-workgroup/Hospital",
+      "description": "OpenPower\u5de5\u4f5c\u7ec4\u6536\u96c6\u6c47\u603b\u7684\u533b\u9662\u5f00\u653e\u6570\u636e",
+      "stargazers_count": 6708,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "http://open-power-workgroup.github.io/Hospital"
+    },
+    {
+      "full_name": "Moonvy/OpenPromptStudio",
+      "description": "\ud83e\udd63 AIGC \u63d0\u793a\u8bcd\u53ef\u89c6\u5316\u7f16\u8f91\u5668  | OPS | Open Prompt Studio",
+      "stargazers_count": 6690,
+      "license": null,
+      "archived": false,
+      "homepage": "https://moonvy.com/apps/ops/"
+    },
+    {
+      "full_name": "liliMozi/openhanako",
+      "description": "A personal AI agent with memory, personality, and autonomy.",
+      "stargazers_count": 6683,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "ValveSoftware/openvr",
+      "description": "OpenVR SDK",
+      "stargazers_count": 6676,
+      "license": {
+        "key": "bsd-3-clause",
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdx_id": "BSD-3-Clause",
+        "url": "https://api.github.com/licenses/bsd-3-clause",
+        "node_id": "MDc6TGljZW5zZTU="
+      },
+      "archived": false,
+      "homepage": "http://steamvr.com"
+    },
+    {
+      "full_name": "alphaXiv/OpenResearch",
+      "description": "Turn your coding agents into research agents",
+      "stargazers_count": 6607,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://openresearch.sh/"
+    },
+    {
+      "full_name": "OpenMW/openmw",
+      "description": "OpenMW is an open-source open-world RPG game engine that supports playing Morrowind. Main repo and issue tracker can be found here: https://gitlab.com/OpenMW/openmw/",
+      "stargazers_count": 6597,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://gitlab.com/OpenMW/openmw"
+    },
+    {
+      "full_name": "OpenShot/openshot-qt",
+      "description": "OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.",
+      "stargazers_count": 6592,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "http://www.openshot.org"
+    },
+    {
+      "full_name": "openai/openai-cs-agents-demo",
+      "description": "Demo of a customer service use case implemented with the OpenAI Agents SDK",
+      "stargazers_count": 6583,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "Aethersailor/Custom_OpenClash_Rules",
+      "description": "\u9762\u5411 OpenClash \u7528\u6237\u7684\u914d\u7f6e\u3001\u8ba2\u9605\u8f6c\u6362\u6a21\u677f\u3001YAML\u3001\u89c4\u5219\u3001\u8986\u5199\u6a21\u5757\u3001\u811a\u672c\u4e0e\u4e2d\u6587\u6559\u7a0b\u3002",
+      "stargazers_count": 6582,
+      "license": {
+        "key": "cc-by-sa-4.0",
+        "name": "Creative Commons Attribution Share Alike 4.0 International",
+        "spdx_id": "CC-BY-SA-4.0",
+        "url": "https://api.github.com/licenses/cc-by-sa-4.0",
+        "node_id": "MDc6TGljZW5zZTI2"
+      },
+      "archived": false,
+      "homepage": "https://t.me/custom_openclash_rules_group"
+    },
+    {
+      "full_name": "open-telemetry/opentelemetry-go",
+      "description": "OpenTelemetry Go API and SDK",
+      "stargazers_count": 6572,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opentelemetry.io/docs/languages/go"
+    },
+    {
+      "full_name": "openMVG/openMVG",
+      "description": "open Multiple View Geometry library. Basis for 3D computer vision and Structure from Motion.",
+      "stargazers_count": 6566,
+      "license": {
+        "key": "mpl-2.0",
+        "name": "Mozilla Public License 2.0",
+        "spdx_id": "MPL-2.0",
+        "url": "https://api.github.com/licenses/mpl-2.0",
+        "node_id": "MDc6TGljZW5zZTE0"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "android-cn/android-open-project-analysis",
+      "description": "Analysis implementation of android open source project, \u5fae\u4fe1\u516c\u4f17\u53f7:codekk, \u7f51\u7ad9:",
+      "stargazers_count": 6563,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://codekk.com"
+    },
+    {
+      "full_name": "open-mmlab/mmdetection3d",
+      "description": "OpenMMLab's next-generation platform for general 3D object detection.",
+      "stargazers_count": 6547,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://mmdetection3d.readthedocs.io/en/latest/"
+    },
+    {
+      "full_name": "open-mmlab/mmcv",
+      "description": "OpenMMLab Computer Vision Foundation",
+      "stargazers_count": 6476,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://mmcv.readthedocs.io/en/latest/"
+    },
+    {
+      "full_name": "openhardwaremonitor/openhardwaremonitor",
+      "description": "Open Hardware Monitor",
+      "stargazers_count": 6454,
+      "license": null,
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "nat/openplayground",
+      "description": "An LLM playground you can run on your laptop",
+      "stargazers_count": 6348,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "nickscamara/open-deep-research",
+      "description": "An open source deep research clone. AI Agent that reasons large amounts of web data extracted with Firecrawl",
+      "stargazers_count": 6293,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://firecrawl.dev/extract"
+    },
+    {
+      "full_name": "open-meteo/open-meteo",
+      "description": "Free Weather Forecast API for non-commercial use",
+      "stargazers_count": 6292,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://open-meteo.com"
+    },
+    {
+      "full_name": "openblocks-dev/openblocks",
+      "description": "\ud83d\udd25 \ud83d\udd25 \ud83d\udd25 The Open Source Retool Alternative",
+      "stargazers_count": 6236,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://cloud.openblocks.dev"
+    },
+    {
+      "full_name": "open-edge-platform/anomalib",
+      "description": "An anomaly detection library comprising state-of-the-art algorithms and features such as experiment management, hyper-parameter optimization, and edge inference.",
+      "stargazers_count": 6222,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://anomalib.readthedocs.io/en/latest/"
+    },
+    {
+      "full_name": "cisco/openh264",
+      "description": "Open Source H.264 Codec ",
+      "stargazers_count": 6152,
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdx_id": "BSD-2-Clause",
+        "url": "https://api.github.com/licenses/bsd-2-clause",
+        "node_id": "MDc6TGljZW5zZTQ="
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "hyperknot/openfreemap",
+      "description": "Free and open-source map hosting solution with custom styles for websites and apps, using OpenStreetMap data",
+      "stargazers_count": 6135,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://openfreemap.org/"
+    },
+    {
+      "full_name": "LearnOpenGL-CN/LearnOpenGL-CN",
+      "description": "http://learnopengl.com \u7cfb\u5217\u6559\u7a0b\u7684\u7b80\u4f53\u4e2d\u6587\u7ffb\u8bd1",
+      "stargazers_count": 6124,
+      "license": null,
+      "archived": false,
+      "homepage": "https://learnopengl-cn.github.io/"
+    },
+    {
+      "full_name": "shimat/opencvsharp",
+      "description": "OpenCV wrapper for .NET",
+      "stargazers_count": 6113,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "http://shimat.github.io/opencvsharp/"
+    },
+    {
+      "full_name": "UnityTechnologies/open-project-1",
+      "description": "Unity Open Project #1: Chop Chop",
+      "stargazers_count": 6104,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "http://unity.com/open-projects"
+    },
+    {
+      "full_name": "opencloud-eu/opencloud",
+      "description": "\ud83c\udf24\ufe0f OpenCloud is the open source platform for file management, sharing and collaboration. Simple and sovereign.",
+      "stargazers_count": 6095,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opencloud.eu"
+    },
+    {
+      "full_name": "ZSeven-W/openpencil",
+      "description": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "stargazers_count": 6078,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://op.zseven.tech"
+    },
+    {
+      "full_name": "CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "stargazers_count": 6071,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://www.copilotkit.ai/openbot"
+    },
+    {
+      "full_name": "EwingYangs/awesome-open-gpt",
+      "description": "Collection of Open Source Projects Related to GPT\uff0cGPT\u76f8\u5173\u5f00\u6e90\u9879\u76ee\u5408\u96c6\ud83d\ude80\u3001\u7cbe\u9009\ud83d\udd25\ud83d\udd25",
+      "stargazers_count": 6055,
+      "license": null,
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "openstack/openstack",
+      "description": "Repository tracking all OpenStack repositories as submodules. Mirror of code maintained at opendev.org.",
+      "stargazers_count": 6051,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opendev.org/openstack/openstack"
+    },
+    {
+      "full_name": "PawanOsman/OpenCursor",
+      "description": "Open-source Cursor-like AI coding agent for VS Code - agentic chat, multi-provider LLMs (OpenAI, Ollama, llama.cpp), semantic search, and MCP support",
+      "stargazers_count": 6025,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://marketplace.visualstudio.com/items?itemName=pkrd.ocursor"
+    },
+    {
+      "full_name": "openpgpjs/openpgpjs",
+      "description": "OpenPGP implementation for JavaScript",
+      "stargazers_count": 5970,
+      "license": {
+        "key": "lgpl-3.0",
+        "name": "GNU Lesser General Public License v3.0",
+        "spdx_id": "LGPL-3.0",
+        "url": "https://api.github.com/licenses/lgpl-3.0",
+        "node_id": "MDc6TGljZW5zZTEy"
+      },
+      "archived": false,
+      "homepage": "https://openpgpjs.org"
+    },
+    {
+      "full_name": "opengapps/opengapps",
+      "description": "The main repository of the Open GApps Project",
+      "stargazers_count": 5964,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "http://opengapps.org"
+    },
+    {
+      "full_name": "oomol-lab/open-connector",
+      "description": "Open-source auth gateway connecting 1500+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.",
+      "stargazers_count": 5944,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://oomol.com"
+    },
+    {
+      "full_name": "openfga/openfga",
+      "description": "A high-performance and flexible authorization/permission engine built for developers and inspired by Google Zanzibar.",
+      "stargazers_count": 5923,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openfga.dev"
+    },
+    {
+      "full_name": "vercel-labs/open-agents",
+      "description": "An open source template for building cloud agents.",
+      "stargazers_count": 5837,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://open-agents.dev"
+    },
+    {
+      "full_name": "dan1471/FREE-openai-api-keys",
+      "description": "collection for free openai keys to use in your projects",
+      "stargazers_count": 5754,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "open-mmlab/OpenPCDet",
+      "description": "OpenPCDet Toolbox for LiDAR-based 3D Object Detection.",
+      "stargazers_count": 5724,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "Gen-Verse/OpenClaw-RL",
+      "description": "OpenClaw-RL: Train any agent simply by talking",
+      "stargazers_count": 5711,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://arxiv.org/abs/2603.10165"
+    },
+    {
+      "full_name": "the-open-agent/openagent",
+      "description": "\u26a1\ufe0fnext-generation personal AI assistant powered by LLM, RAG and agent loops, supporting computer-use, browser-use and coding agent, demo: https://demo.openagentai.org",
+      "stargazers_count": 5685,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openagentai.org"
+    },
+    {
+      "full_name": "amosgyamfi/open-swiftui-animations",
+      "description": "You don't need an animation library to add a simple effect to your SwiftUI app. Create it yourself with SwiftUI. This repo inspires you to add helpful and expressive SwiftUI animations like loading/progress, looping, on-off, enter, exit, fade, spin, and background animations to your next project. The repo also contains tremendous spring animations.",
+      "stargazers_count": 5658,
+      "license": {
+        "key": "unlicense",
+        "name": "The Unlicense",
+        "spdx_id": "Unlicense",
+        "url": "https://api.github.com/licenses/unlicense",
+        "node_id": "MDc6TGljZW5zZTE1"
+      },
+      "archived": false,
+      "homepage": "https://twitter.com/amos_gyamfi"
+    },
+    {
+      "full_name": "nextai-translator/bob-plugin-openai-translator",
+      "description": "\u57fa\u4e8e LLM \u7684\u6587\u672c\u7ffb\u8bd1\u3001\u6587\u672c\u6da6\u8272\u3001\u8bed\u6cd5\u7ea0\u9519 Bob \u63d2\u4ef6\uff0c\u8ba9\u6211\u4eec\u4e00\u8d77\u8fce\u63a5\u4e0d\u9700\u8981\u5df4\u522b\u5854\u7684\u65b0\u65f6\u4ee3\uff01Licensed under CC BY-NC-SA 4.0",
+      "stargazers_count": 5651,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "ConnectAI-E/feishu-openai",
+      "description": "\ud83c\udf92 \u98de\u4e66  \u00d7\uff08GPT-4 + GPT-4V + DALL\u00b7E-3 + Whisper\uff09=  \u98de\u4e00\u822c\u7684\u5de5\u4f5c\u4f53\u9a8c  \ud83d\ude80 \u8bed\u97f3\u5bf9\u8bdd\u3001\u89d2\u8272\u626e\u6f14\u3001\u591a\u8bdd\u9898\u8ba8\u8bba\u3001\u56fe\u7247\u521b\u4f5c\u3001\u8868\u683c\u5206\u6790\u3001\u6587\u6863\u5bfc\u51fa \ud83d\ude80",
+      "stargazers_count": 5633,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://feishu.market"
+    },
+    {
+      "full_name": "yeun/open-color",
+      "description": "Color scheme for UI design.",
+      "stargazers_count": 5575,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://yeun.github.io/open-color/"
+    },
+    {
+      "full_name": "argyleink/open-props",
+      "description": "CSS custom properties to help accelerate adaptive and consistent design.",
+      "stargazers_count": 5531,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://open-props.style"
+    },
+    {
+      "full_name": "stupidloud/nanopi-openwrt",
+      "description": "Openwrt for Nanopi R1S R2S R4S R5S \u9999\u6a59\u6d3e R1 Plus \u56fa\u4ef6\u7f16\u8bd1 \u7eaf\u51c0\u7248\u4e0e\u5927\u6742\u70e9",
+      "stargazers_count": 5518,
+      "license": null,
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "google-deepmind/open_spiel",
+      "description": "OpenSpiel is a collection of environments and algorithms for research in general reinforcement learning and search/planning in games.",
+      "stargazers_count": 5517,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "SenteLabsAI/OpenExecutive",
+      "description": "AI-powered virtual executive team \u2014 a single coherent executive persona backed by 8 specialist agents (FastAPI + Next.js).",
+      "stargazers_count": 5498,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openexecutive.ai"
+    },
+    {
+      "full_name": "openemr/openemr",
+      "description": "The most popular open source electronic health records and medical practice management solution.",
+      "stargazers_count": 5492,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://open-emr.org/"
+    },
+    {
+      "full_name": "imoneoi/openchat",
+      "description": "OpenChat: Advancing Open-source Language Models with Imperfect Data",
+      "stargazers_count": 5487,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openchat.team"
+    },
+    {
+      "full_name": "eatmoreapple/openwechat",
+      "description": "golang\u5fae\u4fe1SDK",
+      "stargazers_count": 5471,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "Anil-matcha/open-dots",
+      "description": "Open-source, self-hosted AI agent workspace and alternative to OpenAI Dots, Meta Muse, Grok Bot, Instinct, Manus Cue, Claude Cowork, and ChatGPT agent. MIT-licensed; includes chat, connectors, approvals, and optional computer use. Early prototype.",
+      "stargazers_count": 5465,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "maziyarpanahi/openmed",
+      "description": "Local-first healthcare AI: clinical NER & HIPAA PII de-identification that runs 100% on-device. 2,200+ medical models, 21 languages, Apple MLX + Python, no cloud, no patient data leaving your network. Apache-2.0",
+      "stargazers_count": 5448,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openmed.life/"
+    },
+    {
+      "full_name": "PetoiCamp/OpenCat-Quadruped-Robot",
+      "description": "An open source quadruped robot pet framework for developing Boston Dynamics-style four-legged robots that are perfect for STEM, coding & robotics education, IoT robotics applications, AI-enhanced robotics application services, research, and DIY robotics kit development. ",
+      "stargazers_count": 5420,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://www.petoi.com"
+    },
+    {
+      "full_name": "aipoch/open-science",
+      "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
+      "stargazers_count": 5416,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://aipoch.com/open-science"
+    },
+    {
+      "full_name": "opencv/opencv-python",
+      "description": "Automated CI toolchain to produce precompiled opencv-python, opencv-python-headless, opencv-contrib-python and opencv-contrib-python-headless packages.",
+      "stargazers_count": 5414,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://pypi.org/project/opencv-python/"
+    },
+    {
+      "full_name": "apache/opendal",
+      "description": "Apache OpenDAL: One Layer, All Storage.",
+      "stargazers_count": 5400,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opendal.apache.org"
+    },
+    {
+      "full_name": "nikkinikki-org/OpenWrt-nikki",
+      "description": "Transparent Proxy with Mihomo on OpenWrt.",
+      "stargazers_count": 5328,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://nikkinikki.pages.dev"
+    },
+    {
+      "full_name": "Augani/openreel-video",
+      "description": "OpenReel Video - Professional browser-based video editor. Open source CapCut alternative. 100% browser-based, no installation, no cloud uploads, no watermarks.",
+      "stargazers_count": 5275,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": null
+    },
+    {
+      "full_name": "openiddict/openiddict-core",
+      "description": "Flexible and versatile OAuth 2.0/OpenID Connect stack for .NET",
+      "stargazers_count": 5263,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openiddict.com/"
+    },
+    {
+      "full_name": "nicholas-ochoa/OpenSC2K",
+      "description": "OpenSC2K - Open Source remake of Sim City 2000 using godot. Available for macOS, Windows and Linux",
+      "stargazers_count": 5248,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "linuxhsj/openclaw-zero-token",
+      "description": "OpenClaw: Use All Major AI Models NO API Token! Claude/ChatGPT/Gemini/DeepSeek/Doubao/Grok/Qwen/Manus/Kimi",
+      "stargazers_count": 5199,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "deepanshu1422/List-Of-Open-Source-Internships-Programs",
+      "description": "A curated list of all the open-source internships/Programs",
+      "stargazers_count": 5193,
+      "license": null,
+      "archived": false,
+      "homepage": "https://30dayscoding.com"
+    },
+    {
+      "full_name": "opentrack/opentrack",
+      "description": "Head tracking software for MS Windows, Linux, and Apple OSX",
+      "stargazers_count": 5185,
+      "license": null,
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "open-mmlab/mmaction2",
+      "description": "OpenMMLab's Next Generation Video Understanding Toolbox and Benchmark",
+      "stargazers_count": 5170,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://mmaction2.readthedocs.io"
+    },
+    {
+      "full_name": "mvschwarz/openrig",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "stargazers_count": 5159,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openrig.dev"
+    },
+    {
+      "full_name": "programthink/opensource",
+      "description": "\u3010\u7f16\u7a0b\u968f\u60f3\u3011\u6536\u85cf\u7684\u5f00\u6e90\u9879\u76ee\u6e05\u5355",
+      "stargazers_count": 5131,
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "XProger/OpenLara",
+      "description": "Classic Tomb Raider open-source engine",
+      "stargazers_count": 5111,
+      "license": {
+        "key": "bsd-2-clause",
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdx_id": "BSD-2-Clause",
+        "url": "https://api.github.com/licenses/bsd-2-clause",
+        "node_id": "MDc6TGljZW5zZTQ="
+      },
+      "archived": false,
+      "homepage": "http://xproger.info/projects/OpenLara/"
+    },
+    {
+      "full_name": "peetzweg/opendisplay",
+      "description": "Use an iPhone, iPad, or spare Mac as a true second display for your Mac without restrictions.",
+      "stargazers_count": 5088,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://opendisplay.app"
+    },
+    {
+      "full_name": "ct-Open-Source/tuya-convert",
+      "description": "A collection of scripts to flash Tuya IoT devices to alternative firmwares",
+      "stargazers_count": 5081,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "OpenTSDB/opentsdb",
+      "description": "A scalable, distributed Time Series Database.",
+      "stargazers_count": 5064,
+      "license": {
+        "key": "lgpl-2.1",
+        "name": "GNU Lesser General Public License v2.1",
+        "spdx_id": "LGPL-2.1",
+        "url": "https://api.github.com/licenses/lgpl-2.1",
+        "node_id": "MDc6TGljZW5zZTEx"
+      },
+      "archived": false,
+      "homepage": "http://opentsdb.net"
+    },
+    {
+      "full_name": "justadudewhohacks/opencv4nodejs",
+      "description": "Nodejs bindings to OpenCV 3 and OpenCV 4",
+      "stargazers_count": 5052,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "opennextjs/opennextjs-aws",
+      "description": "Open-source Next.js adapter for AWS",
+      "stargazers_count": 5030,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://opennext.js.org"
+    },
+    {
+      "full_name": "opentypejs/opentype.js",
+      "description": "Read and write OpenType fonts using JavaScript.",
+      "stargazers_count": 5028,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://opentype.js.org/"
+    },
+    {
+      "full_name": "appacademy/welcome-to-open",
+      "description": "Overview of App Academy Open",
+      "stargazers_count": 4977,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": "https://open.appacademy.io/"
+    },
+    {
+      "full_name": "open-telemetry/opentelemetry-collector-contrib",
+      "description": "Contrib repository for the OpenTelemetry Collector",
+      "stargazers_count": 4970,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://opentelemetry.io"
+    },
+    {
+      "full_name": "oracle/opengrok",
+      "description": "OpenGrok is a fast and usable source code search and cross reference engine, written in Java",
+      "stargazers_count": 4967,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "http://oracle.github.io/opengrok/"
+    },
+    {
+      "full_name": "OpenMinis/OpenMinis",
+      "description": "OpenMinis \u2014 The AI Agent app across platforms. Fully free and open source.",
+      "stargazers_count": 4929,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://openminis.app"
+    },
+    {
+      "full_name": "anyrtcIO-Community/anyRTC-RTMP-OpenSource",
+      "description": "RTMP \u63a8\u6d41\u5668\uff0cRTMP(HLS)\u79d2\u5f00\u64ad\u653e\u5668\uff0c\u76f4\u64ad\u70b9\u64ad\uff0c\u8de8\u5e73\u53f0\uff08Win,IOS,Android\uff09\u5f00\u6e90\u4ee3\u7801",
+      "stargazers_count": 4914,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://www.anyrtc.io"
+    },
+    {
+      "full_name": "thunlp/OpenPrompt",
+      "description": "An Open-Source Framework for Prompt-Learning.",
+      "stargazers_count": 4903,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://thunlp.github.io/OpenPrompt/"
+    },
+    {
+      "full_name": "darrenhinde/OpenAgentsControl",
+      "description": "AI agent framework for plan-first development workflows with approval-based execution. Multi-language support (TypeScript, Python, Go, Rust) with automatic testing, code review, and validation built for OpenCode",
+      "stargazers_count": 4887,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "openmlsys/openmlsys",
+      "description": "\u300aMachine Learning Systems: Design and Implementation\u300b (V2 is launching soon\uff09",
+      "stargazers_count": 4866,
+      "license": null,
+      "archived": false,
+      "homepage": "https://openmlsys.github.io/v1/cn/"
+    },
+    {
+      "full_name": "xlang-ai/OpenAgents",
+      "description": "[COLM 2024] OpenAgents: An Open Platform for Language Agents in the Wild",
+      "stargazers_count": 4863,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://arxiv.org/abs/2310.10634"
+    },
+    {
+      "full_name": "greenbone/openvas-scanner",
+      "description": "This repository contains the scanner component for Greenbone Community Edition.",
+      "stargazers_count": 4851,
+      "license": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "archived": false,
+      "homepage": "https://greenbone.github.io/docs/"
+    },
+    {
+      "full_name": "alvinreal/awesome-opensource-ai",
+      "description": "Curated list of the best truly open-source AI projects, models, tools, and infrastructure. Daily updated.",
+      "stargazers_count": 4829,
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "archived": false,
+      "homepage": "https://awesomeosai.com"
+    },
+    {
+      "full_name": "open-sdr/openwifi",
+      "description": "open-source IEEE 802.11 WiFi baseband FPGA (chip) design: driver, software",
+      "stargazers_count": 4828,
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "nichtdax/awesome-totally-open-chatgpt",
+      "description": "A list of totally open alternatives to ChatGPT",
+      "stargazers_count": 4793,
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "open-mmlab/mmocr",
+      "description": "OpenMMLab Text Detection, Recognition and Understanding Toolbox",
+      "stargazers_count": 4751,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://mmocr.readthedocs.io/en/dev-1.x/"
+    },
+    {
+      "full_name": "OpenMoonRay/openmoonray",
+      "description": "MoonRay is an open-source, award-winning, state-of-the-art production path tracing renderer, initially developed at DreamWorks and an active member project of the Academy Software Foundation.",
+      "stargazers_count": 4733,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://openmoonray.org/"
+    },
+    {
+      "full_name": "VectifyAI/OpenKB",
+      "description": "OpenKB: Open LLM Knowledge Base",
+      "stargazers_count": 4732,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://pageindex.ai"
+    },
+    {
+      "full_name": "cruip/open-react-template",
+      "description": "A free React / Next.js landing page template designed to showcase open source projects, SaaS products, online services, and more. Made by",
+      "stargazers_count": 4705,
+      "license": null,
+      "archived": false,
+      "homepage": "https://cruip.com"
+    },
+    {
+      "full_name": "TheoLeeCJ/SemIf-OpenJev",
+      "description": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
+      "stargazers_count": 4702,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "openjev.com"
+    },
+    {
+      "full_name": "langflow-ai/openrag",
+      "description": "OpenRAG is a comprehensive, single package Retrieval-Augmented Generation platform built on Langflow, Docling, and Opensearch. ",
+      "stargazers_count": 4614,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false,
+      "homepage": "https://www.openr.ag"
+    },
+    {
+      "full_name": "dotnet/Open-XML-SDK",
+      "description": "Open XML SDK by Microsoft",
+      "stargazers_count": 4613,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": "https://www.nuget.org/packages/DocumentFormat.OpenXml/ "
+    },
+    {
+      "full_name": "APIs-guru/openapi-directory",
+      "description": "\ud83c\udf10 Wikipedia for Web APIs. Directory of REST API definitions in OpenAPI 2.0/3.x format",
+      "stargazers_count": 4569,
+      "license": {
+        "key": "cc0-1.0",
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdx_id": "CC0-1.0",
+        "url": "https://api.github.com/licenses/cc0-1.0",
+        "node_id": "MDc6TGljZW5zZTY="
+      },
+      "archived": false,
+      "homepage": "https://apis.guru/"
+    },
+    {
+      "full_name": "haugene/docker-transmission-openvpn",
+      "description": "Docker container running Transmission torrent client with WebUI over an OpenVPN tunnel",
+      "stargazers_count": 4565,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "xianyu110/awesome-openclaw-tutorial",
+      "description": "OpenClaw \u4e2d\u6587\u6559\u7a0b\uff084500+ Star \u00b7 \u5df2\u51fa\u7248\u7eb8\u8d28\u4e66\uff09\uff1a\u5b89\u88c5\u3001\u914d\u7f6e\u3001Skills\u3001\u98de\u4e66\u63a5\u5165\u4e0e\u907f\u5751\uff5c\u4f5c\u8005\u7684 GPT-6 / Codex / Claude Code \u65b0\u9879\u76ee\u89c1 README \u9876\u90e8",
+      "stargazers_count": 4565,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://awesome.tryopenclaw.asia/"
+    },
+    {
+      "full_name": "hfg-gmuend/openmoji",
+      "description": "Open source emojis for designers, developers and everyone else!",
+      "stargazers_count": 4561,
+      "license": {
+        "key": "cc-by-sa-4.0",
+        "name": "Creative Commons Attribution Share Alike 4.0 International",
+        "spdx_id": "CC-BY-SA-4.0",
+        "url": "https://api.github.com/licenses/cc-by-sa-4.0",
+        "node_id": "MDc6TGljZW5zZTI2"
+      },
+      "archived": false,
+      "homepage": "http://openmoji.org"
+    },
+    {
+      "full_name": "CalcProgrammer1/OpenRGB",
+      "description": "Open source RGB lighting control that doesn't depend on manufacturer software. Supports Windows, Linux, MacOS.  Mirror of https://gitlab.com/CalcProgrammer1/OpenRGB.  Releases can be found on GitLab.",
+      "stargazers_count": 4538,
+      "license": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "openui/open-ui",
+      "description": "Maintain an open standard for UI and promote its adherence and adoption.",
+      "stargazers_count": 4523,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false,
+      "homepage": "https://open-ui.org"
+    },
+    {
+      "full_name": "openrazer/openrazer",
+      "description": "Open source driver and user-space daemon to control Razer lighting and other features on GNU/Linux",
+      "stargazers_count": 4522,
+      "license": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "archived": false,
+      "homepage": "https://openrazer.github.io"
+    },
+    {
+      "full_name": "ProductHired/open-product-management",
+      "description": "A curated list of product management advice for technical people.",
+      "stargazers_count": 4482,
+      "license": null,
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "baba-s/awesome-unity-open-source-on-github",
+      "description": "A categorized collection of awesome Unity open source on GitHub (800+)",
+      "stargazers_count": 4481,
+      "license": {
+        "key": "unlicense",
+        "name": "The Unlicense",
+        "spdx_id": "Unlicense",
+        "url": "https://api.github.com/licenses/unlicense",
+        "node_id": "MDc6TGljZW5zZTE1"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "thunlp/OpenNRE",
+      "description": " An Open-Source Package for Neural Relation Extraction (NRE)",
+      "stargazers_count": 4466,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false,
+      "homepage": ""
+    },
+    {
+      "full_name": "Archeb/opentrace",
+      "description": "Open Source Visualized Route Tracing Tool for macOS, Windows, and Linux.",
+      "stargazers_count": 4463,
+      "license": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "archived": false,
+      "homepage": "https://opentrace.app"
+    },
+    {
+      "full_name": "MuhammedKalkan/OpenLens",
+      "description": "OpenLens Binary Build Repository",
+      "stargazers_count": 4444,
+      "license": null,
+      "archived": false,
+      "homepage": ""
+    }
+  ]
+}
