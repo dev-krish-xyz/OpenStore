@@ -8,7 +8,14 @@ export default function HomePage() {
   useEffect(() => {
     if (window.__openstoreBooted) return;
     window.__openstoreBooted = true;
-    import('../app.js');
+    const script = document.createElement('script');
+    script.type = 'module';
+    script.src = '/legacy/app.js';
+    script.onerror = () => {
+      const main = document.querySelector('#main');
+      if (main) main.innerHTML = '<div class="empty-state"><h2>Let’s try that again.</h2><p>The collection couldn’t load. Refresh to try again.</p><button class="button button-primary" onclick="location.reload()">Refresh OpenStore</button></div>';
+    };
+    document.body.appendChild(script);
   }, []);
 
   return <>
