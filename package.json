@@ -1,4 +1,5 @@
 {
   "name": "openstore", "version": "1.0.0", "private": true, "type": "module",
-  "scripts": { "dev": "python3 scripts/serve.py", "start": "python3 scripts/serve.py", "build": "node scripts/build.mjs", "test": "node --test tests/catalog.test.mjs" }
+  "scripts": { "dev": "next dev", "start": "next start", "build": "next build", "build:legacy": "node scripts/build.mjs", "test": "node --test tests/catalog.test.mjs" },
+  "dependencies": { "next": "^15.5.0", "react": "^19.1.0", "react-dom": "^19.1.0" }
 }

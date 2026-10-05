@@ -2,3 +2,6 @@ dist/
 __pycache__/
 .DS_Store
 *.log
+.nodeterm/
+node_modules/
+.next/
