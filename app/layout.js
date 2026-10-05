@@ -6,6 +6,10 @@ export const metadata = {
   icons: { icon: '/assets/favicon.svg' },
 };
 
+export const viewport = {
+  themeColor: '#ffffff',
+};
+
 export default function RootLayout({ children }) {
   return <html lang="en" data-theme="light"><body>{children}</body></html>;
 }
