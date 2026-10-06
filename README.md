@@ -70,3 +70,7 @@ Issues and pull requests are welcome. When adding or updating a project, keep th
 5. Run `npm test` and `npm run build` before opening a pull request.
 
 The data refresh script, `python3 scripts/research.py --refresh-metadata --refresh-trending`, updates repository metadata, official assets, and observed weekly trending data. Customer-review evidence is intentionally rechecked manually.
+
+## License
+
+OpenStore’s source code is available under the [MIT License](LICENSE). App names, trademarks, icons, screenshots, and other third-party project material remain subject to their respective owners’ terms.
