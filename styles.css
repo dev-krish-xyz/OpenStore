@@ -632,3 +632,15 @@ dialog::backdrop {background:#0005}
   .discovery-hero {padding:30px 0 17px}.discovery-hero h1 {font-size:34px;letter-spacing:-1.55px}.hero-categories {justify-content:flex-start;gap:12px;flex-wrap:nowrap}.hero-categories>span {display:none}.discovery-hero .popular-searches {margin-top:14px}
   .catalog-grid {gap:0}.catalog-card {padding:15px 0}.catalog-editorial p {white-space:normal}.catalog-facts {font-size:9px}
 }
+
+/* Shared iOS-inspired corner scale for controls and contained content. */
+.nav-inner nav a,.icon-button,.topbar .brand {border-radius:10px}
+.search-box,.discovery-hero .search-box {border-radius:14px}
+.button,.filter-select select,.filter-trigger,.category-pill,.selfhost-toggle,.active-filters button,.card-action {border-radius:10px}
+.app-icon,.catalog-card-top .app-icon {border-radius:11px}
+.feature,.collection-panel,.product-resource,.selection-panel,.screenshot-button,.empty-state {border-radius:12px}
+@media(max-width:760px) {
+  .nav-inner nav {border-radius:18px}
+  .nav-inner nav a {border-radius:12px}
+  #search-shortcut {border-radius:12px}
+}
