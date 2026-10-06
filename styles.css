@@ -592,3 +592,44 @@ dialog::backdrop {background:#0005}
 }
 @media(max-width:360px) {.discovery-hero h1 {font-size:32px}.hero-heading {padding:0 15px}.hero-values>div {padding:0 4px}.hero-values p {font-size:7px}}
 @media(prefers-reduced-motion:no-preference) {.hero-app {transition:transform .2s,border-color .2s,background-color .2s,opacity .2s}}
+
+/* Editorial catalog direction: less presentation, more useful information. */
+.discovery-hero {padding:42px 0 20px;background:var(--bg);border-bottom:1px solid var(--border);color:var(--text);--muted:#a5a6ae;--body:#d3d3d9;--surface:#151619;--soft:#202226;--border:#35373d;--strong-border:#45474e;--text:#f6f6f7}
+.discovery-hero::before,.hero-orbits {display:none}
+.discovery-hero h1 {margin:13px 0 8px;font-size:clamp(36px,4.2vw,52px);font-weight:720;letter-spacing:-2.4px;color:#f3f3f5}
+.discovery-hero h1>span {display:inline;margin:0;color:inherit}
+.hero-heading>p {font-size:13px;color:var(--muted)}
+.discovery-hero .search-box {height:46px;margin:20px auto 13px;border-radius:8px;background:var(--surface);border-color:var(--strong-border);box-shadow:none}
+.discovery-hero .search-box:focus-within {border-color:var(--body);outline-color:var(--soft)}
+.hero-categories {gap:14px;justify-content:center;flex-wrap:wrap}
+.hero-categories>span {font-size:10px;color:var(--muted)}
+.hero-categories a {min-height:0;padding:2px 0;border:0;border-radius:0;background:none;color:var(--muted);font-size:10px;font-weight:550}
+.hero-categories a svg {width:11px;height:11px}
+.hero-categories a:hover {background:none;border:0;color:var(--text);text-decoration:underline;text-underline-offset:4px}
+.hero-categories a.selected {background:none;border:0;color:var(--text);box-shadow:inset 0 -1px currentColor}
+.discovery-hero .popular-searches {margin-top:15px;color:var(--muted)}
+.discovery-hero .popular-searches button {min-height:0;padding:0;border:0;color:var(--body);font-size:10px}
+.discovery-hero .popular-searches button::after {content:"↗";margin-left:4px;color:var(--muted)}
+.discovery-hero .popular-searches button:hover {background:none;color:var(--text);text-decoration:underline;text-underline-offset:3px}
+.discovery-hero+.section {margin-top:34px}
+
+.catalog-grid {gap:0 28px}
+.catalog-card {padding:16px 0 15px;border:0;border-top:1px solid var(--border);border-radius:0;background:transparent}
+.catalog-card:hover {border-color:var(--strong-border);background:transparent}
+.catalog-description {min-height:0;margin-top:8px;font-size:11px;line-height:1.5}
+.catalog-card-top {min-height:40px}.catalog-card-top .app-icon {width:40px;height:40px;border-radius:8px}
+.catalog-card h3 {font-size:14px}.catalog-card-top p {margin-top:2px}
+.catalog-facts {display:flex;flex-wrap:wrap;gap:0;margin:9px 0 8px;font-size:9px;line-height:1.5;color:var(--muted)}
+.catalog-facts span {display:flex;align-items:center}.catalog-facts span+span::before {content:"·";margin:0 6px;color:var(--strong-border)}
+.catalog-editorial {padding-left:9px;border-left:2px solid var(--green);margin:1px 0 3px}
+.catalog-editorial>span {display:block;font-size:7px;font-weight:650;letter-spacing:.7px;color:var(--muted)}
+.catalog-editorial p {margin-top:2px;font-size:10px;line-height:1.45;color:var(--body);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.catalog-card-bottom {padding-top:7px}.card-action {min-height:0;padding:0;border:0;border-radius:0;color:var(--body)}
+.card-action:hover {border:0;background:transparent;color:var(--text);text-decoration:underline;text-underline-offset:3px}
+
+.selection-panel {border-radius:8px;background:transparent;padding:22px 0;border-left:0;border-right:0}
+.product-resource,.screenshot-button {border-radius:8px}
+@media(max-width:760px) {
+  .discovery-hero {padding:30px 0 17px}.discovery-hero h1 {font-size:34px;letter-spacing:-1.55px}.hero-categories {justify-content:flex-start;gap:12px;flex-wrap:nowrap}.hero-categories>span {display:none}.discovery-hero .popular-searches {margin-top:14px}
+  .catalog-grid {gap:0}.catalog-card {padding:15px 0}.catalog-editorial p {white-space:normal}.catalog-facts {font-size:9px}
+}
