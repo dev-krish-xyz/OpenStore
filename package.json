@@ -1,5 +1,23 @@
 {
-  "name": "openstore", "version": "1.0.0", "private": true, "type": "module",
-  "scripts": { "dev": "next dev", "start": "next start", "build": "next build", "build:legacy": "node scripts/build.mjs", "test": "node --test tests/catalog.test.mjs" },
-  "dependencies": { "next": "^15.5.0", "react": "^19.1.0", "react-dom": "^19.1.0" }
+  "name": "openstore",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "build:legacy": "node scripts/build.mjs",
+    "test": "node --test tests/catalog.test.mjs"
+  },
+  "dependencies": {
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "8.5.23"
+    }
+  }
 }
