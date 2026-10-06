@@ -1,43 +1,72 @@
 # OpenStore
 
-A curated marketplace for discovering open-source alternatives, built with Next.js App Router and a lightweight client-side catalog renderer.
+OpenStore is a curated directory for discovering well-made open-source alternatives to proprietary software.
 
-## Run
+![OpenStore Discover page](docs/openstore-preview.png)
+
+It combines editorial app discovery with practical details for each project: what it replaces, supported platforms, GitHub stars, license, official links, screenshots, and related projects.
+
+## Highlights
+
+- Browse 62 curated projects across AI, developer tools, design, video, productivity, privacy, finance, fitness, and utilities.
+- Search by app name, category, description, or the proprietary tool a project can replace.
+- Filter by category, platform, GitHub stars, trending status, and self-hosting support.
+- Review project detail pages with official assets, repository metadata, license details, platform support, and alternatives.
+- Keep local bookmarks and share URLs that preserve search and filter state.
+- Use a responsive interface built for desktop and mobile browsing.
+
+## Run locally
+
+OpenStore requires a current Node.js LTS release.
 
 ```sh
+npm install
 npm run dev
 ```
 
-Open http://localhost:3000. Requires Node.js. The Next.js page shell owns the app entry point while the existing client renderer preserves hash routes and catalog interactions.
+Open [http://localhost:3000](http://localhost:3000).
 
-```sh
-npm test
-npm run build
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the local development server. |
+| `npm test` | Validate catalog data, metadata, assets, and filtering behavior. |
+| `npm run build` | Create and validate the production build. |
+| `npm start` | Serve a completed production build. |
+| `npm run build:legacy` | Build the previous static distribution. |
+
+## Project structure
+
+```text
+app/                  Next.js application shell and document metadata
+public/legacy/        Client-side catalog renderer used by the interface
+catalog.js            Core curated projects
+open-catalog.js       Open-prefixed projects
+trending-catalog.js   Projects observed in weekly GitHub trending data
+assets/               Repository snapshots, official icons, and asset sources
+research/             Catalog audit and research notes
+tests/                Catalog integrity tests
 ```
 
-`npm run build` creates the optimized Next.js production build and `npm start` serves it. `npm run build:legacy` remains available for the previous static `dist/` build.
+## Catalog data
 
-## Features
+OpenStore stores repository metadata, trending observations, verified review snapshots, and icon provenance in the repository so the directory can browse quickly without calling third-party APIs at runtime.
 
-- Editorial Discover page, category browser, weekly Trending, newest repositories
-- Search across app names, descriptions, categories, and proprietary alternatives
-- Combined category, platform, minimum stars, self-hosted, and trending filters
-- Sort by curated order, GitHub stars, published user-review count or rating, weekly momentum, repository age, or name
-- Open-only and verified-review filters, plus incremental browsing of 24 apps at a time
-- Use-case guidance, deployment considerations, and sourced review evidence on app details
-- Shareable URLs that preserve filters; browser back and forward navigation
-- App detail pages with official imagery, screenshot lightbox, metadata, licenses, and related apps
-- Command/Ctrl-K search, accessible controls, responsive mobile layouts, reduced-motion support
-- Local bookmarks saved in this browser
+- GitHub metadata: [`assets/github-snapshot.json`](assets/github-snapshot.json)
+- Trending observations: [`assets/trending-snapshot.json`](assets/trending-snapshot.json)
+- Official icon provenance: [`assets/official-icons.json`](assets/official-icons.json)
+- Image and screenshot sources: [`assets/asset-sources.json`](assets/asset-sources.json)
+- Editorial and research audit: [`research/catalog-audit.md`](research/catalog-audit.md)
 
-## Data and research
+Star counts and trending positions are point-in-time snapshots. Alternatives describe overlapping use cases, not guaranteed feature parity.
 
-61 real projects, including 49 Open-prefixed names and all ten requested seeds. This update adds 38 apps after a broad GitHub discovery sweep and official documentation checks. [The research audit](research/catalog-audit.md) records design references, selected use cases, review evidence, excluded candidates, and original icon provenance. Repository metadata is saved in `assets/github-snapshot.json`. Observed weekly rankings and star gains come from `assets/trending-snapshot.json`; the fetch timestamp is shown in the interface. No growth figures are invented. “Recently popular” is an editorial collection.
+## Contributing
 
-Alternatives are editorial comparisons of overlapping use cases, not feature parity. Open WebUI is explicitly marked source-available due to its current branding-restricted license. OpenCut's ongoing rewrite and current browser editor are described separately. Some open-source products have commercial hosting, enterprise features, or paid model requirements.
+Issues and pull requests are welcome. When adding or updating a project, keep the catalog useful and verifiable:
 
-All 61 project icons are unmodified official assets, with exact sources and SHA-256 hashes in `assets/official-icons.json`. No custom app glyphs are rendered. Screenshots and other assets are documented in `assets/asset-sources.json`. Six verified review aggregates are bundled in `assets/reviews-snapshot.json`; missing reviews stay unrated and small samples are identified. Readme files are research material and are excluded from the build. The source repositories and official websites are linked in each app detail page.
+1. Use the project’s official repository and website.
+2. Add a concise use case, proprietary alternatives, supported platforms, and an honest consideration.
+3. Use the official project icon and record its source plus checksum in the asset manifests.
+4. Update the matching file in `public/legacy/` when changing a catalog file.
+5. Run `npm test` and `npm run build` before opening a pull request.
 
-Design research: [macOS App Store](https://apps.apple.com/us/mac/discover), [Setapp](https://support.setapp.com/hc/en-us/articles/213587729-Discover-Setapp-apps), [Raycast Store](https://www.raycast.com/store), [Linear](https://linear.app/features). Inspired by editorial app discovery, compact information hierarchy, restrained typography, and category-first browsing.
-
-`python3 scripts/research.py --refresh-metadata --refresh-trending` refreshes repository statistics, original local assets, and observed weekly trending. It uses authenticated `gh api` when available and retains prior data when a source fails. Customer reviews must be manually reverified. Repository snapshots are intentionally bundled so browsing remains available without API rate limits. Catalog changes live in `catalog.js`, `open-catalog.js`, and `trending-catalog.js`.
+The data refresh script, `python3 scripts/research.py --refresh-metadata --refresh-trending`, updates repository metadata, official assets, and observed weekly trending data. Customer-review evidence is intentionally rechecked manually.
