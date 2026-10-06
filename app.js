@@ -80,7 +80,18 @@ ${[[code,'code','THE DEVELOPER’S PICK','Your next coding companion.','Meet Ope
 <section class="section categories-section">${heading('Find your kind of open.','Something for every part of your day.','#/categories','All categories')}<div class="category-grid">${categories.slice(0,9).map(c=>categoryCard(c)).join('')}</div></section>
 <section class="section">${heading('Recently popular','Community favorites worth a closer look.','#/browse?sort=stars','Explore favorites')}<div class="recent-grid">${['appflowy','actual','openobserve'].map(id=>{const p=find(id);return `<article class="recent-card"><a class="recent-cover" href="${appLink(p)}"><img src="assets/${p.screens[0][0]}" alt="${esc(p.screens[0][1])}" loading="lazy" width="500" height="280"></a>${row(p)}</article>`;}).join('')}</div></section>
 <section class="section reader-section">${heading('Worth a look. Backed by feedback.','Established apps with published user reviews.','#/browse?reviewed=1&sort=reviews','Browse reviewed apps')}<div class="review-grid">${['openproject','openshot','opencart'].map(id=>reviewCard(find(id))).join('')}</div><p class="review-collection-note">Published ratings and review counts from Capterra · ${date(reviewSnapshot.fetchedAt)} · Ratings cover each listed product, including its hosted or paid editions.</p></section>
-<section class="collection-banner"><span class="eyebrow">THE OPEN WORKSPACE COLLECTION</span><h2>A productive day.<br>On your own terms.</h2><p>From notes to project plans, find tools that put you in control of your work.</p><a class="text-link" href="#/browse?category=Productivity">Explore the collection ${svg('arrow')}</a><div class="collection-icons" aria-hidden="true">${['appflowy','openproject','openboard','opentofu'].map(id=>icon(find(id))).join('')}</div></section>
+<section class="collection-banner">
+  <div class="collection-copy">
+    <div class="collection-label"><span class="eyebrow">THE OPEN WORKSPACE COLLECTION</span><span>04 CURATED APPS</span></div>
+    <h2>Build your day.<br><span>Keep it open.</span></h2>
+    <p>Notes, projects, whiteboards, and infrastructure—an independent toolkit for work that stays in your hands.</p>
+    <a class="collection-action" href="#/browse?category=Productivity">Explore productivity ${svg('arrow')}</a>
+  </div>
+  <div class="collection-panel">
+    <div class="collection-panel-head"><div><span class="collection-status">CURATED STACK</span><strong>Your open workspace</strong></div><span>4 essentials</span></div>
+    <div class="collection-apps">${[['appflowy','Notes & docs'],['openproject','Projects & teams'],['openboard','Ideas & planning'],['opentofu','Infrastructure']].map(([id,role],i)=>{const p=find(id);return `<a class="collection-app" href="${appLink(p)}"><span class="collection-app-index">0${i+1}</span>${icon(p)}<span class="collection-app-copy"><strong>${esc(p.name)}</strong><small>${role}</small></span>${svg('arrow','collection-app-arrow')}</a>`;}).join('')}</div>
+  </div>
+</section>
 <p class="community-note">${svg('heart')} Built by communities. Discovered by you.</p>`;}
 function parseRoute(){const [path='/',query='']=(location.hash.slice(1)||'/').split('?');return {path,params:new URLSearchParams(query)};}
 function readFilters(params){return {query:params.get('q')||'',category:params.get('category')||'All',platform:params.get('platform')||'All',minimumStars:params.get('stars')||0,selfHosted:params.get('selfHosted')==='1',trending:params.get('trending')==='1',openOnly:params.get('openOnly')==='1',reviewed:params.get('reviewed')==='1',sort:params.get('sort')||'featured'};}

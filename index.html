@@ -9,19 +9,33 @@
   </script>
   <meta name="description" content="Discover thoughtfully curated open-source alternatives to the apps you use every day. Find your next favorite app on OpenStore.">
   <title>OpenStore — Great software. Open possibilities.</title>
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/svg+xml" sizes="any" href="assets/favicon.svg?v=2">
+  <link rel="shortcut icon" href="assets/favicon.svg?v=2">
+  <link rel="apple-touch-icon" href="assets/logo.png">
   <link rel="stylesheet" href="styles.css">
   <script type="module" src="app.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="topbar"><div class="nav-inner">
-    <a class="brand" href="#/" aria-label="OpenStore home"><span class="brand-mark"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M8 12h16l2 14H6l2-14Z" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/><path d="M12 13V9a4 4 0 0 1 8 0v4M12 19l3 3 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>OpenStore<span class="brand-beta">BETA</span></a>
-    <nav aria-label="Main navigation"><a href="#/" data-nav="discover">Discover</a><a href="#/categories" data-nav="categories">Categories</a><a href="#/trending" data-nav="trending">Trending</a><a href="#/new" data-nav="new">New<span class="nav-dot"></span></a></nav>
+    <a class="brand" href="#/" aria-label="OpenStore home"><img class="brand-mark" src="assets/logo.svg" alt="" width="32" height="32">OpenStore</a>
+    <nav aria-label="Main navigation"><a href="#/" data-nav="discover"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="m15.5 8.5-2.2 4.8-4.8 2.2 2.2-4.8 4.8-2.2Z"></path></svg>Discover</a><a href="#/categories" data-nav="categories"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="2"></rect><rect x="14" y="3" width="7" height="7" rx="2"></rect><rect x="3" y="14" width="7" height="7" rx="2"></rect><rect x="14" y="14" width="7" height="7" rx="2"></rect></svg>Categories</a><a href="#/trending" data-nav="trending"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 16 5-5 4 4 8-9"></path><path d="M15 6h5v5"></path></svg>Trending</a><a href="#/new" data-nav="new"><svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M12 4v16M4 12h16"></path></svg>New<span class="nav-dot"></span></a></nav>
     <div class="nav-actions"><button class="icon-button" id="search-shortcut" aria-label="Search apps"></button><button class="icon-button" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode"></button><span class="nav-separator"></span><a class="github-nav" href="https://github.com/dev-krish-xyz/OpenStore" target="_blank" rel="noopener noreferrer" id="github-nav">GitHub</a></div>
   </div></header>
-  <main id="main" tabindex="-1"><div class="loading"><span class="brand-mark">O</span><p>Opening a world of possibilities…</p></div></main>
-  <footer class="footer"><div class="footer-inner"><a class="brand footer-brand" href="#/">OpenStore</a><p>Good software belongs to everyone.</p><div><button id="about-button">About this collection</button><a href="https://github.com/dev-krish-xyz/OpenStore" target="_blank" rel="noopener noreferrer">Explore on GitHub ↗</a></div></div><div class="footer-note">Independently curated. Not affiliated with the listed projects. Comparisons describe overlapping use cases.</div></footer>
+  <main id="main" tabindex="-1"><div class="loading"><img class="brand-mark" src="assets/logo.svg" alt="" width="32" height="32"><p>Opening a world of possibilities…</p></div></main>
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-identity">
+        <a class="brand footer-brand" href="#/" aria-label="OpenStore home"><img class="brand-mark" src="assets/logo.svg" alt="" width="32" height="32">OpenStore</a>
+        <p>Thoughtful open-source alternatives for the software you use every day.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <div><span>Browse</span><a href="#/">Discover</a><a href="#/categories">Categories</a><a href="#/trending">Trending</a></div>
+        <div><span>OpenStore</span><button id="about-button">About the collection</button><a href="https://github.com/dev-krish-xyz/OpenStore" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+      </nav>
+    </div>
+    <div class="footer-bottom"><p>Independently curated. Comparisons describe overlapping use cases.</p><p class="footer-credit">Built by <a href="https://x.com/krishdotdev" target="_blank" rel="noopener noreferrer">Krish</a></p></div>
+  </footer>
   <dialog id="about-dialog" class="about-dialog"><button class="dialog-close icon-button" aria-label="Close about dialog">×</button><span class="eyebrow">A LITTLE MORE OPEN</span><h2>Find your next favorite app.</h2><p>OpenStore is an independent collection of open-source software and a clearly marked source-available project. Each listing links to its official repository and project website.</p><p>Stars and forks are timestamped GitHub snapshots. Trending membership comes from GitHub’s weekly trending page; “recently popular” is an editorial selection, not a measured growth ranking. Alternative comparisons are editorial suggestions, not claims of feature parity.</p><p id="snapshot-info"></p><a href="https://github.com/trending?since=weekly" target="_blank" rel="noopener noreferrer" class="button button-primary">View GitHub Trending ↗</a></dialog>
   <dialog id="image-dialog" class="image-dialog"><button class="dialog-close icon-button" aria-label="Close screenshot">×</button><img alt=""><p></p></dialog>
   <dialog id="filter-dialog" class="filter-dialog" aria-labelledby="filter-title"><button class="dialog-close icon-button" aria-label="Close filters">×</button><form id="filter-form"><span class="eyebrow">MAKE IT YOURS</span><h2 id="filter-title">Refine your collection.</h2><p class="filter-intro">A few preferences. A better fit.</p><div id="filter-options"></div><div class="filter-dialog-actions"><button type="button" id="clear-advanced-filters" class="text-link">Clear preferences</button><button type="submit" class="button button-primary">Apply filters <span aria-hidden="true">→</span></button></div></form></dialog>
