@@ -633,14 +633,17 @@ dialog::backdrop {background:#0005}
   .catalog-grid {gap:0}.catalog-card {padding:15px 0}.catalog-editorial p {white-space:normal}.catalog-facts {font-size:9px}
 }
 
-/* Shared iOS-inspired corner scale for controls and contained content. */
-.nav-inner nav a,.icon-button,.topbar .brand {border-radius:10px}
-.search-box,.discovery-hero .search-box {border-radius:14px}
-.button,.filter-select select,.filter-trigger,.category-pill,.selfhost-toggle,.active-filters button,.card-action {border-radius:10px}
-.app-icon,.catalog-card-top .app-icon {border-radius:11px}
-.feature,.collection-panel,.product-resource,.selection-panel,.screenshot-button,.empty-state {border-radius:12px}
+/* Shared iOS-inspired corner scale: 8px tags, 12px controls, 16px cards, 20px major surfaces. */
+.skip-link,.search-box kbd,.source-badge,.selfhost-tag,.filter-count {border-radius:8px}
+.nav-inner nav a,.icon-button,.app-github {border-radius:12px}
+.search-box,.discovery-hero .search-box {border-radius:16px}
+.button,.filter-select select,.filter-trigger,.category-pill,.selfhost-toggle,.active-filters button,.card-action,.collection-action,.sheet-select select,.license-note,.alternative-chips span,.toast {border-radius:12px}
+.app-icon,.catalog-card-top .app-icon,.feature-foot .app-icon,.collection-app .app-icon,.detail-hero>.app-icon {border-radius:14px}
+.feature,.category-card,.recent-card,.review-card,.collection-panel,.product-resource,.selection-panel,.screenshot-button,.empty-state {border-radius:16px}
+.collection-banner,dialog {border-radius:20px}
 @media(max-width:760px) {
-  .nav-inner nav {border-radius:18px}
-  .nav-inner nav a {border-radius:12px}
-  #search-shortcut {border-radius:12px}
+  .nav-inner nav {border-radius:20px}
+  .nav-inner nav a {border-radius:14px}
+  #search-shortcut {border-radius:14px}
+  .filter-dialog {border-radius:20px 20px 0 0}
 }
