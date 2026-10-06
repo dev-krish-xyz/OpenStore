@@ -647,3 +647,12 @@ dialog::backdrop {background:#0005}
   #search-shortcut {border-radius:14px}
   .filter-dialog {border-radius:20px 20px 0 0}
 }
+@media(max-width:480px) {
+  .category-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .category-card {min-height:72px;padding:12px;gap:9px}
+  .category-card>div {min-width:0}
+  .category-card span {white-space:nowrap}
+  .nav-inner nav {border-radius:22px}
+  .nav-inner nav a {border-radius:15px}
+  #search-shortcut {border-radius:15px}
+}
