@@ -152,6 +152,7 @@ All 60 listings render local files from [official-icons.json](../assets/official
 | OpenPencil | [openpencil-official.svg](https://raw.githubusercontent.com/open-pencil/open-pencil/master/assets/brand/mark.svg) | Official application icon or project logo |
 | OpenSign | [opensign-official.png](https://avatars.githubusercontent.com/u/146751146?v=4?s=256) | Official repository organization brand |
 | OpenShot | [openshot-official.svg](https://raw.githubusercontent.com/OpenShot/openshot-qt/develop/images/openshot.svg) | Official application icon or project logo |
+| OpenScreen | [openscreen-official.png](https://raw.githubusercontent.com/getopenscreen/openscreen/main/website/static/img/logo-icon.png) | Official application icon or project logo |
 | OpenCloud | [opencloud-official.svg](https://raw.githubusercontent.com/opencloud-eu/opencloud/main/services/web/assets/themes/opencloud/assets/favicon.svg) | Official application icon or project logo |
 | OpenWhispr | [openwhispr-official.png](https://raw.githubusercontent.com/OpenWhispr/openwhispr/main/src/assets/icon.png) | Official application icon or project logo |
 | OpenWork | [openwork-official.png](https://raw.githubusercontent.com/different-ai/openwork/dev/apps/desktop/resources/icons/icon.png) | Official application icon or project logo |

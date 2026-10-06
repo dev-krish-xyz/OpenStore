@@ -486,5 +486,13 @@
     "kind": "Official application icon or project logo",
     "bytes": 2301,
     "sha256": "ea39aa27c660688cfe9d23035e24e9f7a3c5a0777e71998b74e4ee793edf2905"
+  },
+  "openscreen": {
+    "file": "openscreen-official.png",
+    "repo": "getopenscreen/openscreen",
+    "source": "https://raw.githubusercontent.com/getopenscreen/openscreen/main/website/static/img/logo-icon.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 10690,
+    "sha256": "68fdfd5520bc15e8ba6b2af0925eaf09adb20072bdfa83ac7d94949334cdda02"
   }
 }

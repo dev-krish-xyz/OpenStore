@@ -1775,6 +1775,26 @@
       "default_branch": "main",
       "topics": ["bodyweight","fitness","fitness-tracker","gym","health","progressive-web-applications","pwa","self-hosted","workout-tracker"],
       "archived": false
+    },
+    "getopenscreen/openscreen": {
+      "full_name": "getopenscreen/openscreen",
+      "html_url": "https://github.com/getopenscreen/openscreen",
+      "description": "Record your screen, ship a demo. Free and open-source, GPU-accelerated, no watermarks, no subscriptions. Windows, macOS, Linux. Actively maintained.",
+      "homepage": "https://getopenscreen.com/",
+      "stargazers_count": 3658,
+      "forks_count": 231,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "pushed_at": "2026-10-06T09:51:02Z",
+      "created_at": "2026-03-14T10:16:22Z",
+      "default_branch": "main",
+      "topics": ["cross-platform","electron","ffmpeg","open-source","product-demo","rust","screen-capture","screen-recorder","screen-recording","screen-studio","screencast","speech-to-text","typescript","video-editing","video-editor","wayland","wgpu","whisper"],
+      "archived": false
     }
   }
 }

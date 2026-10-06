@@ -143,6 +143,40 @@ export const openCatalog = [
     "researchSource": "https://github.com/OpenShot/openshot-qt#readme"
   },
   {
+    "id": "openscreen",
+    "name": "OpenScreen",
+    "repo": "getopenscreen/openscreen",
+    "category": "Video",
+    "platforms": [
+      "macOS",
+      "Windows",
+      "Linux"
+    ],
+    "selfHosted": false,
+    "replaces": [
+      "Screen Studio",
+      "Loom"
+    ],
+    "description": "Record your screen and turn it into a polished demo.",
+    "about": "A free, local-first screen recorder and video editor for polished product demos and walkthroughs. Capture a display or window, refine zooms and cursor movement, add webcam layouts and captions, then export without an account, watermark, or subscription.",
+    "features": [
+      "Native screen and system-audio capture",
+      "Automatic zooms and cursor effects",
+      "Local editing, captions, and GPU-accelerated export"
+    ],
+    "website": "https://getopenscreen.com",
+    "docs": "https://getopenscreen.com/docs/intro/",
+    "license": "MIT",
+    "icon": "video",
+    "color": "#00d65f",
+    "screens": [],
+    "popular": true,
+    "bestFor": "Polished product demos and walkthroughs",
+    "consideration": "The project is evolving quickly, and it does not provide hosted sharing, live streaming, or mobile capture.",
+    "addedAt": "2026-10-06",
+    "researchSource": "https://github.com/getopenscreen/openscreen#readme"
+  },
+  {
     "id": "opencloud",
     "name": "OpenCloud",
     "repo": "opencloud-eu/opencloud",
