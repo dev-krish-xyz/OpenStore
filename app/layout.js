@@ -1,4 +1,8 @@
+import { Geist, Geist_Mono } from 'next/font/google';
 import '../styles.css';
+
+const sans = Geist({ subsets: ['latin'], variable: '--font-sans', display: 'swap' });
+const mono = Geist_Mono({ subsets: ['latin'], variable: '--font-mono', display: 'swap' });
 
 export const metadata = {
   title: 'OpenStore — The best of open source all in one place.',
@@ -14,9 +18,9 @@ export const metadata = {
 };
 
 export const viewport = {
-  themeColor: '#101113',
+  themeColor: '#000000',
 };
 
 export default function RootLayout({ children }) {
-  return <html lang="en" data-theme="dark"><body>{children}</body></html>;
+  return <html lang="en" data-theme="dark" className={`${sans.variable} ${mono.variable}`}><body>{children}</body></html>;
 }

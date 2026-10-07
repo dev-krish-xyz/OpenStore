@@ -34,10 +34,27 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm start` | Serve a completed production build. |
 | `npm run build:legacy` | Build the previous static distribution. |
 
+## Community discovery setup
+
+Guest app submissions use a public GitHub repository URL and do not require sign-in. Voting, private feedback for editors, wanted alternatives, and moderation use GitHub OAuth and SQLite. To enable those account features, copy `.env.example` to `.env.local`, create a GitHub OAuth app, and configure its callback as `http://localhost:3000/api/auth/github/callback` for local development. Set `ADMIN_GITHUB_LOGINS` to the comma-separated GitHub logins that may review submissions.
+
+The default database is `.data/openstore.sqlite`. Set `OPENSTORE_DB_PATH` to a file on persistent storage in production; ephemeral serverless filesystems will not retain community data. The schema is initialized from [`db/schema.sql`](db/schema.sql). A local admin sign-in is shown only during development so the full moderation flow can be used without an OAuth app.
+
+The community pipeline keeps editorial ownership explicit:
+
+1. Anyone submits a public GitHub repository. OpenStore fetches its public metadata and prevents duplicate catalog entries or submissions.
+2. The project appears in recent Community Finds as pending, where signed-in users can vote once, see whether they voted, and leave one editable feedback note for editors.
+3. An editor sees every submission, its vote count and voters, feedback notes, and repository details in the admin panel, then edits, accepts for later consideration, or rejects it.
+4. Acceptance does not publish a catalog listing. An editor adds selected apps to the hand-maintained curated source catalogs separately.
+5. Wanted requests consolidate duplicate product names into votes and accept either an existing OpenStore app or a public GitHub repository as a suggested solution.
+
 ## Project structure
 
 ```text
 app/                  Next.js application shell and document metadata
+app/api/              Community, auth, GitHub metadata, and moderation endpoints
+db/                   SQLite schema for users, submissions, votes, and requests
+lib/community/        Persistence, GitHub OAuth, validation, and API helpers
 public/legacy/        Client-side catalog renderer used by the interface
 catalog.js            Core curated projects
 open-catalog.js       Open-prefixed projects
