@@ -494,5 +494,13 @@
     "kind": "Official application icon or project logo",
     "bytes": 10690,
     "sha256": "68fdfd5520bc15e8ba6b2af0925eaf09adb20072bdfa83ac7d94949334cdda02"
+  },
+  "thingport": {
+    "file": "thingport-official.svg",
+    "repo": "TautvydasDerzinskas/Thingport",
+    "source": "https://raw.githubusercontent.com/TautvydasDerzinskas/Thingport/main/frontend/public/favicon.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 1135,
+    "sha256": "0e4eb27475f741361b451d010509a5d85a2060d95b8409c1327eeae53ae41d8b"
   }
 }
