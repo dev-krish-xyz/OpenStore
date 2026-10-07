@@ -324,30 +324,28 @@ main:focus {outline:none}
 .active-filters button:hover {background:var(--hover)}
 
 .catalog-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));column-gap:32px;margin-top:12px}
-.catalog-card {display:flex;flex-direction:column;min-width:0;padding:20px 0;border-top:1px solid var(--border)}
+.catalog-card {position:relative;display:flex;flex-direction:column;min-width:0;padding:20px 0;border-top:1px solid var(--border)}
 .catalog-card-top {display:flex;align-items:center;gap:12px}
+.catalog-card-top .app-icon {width:44px;height:44px}
 .catalog-identity {flex:1;min-width:0}
-.catalog-card h3 {font-size:var(--text-md);line-height:1.3;overflow-wrap:anywhere}
-.catalog-card-top p {margin-top:1px;font-size:var(--text-xs);color:var(--muted)}
+.catalog-card h3 {font-size:var(--text-md);font-weight:600;line-height:1.3;overflow-wrap:anywhere}
+.catalog-card-link::after {content:"";position:absolute;inset:0}
+.catalog-card:hover h3 a {text-decoration:underline;text-decoration-color:var(--strong-border);text-underline-offset:3px}
+.catalog-card .app-github {position:relative;z-index:1;align-self:flex-start}
+.catalog-identity p {display:flex;align-items:center;flex-wrap:wrap;gap:0 4px;margin-top:2px;font-size:var(--text-xs);color:var(--muted)}
+.catalog-identity .source-badge {margin-left:4px}
 .catalog-description {margin-top:12px;display:-webkit-box;overflow:hidden;font-size:var(--text-sm);line-height:1.5;color:var(--body);-webkit-box-orient:vertical;-webkit-line-clamp:2}
+.card-replaces {margin:8px 0 14px;overflow:hidden;font-size:var(--text-sm);font-weight:500;color:var(--text);white-space:nowrap;text-overflow:ellipsis}
+.card-replaces span {margin-right:6px;font-weight:400;color:var(--muted)}
+.card-meta {display:flex;align-items:center;gap:14px;min-width:0;margin-top:auto;padding-top:12px;border-top:1px dashed var(--border);font-family:var(--mono);font-size:var(--text-xs);color:var(--body);font-variant-numeric:tabular-nums;white-space:nowrap}
+.card-meta>span {display:inline-flex;align-items:center;gap:5px;flex-shrink:0}
+.card-meta svg {width:13px;height:13px;color:var(--muted)}
+.card-meta .card-rating svg {fill:var(--warning);stroke:var(--warning)}
+.card-meta .card-platforms {gap:8px;margin-left:auto;color:var(--muted)}
+.card-platforms>span {display:inline-flex}
+.card-meta .card-platforms svg {width:14px;height:14px;color:inherit}
 .replacement-chip {display:flex;flex-wrap:wrap;gap:4px;margin-top:6px;font-size:var(--text-xs);color:var(--muted)}
 .replacement-chip b {font-weight:500;color:var(--body)}
-.card-fit {margin-top:12px}
-.card-fit>span {display:block;font-size:var(--text-xs);color:var(--muted)}
-.card-fit p {display:-webkit-box;overflow:hidden;margin-top:1px;font-size:var(--text-sm);color:var(--body);-webkit-box-orient:vertical;-webkit-line-clamp:2}
-.card-evidence {display:flex;flex-direction:column;gap:4px;margin-top:auto;padding-top:14px}
-.github-stat {display:flex;align-items:center;flex-wrap:wrap;gap:5px;font-size:var(--text-xs);color:var(--muted);font-variant-numeric:tabular-nums}
-.github-stat strong,.github-stat .trend-badge {font-family:var(--mono)}
-.github-stat>svg {width:13px;height:13px}
-.github-stat strong {font-weight:600;color:var(--body)}
-.github-stat .trend-badge {margin-left:4px}
-.card-platforms {display:flex;align-items:flex-start;gap:5px;margin-top:4px;font-size:var(--text-xs);color:var(--muted)}
-.card-platforms svg {width:13px;height:13px;margin-top:2px}
-.catalog-card-bottom {display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:14px}
-.card-badges {display:flex;flex-wrap:wrap;gap:4px;min-width:0}
-.card-action {display:flex;align-items:center;gap:4px;margin-left:auto;font-size:var(--text-sm);font-weight:500;color:var(--text);white-space:nowrap}
-.card-action svg {width:14px;height:14px;color:var(--muted)}
-.card-action:hover svg {color:var(--text);transform:translateX(2px)}
 .load-more {padding:32px 0 8px;text-align:center}
 .load-more p {margin-bottom:12px;font-size:var(--text-sm);color:var(--muted)}
 .empty-state {grid-column:1/-1;padding:64px 24px;text-align:center;border:1px dashed var(--strong-border);border-radius:var(--r-lg)}
@@ -886,7 +884,7 @@ dialog::backdrop {background:var(--overlay)}
   .hero-underline path {stroke-dasharray:1;stroke-dashoffset:1;animation:underline-draw .7s cubic-bezier(.65,0,.35,1) .25s forwards}
   @keyframes underline-draw {to {stroke-dashoffset:0}}
   a,button,.feature,.recent-card,.category-card {transition:background-color .15s,border-color .15s,color .15s,opacity .15s}
-  .card-action svg,.submit-optional-toggle svg {transition:transform .15s}
+  .submit-optional-toggle svg {transition:transform .15s}
   .toast {transition:opacity .15s,transform .15s}
 }
 @media (prefers-reduced-motion:reduce) {

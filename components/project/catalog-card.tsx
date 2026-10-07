@@ -1,40 +1,43 @@
 import Link from 'next/link';
 import { Icon } from '@/components/icon';
-import { compact, exact } from '@/lib/format';
+import { PlatformIcons } from '@/components/platform-icon';
+import { compact, exact, formatDate } from '@/lib/format';
 import { appHref } from '@/lib/routes';
 import type { ProjectSummary } from '@/lib/catalog/types';
 import { AppIcon, SourceBadge } from './app-icon';
 import { GitHubLink } from './app-row';
-import { Rating } from './rating';
 
 export function CatalogCard({ project }: { project: ProjectSummary }) {
   return (
     <article className="catalog-card">
       <div className="catalog-card-top">
-        <Link href={appHref(project)} aria-label={`Explore ${project.name}`}><AppIcon project={project} /></Link>
+        <AppIcon project={project} />
         <div className="catalog-identity">
-          <h3><Link href={appHref(project)}>{project.name}</Link></h3>
-          <p>{project.category}</p>
+          {/* The title link stretches over the whole card; the GitHub link sits above it. */}
+          <h3><Link className="catalog-card-link" href={appHref(project)}>{project.name}</Link></h3>
+          <p>
+            {project.category}
+            {project.selfHosted && <><span aria-hidden="true"> · </span>Self-hosted</>}
+            <SourceBadge project={project} />
+          </p>
         </div>
         <GitHubLink project={project} />
       </div>
+
       <p className="catalog-description" title={project.description}>{project.description}</p>
-      <div className="replacement-chip"><span>Alternative to</span><b>{project.replaces[0]}</b></div>
-      <div className="card-fit"><span>Best for</span><p title={project.bestFor}>{project.bestFor}</p></div>
-      <div className="card-evidence">
-        <span className="github-stat" title={`${exact(project.stars)} GitHub stars`}>
-          <Icon name="github" /><strong>{compact(project.stars)}</strong><span>GitHub stars</span>
-          {project.weeklyStars ? <span className="trend-badge">↗ {compact(project.weeklyStars)} / week</span> : null}
-        </span>
-        <Rating review={project.review} />
-      </div>
-      <div className="card-platforms"><Icon name="globe" /><span>{project.platforms.join(' · ')}</span></div>
-      <div className="catalog-card-bottom">
-        <div className="card-badges">
-          {project.selfHosted && <span className="selfhost-tag">Self-hosted</span>}
-          <SourceBadge project={project} />
-        </div>
-        <Link href={appHref(project)} className="card-action">View app <Icon name="arrow" /></Link>
+      <p className="card-replaces" title={project.replaces.join(', ')}>
+        <span>Replaces</span>{project.replaces[0]}
+      </p>
+
+      <div className="card-meta">
+        <span title={`${exact(project.stars)} GitHub stars`}><Icon name="github" />{compact(project.stars)}</span>
+        {project.weeklyStars ? <span className="trend-badge" title={`${exact(project.weeklyStars)} stars this week`}>↗ {compact(project.weeklyStars)}/wk</span> : null}
+        {project.review && (
+          <span className="card-rating" title={`${project.review.provider} rating from ${exact(project.review.count)} reviews, captured ${formatDate(project.review.capturedAt)}`}>
+            <Icon name="star" />{project.review.rating.toFixed(1)}
+          </span>
+        )}
+        <PlatformIcons className="card-platforms" platforms={project.platforms} />
       </div>
     </article>
   );
