@@ -8,3 +8,5 @@ node_modules/
 .vercel
 .data/
 .env*.local
+*.tsbuildinfo
+next-env.d.ts
