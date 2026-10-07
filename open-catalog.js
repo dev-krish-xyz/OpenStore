@@ -1315,5 +1315,49 @@ export const openCatalog = [
     "consideration": "Requires the original RollerCoaster Tycoon 2 game assets; the engine does not include them.",
     "addedAt": "2026-10-05",
     "researchSource": "https://github.com/OpenRCT2/OpenRCT2#readme"
+  },
+  {
+    "id": "openpost",
+    "name": "OpenPost",
+    "repo": "getopenpost/openpost",
+    "category": "Communication",
+    "platforms": [
+      "Web",
+      "Android"
+    ],
+    "selfHosted": true,
+    "replaces": [
+      "Buffer",
+      "Canva",
+      "CapCut"
+    ],
+    "description": "Create, adapt, review, schedule and track social posts in one workspace.",
+    "about": "An AGPL content workspace for solo founders with posts, destination-specific variants, media editors, workflows and delivery inspection. Use Hosted or self-host the Go service. The free local image and video editors need no account or watermark; API, CLI and MCP access support automation.",
+    "features": [
+      "Posts and destination-specific variants",
+      "Scheduling and reviewed workflows",
+      "Free local image and video editors",
+      "Scoped API, CLI and MCP access"
+    ],
+    "website": "https://openpo.st",
+    "docs": "https://openpo.st/docs",
+    "license": "AGPL-3.0-only",
+    "icon": "layers",
+    "color": "#667b70",
+    "screens": [
+      [
+        "openpost-screen.png",
+        "Official OpenPost calendar"
+      ],
+      [
+        "openpost-image-screen.png",
+        "Official OpenPost image editor"
+      ]
+    ],
+    "popular": false,
+    "bestFor": "Solo founders preparing and publishing social content",
+    "consideration": "Hosted admission currently uses a waitlist. Provider capabilities and publishing readiness vary. Self-hosting needs infrastructure and provider setup. Video Editor is beta for desktop Chrome/Edge.",
+    "addedAt": "2026-10-07",
+    "researchSource": "https://github.com/getopenpost/openpost#readme"
   }
 ];

@@ -607,5 +607,20 @@
     "bytes": 10690,
     "sha256": "68fdfd5520bc15e8ba6b2af0925eaf09adb20072bdfa83ac7d94949334cdda02",
     "kind": "Official application icon or project logo"
+  },
+  "openpost-official.png": {
+    "source": "https://raw.githubusercontent.com/getopenpost/openpost/e822ff812acc7099626dd510b3f7d023a52d4175/assets/brand/pwa-512.png",
+    "bytes": 9383,
+    "sha256": "b03d8f263025dda73d9b23c99ca67cc97342a46518da5c5434ac98228bf1c52f"
+  },
+  "openpost-screen.png": {
+    "source": "https://raw.githubusercontent.com/getopenpost/openpost/e822ff812acc7099626dd510b3f7d023a52d4175/assets/screenshots/calendar-dark.png",
+    "bytes": 324048,
+    "sha256": "59dacd8db561cc93239808620bf9ba5227b70076b77bc3e6001eac6ae6b7e6d0"
+  },
+  "openpost-image-screen.png": {
+    "source": "https://raw.githubusercontent.com/getopenpost/openpost/e822ff812acc7099626dd510b3f7d023a52d4175/assets/screenshots/image-editor-light.png",
+    "bytes": 1208941,
+    "sha256": "81d3f78ed1d54fb56c67fc66615244c6eb30795a11faae0aa69612f26411ba30"
   }
 }
