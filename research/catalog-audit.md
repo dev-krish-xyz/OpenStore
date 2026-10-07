@@ -56,7 +56,7 @@ GitHub statistics captured 2026-10-05T18:05:15.266698+00:00. Each comparison den
 | [Bitwarden](https://github.com/bitwarden/clients) | 13,908 | Passwords across your devices | GPL-3.0 + Bitwarden License | No aggregate verified |
 | [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 77,142 | Notes and structured project work | AGPL-3.0 | No aggregate verified |
 | [Kdenlive](https://github.com/KDE/kdenlive) | 5,790 | Multi-track video editing | GPL-3.0 | No aggregate verified |
-| [Thingport](https://github.com/TautvydasDerzinskas/Thingport) | 133 | A self-hosted library for 3D-printing models | AGPL-3.0 | No aggregate verified |
+| [Thingport](https://github.com/TautvydasDerzinskas/Thingport) | 136 | A self-hosted library for 3D-printing models | AGPL-3.0 | No aggregate verified |
 | [Open Notebook](https://github.com/lfnovo/open-notebook) | 39,829 | Private, source-based research | MIT | No aggregate verified |
 | [OpenPencil](https://github.com/open-pencil/open-pencil) | 8,750 | Editable Figma files and local design | MIT | No aggregate verified |
 | [OpenSign](https://github.com/OpenSignLabs/OpenSign) | 7,057 | Document signing without a SaaS dependency | AGPL-3.0 | 4.6/5 · 12 · G2 |
