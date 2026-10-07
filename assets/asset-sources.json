@@ -637,5 +637,12 @@
   "thingport-preview.png": {
     "source": "https://raw.githubusercontent.com/TautvydasDerzinskas/Thingport/main/frontend/src/assets/screenshots/04_model_details_3d_preview.png",
     "bytes": 387188
+  },
+  "concile-official.svg": {
+    "repo": "concile-dev/concile",
+    "source": "https://raw.githubusercontent.com/concile-dev/concile/main/www/public/brand/concile-mark.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 2599,
+    "sha256": "e0367a09a3def5dda3600bcc69149377c3cf214de75b5882c714bbbd80603921"
   }
 }

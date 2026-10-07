@@ -57,6 +57,7 @@ GitHub statistics captured 2026-10-05T18:05:15.266698+00:00. Each comparison den
 | [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 77,142 | Notes and structured project work | AGPL-3.0 | No aggregate verified |
 | [Kdenlive](https://github.com/KDE/kdenlive) | 5,790 | Multi-track video editing | GPL-3.0 | No aggregate verified |
 | [Thingport](https://github.com/TautvydasDerzinskas/Thingport) | 136 | A self-hosted library for 3D-printing models | AGPL-3.0 | No aggregate verified |
+| [Concile](https://github.com/concile-dev/concile) | 51 | A self-hosted realtime backend for your apps | FSL-1.1-Apache-2.0 (source-available) | No aggregate verified |
 | [Open Notebook](https://github.com/lfnovo/open-notebook) | 39,829 | Private, source-based research | MIT | No aggregate verified |
 | [OpenPencil](https://github.com/open-pencil/open-pencil) | 8,750 | Editable Figma files and local design | MIT | No aggregate verified |
 | [OpenSign](https://github.com/OpenSignLabs/OpenSign) | 7,057 | Document signing without a SaaS dependency | AGPL-3.0 | 4.6/5 · 12 · G2 |
@@ -150,6 +151,7 @@ All 60 listings render local files from [official-icons.json](../assets/official
 | AppFlowy | [appflowy-official.png](https://raw.githubusercontent.com/AppFlowy-IO/AppFlowy/main/frontend/appflowy_flutter/ios/Runner/Assets.xcassets/AppIcon.appiconset/180.png) | Official application icon or project logo |
 | Kdenlive | [kdenlive-official.png](https://raw.githubusercontent.com/KDE/kdenlive/master/data/icons/128-apps-kdenlive.png) | Official application icon or project logo |
 | Thingport | [thingport-official.svg](https://raw.githubusercontent.com/TautvydasDerzinskas/Thingport/main/frontend/public/favicon.svg) | Official application icon or project logo |
+| Concile | [concile-official.svg](https://raw.githubusercontent.com/concile-dev/concile/main/www/public/brand/concile-mark.svg) | Official application icon or project logo |
 | Open Notebook | [open-notebook-official.svg](https://raw.githubusercontent.com/lfnovo/open-notebook/main/frontend/public/logo.svg) | Official application icon or project logo |
 | OpenPencil | [openpencil-official.svg](https://raw.githubusercontent.com/open-pencil/open-pencil/master/assets/brand/mark.svg) | Official application icon or project logo |
 | OpenSign | [opensign-official.png](https://avatars.githubusercontent.com/u/146751146?v=4?s=256) | Official repository organization brand |
