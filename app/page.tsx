@@ -36,11 +36,14 @@ export default function HomePage() {
             <span className="hero-count">{projects.length} reviewed projects</span>
           </div>
           <h1 id="discovery-title">
-            Find the best <span className="nowrap">open-source</span>{' '}
-            <span className="hero-underline">
-              alternative
-              <svg viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true"><path pathLength={1} d="M4 11C64 4 150 3 296 8" /></svg>
-            </span>.
+            Find the best{' '}
+            <span className="nowrap">
+              open-source{' '}
+              <span className="hero-underline">
+                alternative
+                <svg viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true"><path pathLength={1} d="M4 8H296" /></svg>
+              </span>.
+            </span>
           </h1>
           <p>Curated alternatives to the apps you use.</p>
           <div className="hero-search-area"><SearchBox /></div>

@@ -756,7 +756,8 @@ dialog::backdrop {background:var(--overlay)}
   .toast {bottom:calc(88px + env(safe-area-inset-bottom))}
 
   .discovery-hero {padding:36px 0 0}
-  .discovery-hero h1 {margin:14px auto 12px;line-height:1.02}
+  /* Sized so "open-source alternative." always fits one line (it is ~10.9em wide). */
+  .discovery-hero h1 {margin:14px auto 12px;font-size:min(38px,calc((100vw - 40px) / 11.2));line-height:1.08}
   .hero-heading>p {max-width:none;font-size:clamp(14px,4.6vw,16px);white-space:nowrap}
   .hero-search-area {margin-top:24px}
   .discovery-hero .search-box {height:48px}
