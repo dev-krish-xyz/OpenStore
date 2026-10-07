@@ -1,19 +1,23 @@
 # OpenStore
 
-OpenStore is a curated directory for discovering well-made open-source alternatives to proprietary software.
+OpenStore is a curated directory for discovering well-made open-source alternatives to proprietary software. Live at [openstore.site](https://www.openstore.site).
 
 ![OpenStore Discover page](docs/openstore-preview.png)
 
-It combines editorial app discovery with practical details for each project: what it replaces, supported platforms, GitHub stars, license, official links, screenshots, and related projects.
+Every listing is reviewed by hand and shows what a project replaces, where it runs, how active it is on GitHub, its license, official links, screenshots, and related projects.
 
 ## Highlights
 
-- Browse 64 curated projects across AI, developer tools, design, video, productivity, privacy, finance, fitness, and utilities.
-- Search by app name, category, description, or the proprietary tool a project can replace.
-- Filter by category, platform, GitHub stars, trending status, and self-hosting support.
-- Review project detail pages with official assets, repository metadata, license details, platform support, and alternatives.
-- Keep local bookmarks and share URLs that preserve search and filter state.
-- Use a responsive interface built for desktop and mobile browsing.
+- Browse 64 curated projects across 14 categories, from AI and developer tools to design, video, privacy, finance, home and network, and games.
+- Search by app name, category, description, or the proprietary tool a project replaces, or jump anywhere with the ⌘K command menu.
+- Filter by category, platform, GitHub stars, weekly trending, self-hosting, and user reviews. Every filter lives in the URL, so results are shareable.
+- Follow GitHub momentum on the Trending page and see recently created projects on New.
+- Suggest a project, vote on community finds, and request alternatives that don’t exist yet; editors review everything before it joins the catalog.
+- Use it comfortably on any device, in light or dark mode.
+
+## Built with
+
+Next.js App Router, React 19, and TypeScript, styled with Tailwind CSS v4 and shadcn/Radix primitives. App pages are statically generated; community features run on SQLite with GitHub OAuth.
 
 ## Run locally
 
@@ -61,7 +65,8 @@ styles.css            Design tokens and component styles, layered beneath Tailwi
 catalog.js            Core curated projects
 open-catalog.js       Open-prefixed projects
 trending-catalog.js   Projects observed in weekly GitHub trending data
-assets/               Repository snapshots, official icons, and asset sources
+public/assets/        App icons, screenshots, and the snapshot data the site serves
+assets/               Repository snapshots, official icons, and asset sources used by tests and research
 research/             Catalog audit and research notes
 tests/                Catalog integrity tests
 ```
