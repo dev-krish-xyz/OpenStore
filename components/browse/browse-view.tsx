@@ -32,6 +32,8 @@ export function BrowseView({ mode, projects, categories, starsAsOf, trendAsOf }:
   const list = sortProjects(filterProjects(projects, filters), sort);
   const chips = activeFilters(filters, mode);
   const advancedCount = chips.filter(chip => advancedFilterKeys.includes(chip.key)).length;
+  // On phones, platform, sort, and self-hosting live in the filter sheet, so the badge counts them too.
+  const sheetCount = advancedCount + [filters.platform !== 'All', sort !== defaultSort(mode), filters.selfHosted].filter(Boolean).length;
 
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [query, setQuery] = useState(filters.query);
@@ -83,6 +85,8 @@ export function BrowseView({ mode, projects, categories, starsAsOf, trendAsOf }:
       openOnly: advanced.openOnly ? '1' : null,
       reviewed: advanced.reviewed ? '1' : null,
       ...(mode === 'trending' ? {} : { trending: advanced.trending ? '1' : null }),
+      platform: advanced.platform === 'All' ? null : advanced.platform,
+      sort: advanced.sort === defaultSort(mode) ? null : advanced.sort,
     };
     for (const [key, value] of Object.entries(values)) {
       if (value) next.set(key, value);
@@ -127,8 +131,10 @@ export function BrowseView({ mode, projects, categories, starsAsOf, trendAsOf }:
               {['All', ...platforms].map(value => <option key={value} value={value}>{value === 'All' ? 'All platforms' : value}</option>)}
             </select>
           </label>
-          <button className={`filter-trigger${advancedCount ? ' has-filters' : ''}`} onClick={() => setFiltersOpen(true)} aria-haspopup="dialog">
-            <Icon name="sliders" />Filters{advancedCount > 0 && <span className="filter-count">{advancedCount}</span>}
+          <button className={`filter-trigger${advancedCount ? ' has-filters' : ''}${sheetCount ? ' has-sheet-filters' : ''}`} onClick={() => setFiltersOpen(true)} aria-haspopup="dialog" aria-label={sheetCount ? `Filters, ${sheetCount} active` : 'Filters'}>
+            <Icon name="sliders" /><span className="filter-trigger-label">Filters</span>
+            {advancedCount > 0 && <span className="filter-count desktop-only" aria-hidden="true">{advancedCount}</span>}
+            {sheetCount > 0 && <span className="filter-count mobile-only" aria-hidden="true">{sheetCount}</span>}
           </button>
           <label className="filter-select sort-select">
             <select aria-label="Sort projects" value={sort} onChange={event => setParam('sort', event.target.value === defaultSort(mode) ? null : event.target.value)}>
@@ -186,7 +192,7 @@ export function BrowseView({ mode, projects, categories, starsAsOf, trendAsOf }:
         Stars from GitHub · {formatDate(starsAsOf)}. {mode === 'new' ? 'Repository age does not imply product maturity.' : 'Comparisons describe overlapping use cases, not feature parity.'}
       </p>
 
-      <FilterDialog key={String(filtersOpen)} open={filtersOpen} onOpenChange={setFiltersOpen} filters={filters} mode={mode} onApply={applyAdvanced} />
+      <FilterDialog key={String(filtersOpen)} open={filtersOpen} onOpenChange={setFiltersOpen} filters={filters} sort={sort} mode={mode} onApply={applyAdvanced} />
     </>
   );
 }

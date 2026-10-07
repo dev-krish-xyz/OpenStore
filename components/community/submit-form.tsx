@@ -66,48 +66,48 @@ export function SubmitForm({ categories, platforms, alternative, repo }: { categ
       <div className="bot-field" aria-hidden="true"><label>Company<input name="company" tabIndex={-1} autoComplete="off" /></label></div>
 
       <section className="submit-section">
-        <div className="submit-section-head"><h2>Repository</h2><p>Public repositories on github.com only.</p></div>
-        <div className="form-field">
-          <label htmlFor="submit-repo-url">GitHub repository URL</label>
-          <div className="input-action">
-            <div className="repo-input">
+        <SectionHead step="01" title="Repository">Public GitHub repositories only. Projects already listed or submitted can’t be added twice.</SectionHead>
+        <div className="submit-section-body">
+          <div className="form-field">
+            <label htmlFor="submit-repo-url">GitHub repository URL</label>
+            <div className="repo-field">
               <Icon name="github" />
               <input
                 id="submit-repo-url" required type="url" name="repoUrl" defaultValue={repo}
-                placeholder="https://github.com/owner/project" autoComplete="url" spellCheck={false}
+                placeholder="github.com/owner/repo" autoComplete="url" spellCheck={false}
                 onChange={event => { if (preview.state !== 'idle') setPreview({ state: 'idle' }); event.currentTarget.dataset.dirty = '1'; }}
                 onBlur={event => { if (event.currentTarget.dataset.dirty && githubRepoPattern.test(event.currentTarget.value.trim())) { delete event.currentTarget.dataset.dirty; fetchMetadata(); } }}
               />
+              <button type="button" className="button button-secondary" onClick={fetchMetadata} disabled={fetching}>{fetching ? 'Fetching…' : 'Fetch'}</button>
             </div>
-            <button type="button" className="button button-secondary" onClick={fetchMetadata} disabled={fetching}>{fetching ? 'Fetching…' : 'Fetch details'}</button>
+            <small>Name, description, and website fill in from GitHub.</small>
           </div>
-          <small>Name, description, and website are filled from GitHub when you paste a link.</small>
+          {preview.state !== 'idle' && (
+            <div className={`metadata-preview${preview.state === 'error' ? ' is-error' : ''}`} id="metadata-preview" aria-live="polite">
+              {preview.state === 'error' ? (
+                <><Icon name="info" /><span className="field-error">{preview.message}</span></>
+              ) : (
+                <>
+                  {preview.meta.ownerAvatarUrl ? <img src={preview.meta.ownerAvatarUrl} alt="" width={32} height={32} /> : <Icon name="github" />}
+                  <div>
+                    <strong>{preview.meta.fullName}</strong>
+                    <span>
+                      {exact(preview.meta.stars)} stars · {exact(preview.meta.forks)} forks
+                      {preview.meta.license ? ` · ${preview.meta.license}` : ''}{preview.meta.language ? ` · ${preview.meta.language}` : ''}
+                    </span>
+                  </div>
+                  <span className="metadata-status"><Icon name="check" />Details filled</span>
+                  {preview.meta.archived && <p className="metadata-warning">This repository is archived on GitHub, so it may no longer be maintained.</p>}
+                </>
+              )}
+            </div>
+          )}
         </div>
-        {preview.state !== 'idle' && (
-          <div className={`metadata-preview${preview.state === 'error' ? ' is-error' : ''}`} id="metadata-preview" aria-live="polite">
-            {preview.state === 'error' ? (
-              <><Icon name="info" /><span className="field-error">{preview.message}</span></>
-            ) : (
-              <>
-                {preview.meta.ownerAvatarUrl ? <img src={preview.meta.ownerAvatarUrl} alt="" width={32} height={32} /> : <Icon name="github" />}
-                <div>
-                  <strong>{preview.meta.fullName}</strong>
-                  <span>
-                    {exact(preview.meta.stars)} stars · {exact(preview.meta.forks)} forks
-                    {preview.meta.license ? ` · ${preview.meta.license}` : ''}{preview.meta.language ? ` · ${preview.meta.language}` : ''}
-                  </span>
-                </div>
-                <span className="metadata-status"><Icon name="check" />Details filled</span>
-                {preview.meta.archived && <p className="metadata-warning">This repository is archived on GitHub, so it may no longer be maintained.</p>}
-              </>
-            )}
-          </div>
-        )}
       </section>
 
       <section className="submit-section">
-        <div className="submit-section-head"><h2>Project details</h2><p>Where it fits and what it replaces.</p></div>
-        <div className="submit-fields">
+        <SectionHead step="02" title="Project details">Where it fits and what it replaces.</SectionHead>
+        <div className="submit-section-body submit-fields">
           <Field label="Project name"><input required name="name" maxLength={100} placeholder="e.g. AppFlowy" /></Field>
           <Field label="Category">
             <select required name="category" defaultValue="">
@@ -130,25 +130,41 @@ export function SubmitForm({ categories, platforms, alternative, repo }: { categ
         </div>
       </section>
 
-      <details className="submit-optional">
-        <summary><span><strong>More details</strong><small>Optional · website, docs, audience, self-hosting</small></span><Icon name="chevron" /></summary>
-        <div className="submit-fields">
-          <Field label="Website"><input type="url" name="websiteUrl" placeholder="https://project.example" /></Field>
-          <Field label="Documentation"><input type="url" name="docsUrl" placeholder="https://docs.project.example" /></Field>
-          <Field label="Best for"><input name="bestFor" maxLength={160} placeholder="e.g. Small teams that want to own their notes" /></Field>
-          <Field label="Important consideration"><textarea name="consideration" maxLength={400} rows={3} placeholder="A limitation or setup detail people should know" /></Field>
-          <label className="check-field">
-            <input type="checkbox" name="selfHosted" />
-            <span><strong>Self-hosting available</strong><small>Users can deploy and operate the project themselves.</small></span>
-          </label>
-        </div>
-      </details>
+      <section className="submit-section">
+        <SectionHead step="03" title="More details">Optional. Website, docs, audience, and self-hosting.</SectionHead>
+        <details className="submit-section-body submit-optional">
+          <summary className="submit-optional-toggle"><span className="when-closed">Add details</span><span className="when-open">Hide details</span><Icon name="chevron" /></summary>
+          <div className="submit-fields">
+            <Field label="Website"><input type="url" name="websiteUrl" placeholder="https://project.example" /></Field>
+            <Field label="Documentation"><input type="url" name="docsUrl" placeholder="https://docs.project.example" /></Field>
+            <Field label="Best for"><input name="bestFor" maxLength={160} placeholder="e.g. Small teams that want to own their notes" /></Field>
+            <Field label="Important consideration"><textarea name="consideration" maxLength={400} rows={3} placeholder="A limitation or setup detail people should know" /></Field>
+            <label className="check-field">
+              <input type="checkbox" name="selfHosted" />
+              <span><strong>Self-hosting available</strong><small>Users can deploy and operate the project themselves.</small></span>
+            </label>
+          </div>
+        </details>
+      </section>
 
       <FormFeedback message={error} />
       <div className="submit-footer">
-        <Link className="text-link" href="/community">Cancel</Link>
-        <button className="button button-primary" type="submit" disabled={submitting}>{submitting ? 'Submitting…' : 'Submit project'}</button>
+        <p>Looking for an alternative instead? <Link href="/wanted">Request one</Link></p>
+        <div>
+          <Link className="text-link" href="/community">Cancel</Link>
+          <button className="button button-primary" type="submit" disabled={submitting}>{submitting ? 'Submitting…' : 'Submit project'}</button>
+        </div>
       </div>
     </form>
+  );
+}
+
+function SectionHead({ step, title, children }: { step: string; title: string; children: React.ReactNode }) {
+  return (
+    <div className="submit-section-head">
+      <span className="submit-step">{step}</span>
+      <h2>{title}</h2>
+      <p>{children}</p>
+    </div>
   );
 }

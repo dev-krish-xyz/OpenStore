@@ -35,8 +35,8 @@ export default function HomePage() {
             <span className="hero-label-divider" aria-hidden="true" />
             <span className="hero-count">{projects.length} reviewed projects</span>
           </div>
-          <h1 id="discovery-title">Find the best open-source alternative.</h1>
-          <p>Curated alternatives to the software you already use.</p>
+          <h1 id="discovery-title">Find the best <span className="nowrap">open-source</span> alternative.</h1>
+          <p>Curated alternatives to the apps you use.</p>
           <div className="hero-search-area"><SearchBox /></div>
           <nav className="hero-categories" aria-label="Discover apps by category">
             <Link href="/browse">All apps</Link>
@@ -92,7 +92,7 @@ export default function HomePage() {
       <section className="section categories-section">
         <SectionHeading title="Categories" href="/categories" linkLabel="All categories" />
         <div className="category-grid">
-          {categories.slice(0, 9).map(category => <CategoryCard key={category.name} category={category} />)}
+          {categories.slice(0, 10).map(category => <CategoryCard key={category.name} category={category} />)}
         </div>
       </section>
 

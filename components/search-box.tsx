@@ -51,7 +51,7 @@ export function SearchBox({ value, onChange }: SearchBoxProps) {
         type="search"
         id="app-search"
         aria-label="Search open-source alternatives"
-        placeholder="Search open-source alternatives…"
+        placeholder="Search open-source apps…"
         autoComplete="off"
         value={current}
         onChange={event => change(event.target.value)}

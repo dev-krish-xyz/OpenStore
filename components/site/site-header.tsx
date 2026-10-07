@@ -40,7 +40,7 @@ export function SiteHeader() {
           </button>
           <ThemeToggle />
           <span className="nav-separator" />
-          <a className="github-nav" href={githubRepoUrl} target="_blank" rel="noopener noreferrer"><Icon name="github" />GitHub</a>
+          <a className="icon-button github-nav" href={githubRepoUrl} target="_blank" rel="noopener noreferrer" aria-label="OpenStore on GitHub" title="OpenStore on GitHub"><Icon name="github" /></a>
         </div>
       </div>
     </header>

@@ -2,20 +2,21 @@
 
 import { useRef } from 'react';
 import { Dialog, DialogContent, DialogDescription, DialogTitle } from '@/components/ui/dialog';
-import { starThresholds, type BrowseMode } from '@/lib/catalog/filters';
-import type { Filters } from '@/lib/catalog/types';
+import { defaultSort, platforms, sortOptions, starThresholds, type BrowseMode } from '@/lib/catalog/filters';
+import type { Filters, SortKey } from '@/lib/catalog/types';
 
-export type AdvancedFilters = Pick<Filters, 'minimumStars' | 'selfHosted' | 'trending' | 'openOnly' | 'reviewed'>;
+export type AdvancedFilters = Pick<Filters, 'minimumStars' | 'selfHosted' | 'trending' | 'openOnly' | 'reviewed' | 'platform'> & { sort: SortKey };
 
 interface FilterDialogProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   filters: Filters;
+  sort: SortKey;
   mode: BrowseMode;
   onApply: (filters: AdvancedFilters) => void;
 }
 
-export function FilterDialog({ open, onOpenChange, filters, mode, onApply }: FilterDialogProps) {
+export function FilterDialog({ open, onOpenChange, filters, sort, mode, onApply }: FilterDialogProps) {
   const form = useRef<HTMLFormElement>(null);
   const toggles = ([
     ['selfHosted', 'Self-hosted', 'Run it on infrastructure you control.'],
@@ -42,11 +43,28 @@ export function FilterDialog({ open, onOpenChange, filters, mode, onApply }: Fil
               trending: mode === 'trending' || data.has('trending'),
               openOnly: data.has('openOnly'),
               reviewed: data.has('reviewed'),
+              platform: String(data.get('platform') || 'All'),
+              sort: (data.get('sort') as SortKey | null) || defaultSort(mode),
             });
           }}
         >
           <DialogTitle>Filters</DialogTitle>
           <DialogDescription className="filter-intro">Narrow the catalog by popularity, momentum, and reviews.</DialogDescription>
+          {/* Phones have no room for these in the toolbar; desktop keeps them there. */}
+          <div className="sheet-mobile-only">
+            <label className="sheet-select">
+              <span>Sort by</span>
+              <select name="sort" defaultValue={sort}>
+                {sortOptions.map(([value, label]) => <option key={value} value={value}>{label}</option>)}
+              </select>
+            </label>
+            <label className="sheet-select">
+              <span>Platform</span>
+              <select name="platform" defaultValue={filters.platform}>
+                {['All', ...platforms].map(value => <option key={value} value={value}>{value === 'All' ? 'All platforms' : value}</option>)}
+              </select>
+            </label>
+          </div>
           <label className="sheet-select">
             <span>Minimum GitHub stars</span>
             <select name="stars" defaultValue={filters.minimumStars}>
@@ -66,11 +84,17 @@ export function FilterDialog({ open, onOpenChange, filters, mode, onApply }: Fil
               onClick={() => {
                 const element = form.current;
                 if (!element) return;
-                element.querySelector('select')!.value = '0';
+                const select = (name: string) => element.querySelector<HTMLSelectElement>(`select[name="${name}"]`)!;
+                select('stars').value = '0';
+                // Sort and platform are hidden on desktop, where the toolbar owns them.
+                if (select('sort').checkVisibility()) {
+                  select('platform').value = 'All';
+                  select('sort').value = defaultSort(mode);
+                }
                 element.querySelectorAll('input').forEach(input => { input.checked = false; });
               }}
             >
-              Clear preferences
+              Clear all
             </button>
             <button type="submit" className="button button-primary">Apply filters</button>
           </div>
