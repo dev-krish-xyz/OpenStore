@@ -8,7 +8,7 @@ It combines editorial app discovery with practical details for each project: wha
 
 ## Highlights
 
-- Browse 63 curated projects across AI, developer tools, design, video, productivity, privacy, finance, fitness, and utilities.
+- Browse 64 curated projects across AI, developer tools, design, video, productivity, privacy, finance, fitness, and utilities.
 - Search by app name, category, description, or the proprietary tool a project can replace.
 - Filter by category, platform, GitHub stars, trending status, and self-hosting support.
 - Review project detail pages with official assets, repository metadata, license details, platform support, and alternatives.
