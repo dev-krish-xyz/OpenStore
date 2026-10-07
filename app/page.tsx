@@ -35,7 +35,13 @@ export default function HomePage() {
             <span className="hero-label-divider" aria-hidden="true" />
             <span className="hero-count">{projects.length} reviewed projects</span>
           </div>
-          <h1 id="discovery-title">Find the best <span className="nowrap">open-source</span> alternative.</h1>
+          <h1 id="discovery-title">
+            Find the best <span className="nowrap">open-source</span>{' '}
+            <span className="hero-underline">
+              alternative
+              <svg viewBox="0 0 300 16" preserveAspectRatio="none" aria-hidden="true"><path pathLength={1} d="M4 11C64 4 150 3 296 8" /></svg>
+            </span>.
+          </h1>
           <p>Curated alternatives to the apps you use.</p>
           <div className="hero-search-area"><SearchBox /></div>
           <nav className="hero-categories" aria-label="Discover apps by category">
@@ -84,7 +90,7 @@ export default function HomePage() {
       </section>
 
       <section className="section">
-        <SectionHeading title="Trending this week" subtitle="Catalog projects on GitHub’s weekly Trending page." href="/trending" />
+        <SectionHeading title="Trending this week" subtitle="Projects on GitHub’s weekly Trending page." href="/trending" />
         <Leaderboard projects={trendingProjects(6)} trendAsOf={snapshotDates.trending} />
         <p className="trend-note"><Icon name="info" /> From GitHub’s weekly Trending page · Snapshot {formatDate(snapshotDates.trending)}</p>
       </section>

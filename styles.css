@@ -136,6 +136,8 @@ main:focus {outline:none}
 .hero-label {display:flex;align-items:center;justify-content:center;gap:10px;font-family:var(--mono);font-size:var(--text-xs);color:var(--muted)}
 .hero-count {text-transform:uppercase;letter-spacing:.02em}
 .nowrap {white-space:nowrap}
+.hero-underline {position:relative;display:inline-block}
+.hero-underline svg {position:absolute;left:-2%;bottom:-.1em;width:104%;height:.22em;overflow:visible;fill:none;stroke:var(--green);stroke-width:6;stroke-linecap:round;pointer-events:none}
 .hero-label-divider {width:3px;height:3px;border-radius:50%;background:var(--faint)}
 .discovery-hero h1 {max-width:960px;margin:18px auto 14px;text-wrap:balance;font-size:var(--text-3xl);font-weight:700;line-height:1.04;letter-spacing:-.045em}
 .hero-heading>p {max-width:560px;margin:0 auto;font-size:19px;font-weight:500;line-height:1.5;color:var(--muted)}
@@ -753,22 +755,25 @@ dialog::backdrop {background:var(--overlay)}
   #search-shortcut svg {width:19px;height:19px}
   .toast {bottom:calc(88px + env(safe-area-inset-bottom))}
 
-  /* Left-aligned so the hero lines up with the scrolling chip rail and the sections below. */
-  .discovery-hero {padding:36px 0 0;text-align:left}
-  .hero-label {justify-content:flex-start}
-  .discovery-hero h1 {margin:14px 0 12px;line-height:1.02}
-  .hero-heading>p {max-width:none;margin:0;font-size:clamp(14px,4.6vw,16px);white-space:nowrap}
+  .discovery-hero {padding:36px 0 0}
+  .discovery-hero h1 {margin:14px auto 12px;line-height:1.02}
+  .hero-heading>p {max-width:none;font-size:clamp(14px,4.6vw,16px);white-space:nowrap}
   .hero-search-area {margin-top:24px}
   .discovery-hero .search-box {height:48px}
   .hero-categories {flex-wrap:nowrap;justify-content:flex-start;margin:14px calc(var(--gutter) * -1) 0;padding:0 var(--gutter);max-width:none;overflow-x:auto;scrollbar-width:none;-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 40px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 40px),transparent)}
-  .popular-searches,.replacement-suggestions {flex-wrap:nowrap;justify-content:flex-start;white-space:nowrap}
+  .popular-searches,.replacement-suggestions {flex-wrap:nowrap;justify-content:safe center;white-space:nowrap}
   .popular-searches {margin:14px calc(var(--gutter) * -1) 0;padding:0 var(--gutter);overflow-x:auto;scrollbar-width:none}
   .popular-searches::-webkit-scrollbar {display:none}
   .hero-categories::-webkit-scrollbar {display:none}
   .hero-categories a {flex-shrink:0}
   .search-box kbd {display:none}
 
-  .section-heading {align-items:flex-start;margin-bottom:16px}
+  /* Title and link share a row; the subtitle gets the full width below so it stays on one line. */
+  .section-heading {flex-wrap:wrap;align-items:baseline;row-gap:0;margin-bottom:16px}
+  .section-heading>div {display:contents}
+  .section-heading h2 {flex:1;min-width:0}
+  .section-heading>a {order:1}
+  .section-heading p {order:2;flex-basis:100%}
   .feature-grid {grid-template-columns:repeat(3,minmax(270px,1fr));margin-right:calc(var(--gutter) * -1);padding-right:var(--gutter);overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
   .feature-grid::-webkit-scrollbar {display:none}
   .feature {scroll-snap-align:start}
@@ -877,6 +882,8 @@ dialog::backdrop {background:var(--overlay)}
 
 /* ---------- Motion ---------- */
 @media (prefers-reduced-motion:no-preference) {
+  .hero-underline path {stroke-dasharray:1;stroke-dashoffset:1;animation:underline-draw .7s cubic-bezier(.65,0,.35,1) .25s forwards}
+  @keyframes underline-draw {to {stroke-dashoffset:0}}
   a,button,.feature,.recent-card,.category-card {transition:background-color .15s,border-color .15s,color .15s,opacity .15s}
   .card-action svg,.submit-optional-toggle svg {transition:transform .15s}
   .toast {transition:opacity .15s,transform .15s}
