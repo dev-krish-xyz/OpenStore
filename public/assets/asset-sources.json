@@ -622,5 +622,20 @@
     "source": "https://raw.githubusercontent.com/getopenpost/openpost/e822ff812acc7099626dd510b3f7d023a52d4175/assets/screenshots/image-editor-light.png",
     "bytes": 1208941,
     "sha256": "81d3f78ed1d54fb56c67fc66615244c6eb30795a11faae0aa69612f26411ba30"
+  },
+  "thingport-official.svg": {
+    "repo": "TautvydasDerzinskas/Thingport",
+    "source": "https://raw.githubusercontent.com/TautvydasDerzinskas/Thingport/main/frontend/public/favicon.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 1135,
+    "sha256": "0e4eb27475f741361b451d010509a5d85a2060d95b8409c1327eeae53ae41d8b"
+  },
+  "thingport-screen.png": {
+    "source": "https://raw.githubusercontent.com/TautvydasDerzinskas/Thingport/main/frontend/src/assets/screenshots/01_dashboard.png",
+    "bytes": 376838
+  },
+  "thingport-preview.png": {
+    "source": "https://raw.githubusercontent.com/TautvydasDerzinskas/Thingport/main/frontend/src/assets/screenshots/04_model_details_3d_preview.png",
+    "bytes": 387188
   }
 }
