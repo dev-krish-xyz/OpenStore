@@ -32,7 +32,7 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm test` | Validate catalog data, metadata, assets, and filtering behavior. |
 | `npm run build` | Create and validate the production build. |
 | `npm start` | Serve a completed production build. |
-| `npm run build:legacy` | Build the previous static distribution. |
+| `npm run typecheck` | Type-check the application with TypeScript. |
 
 ## Community discovery setup
 
@@ -51,11 +51,13 @@ The community pipeline keeps editorial ownership explicit:
 ## Project structure
 
 ```text
-app/                  Next.js application shell and document metadata
+app/                  Next.js App Router pages (server-rendered, one route per page)
 app/api/              Community, auth, GitHub metadata, and moderation endpoints
+components/           React components; components/ui holds shadcn/Radix primitives
 db/                   SQLite schema for users, submissions, votes, and requests
+lib/catalog/          Typed catalog loading, enrichment, filtering, and sorting
 lib/community/        Persistence, GitHub OAuth, validation, and API helpers
-public/legacy/        Client-side catalog renderer used by the interface
+styles.css            Design tokens and component styles, layered beneath Tailwind utilities
 catalog.js            Core curated projects
 open-catalog.js       Open-prefixed projects
 trending-catalog.js   Projects observed in weekly GitHub trending data
@@ -83,8 +85,7 @@ Issues and pull requests are welcome. When adding or updating a project, keep th
 1. Use the project’s official repository and website.
 2. Add a concise use case, proprietary alternatives, supported platforms, and an honest consideration.
 3. Use the official project icon and record its source plus checksum in the asset manifests.
-4. Update the matching file in `public/legacy/` when changing a catalog file.
-5. Run `npm test` and `npm run build` before opening a pull request.
+4. Run `npm test`, `npm run typecheck`, and `npm run build` before opening a pull request.
 
 The data refresh script, `python3 scripts/research.py --refresh-metadata --refresh-trending`, updates repository metadata, official assets, and observed weekly trending data. Customer-review evidence is intentionally rechecked manually.
 

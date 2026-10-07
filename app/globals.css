@@ -1,0 +1,50 @@
+/* Cascade order: Tailwind theme → hand-written interface styles → components → utilities.
+   styles.css keeps the existing design language; Tailwind utilities layer on top of it, so a
+   component can move to utilities one class at a time without fighting specificity. */
+@layer theme, base, legacy, components, utilities;
+
+@import 'tailwindcss/theme.css' layer(theme);
+@import '../styles.css' layer(legacy);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+@custom-variant dark (&:where([data-theme='dark'], [data-theme='dark'] *));
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-surface: var(--surface);
+  --color-soft: var(--soft);
+  --color-hover: var(--hover);
+  --color-foreground: var(--text);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-border: var(--border);
+  --color-strong-border: var(--strong-border);
+  --color-primary: var(--primary);
+  --color-on-primary: var(--on-primary);
+  --color-positive: var(--green);
+  --color-overlay: var(--overlay);
+  --font-sans: var(--sans);
+  --font-mono: var(--mono);
+  --radius-sm: var(--r-sm);
+  --radius-md: var(--r-md);
+  --radius-lg: var(--r-lg);
+  --shadow-panel: var(--shadow);
+  --text-xs: 12px;
+  --text-sm: 13px;
+  --text-base: 14px;
+  --text-lg: 16px;
+  --text-xl: 20px;
+}
+
+@layer components {
+  @keyframes overlay-in { from { opacity: 0 } }
+  @keyframes dialog-in { from { opacity: 0; transform: scale(.97) } }
+  @keyframes sheet-in { from { transform: translateY(16px); opacity: 0 } }
+
+  [data-slot='dialog-overlay'][data-state='open'] { animation: overlay-in .16s ease-out }
+  [data-slot='dialog-content'][data-state='open'] { animation: dialog-in .18s cubic-bezier(.2, .8, .2, 1) }
+  @media (max-width: 760px) {
+    [data-slot='dialog-content'][data-sheet][data-state='open'] { animation: sheet-in .22s cubic-bezier(.2, .8, .2, 1) }
+  }
+}

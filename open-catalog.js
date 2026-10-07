@@ -793,7 +793,7 @@ export const openCatalog = [
     "id": "openmediavault",
     "name": "OpenMediaVault",
     "repo": "openmediavault/openmediavault",
-    "category": "Utilities",
+    "category": "Home & Network",
     "platforms": [
       "Linux",
       "Web"
@@ -826,7 +826,7 @@ export const openCatalog = [
     "id": "openwrt",
     "name": "OpenWrt",
     "repo": "openwrt/openwrt",
-    "category": "Utilities",
+    "category": "Home & Network",
     "platforms": [
       "Linux",
       "Web"
@@ -1022,7 +1022,7 @@ export const openCatalog = [
     "id": "openhab",
     "name": "openHAB",
     "repo": "openhab/openhab-core",
-    "category": "Utilities",
+    "category": "Home & Network",
     "platforms": [
       "Web",
       "Linux",

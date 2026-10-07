@@ -1,19 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title description">
   <title id="title">OpenStore</title>
-  <desc id="description">A rounded open shopping bag in a green-to-cyan gradient.</desc>
-  <defs>
-    <linearGradient id="openstore-gradient" x1="21" y1="91" x2="108" y2="48" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#4cf795"/>
-      <stop offset="0.48" stop-color="#91f4bd"/>
-      <stop offset="0.74" stop-color="#aff7e8"/>
-      <stop offset="1" stop-color="#17d7e8"/>
-    </linearGradient>
-    <filter id="openstore-glow" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="1" stdDeviation="4.5" flood-color="#05080a" flood-opacity="0.9"/>
-      <feDropShadow dx="0" dy="0" stdDeviation="1.2" flood-color="#75f4c2" flood-opacity="0.24"/>
-    </filter>
-  </defs>
-  <g fill="none" stroke="url(#openstore-gradient)" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#openstore-glow)">
+  <desc id="description">A rounded open shopping bag, black on light backgrounds and white on dark backgrounds.</desc>
+  <style>g{stroke:#000}@media (prefers-color-scheme:dark){g{stroke:#fff}}</style>
+  <g fill="none" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round">
     <path d="M42 46v-7c0-19 9-29 22-29s22 10 22 29v7"/>
     <path d="M75 92 43 100c-12 3-19-5-19-18V59c0-8 5-13 13-13h53c9 0 14 5 14 14v21c0 12-7 19-18 19h-4"/>
   </g>
