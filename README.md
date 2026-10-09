@@ -8,7 +8,7 @@ Every listing is reviewed by hand and shows what a project replaces, where it ru
 
 ## Highlights
 
-- Browse 64 curated projects across 14 categories, from AI and developer tools to design, video, privacy, finance, home and network, and games.
+- Browse 65 curated projects across 14 categories, from AI and developer tools to design, video, privacy, finance, home and network, and games.
 - Search by app name, category, description, or the proprietary tool a project replaces, or jump anywhere with the ⌘K command menu.
 - Filter by category, platform, GitHub stars, weekly trending, self-hosting, and user reviews. Every filter lives in the URL, so results are shareable.
 - Follow GitHub momentum on the Trending page and see recently created projects on New.

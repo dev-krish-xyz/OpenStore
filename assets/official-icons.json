@@ -510,5 +510,13 @@
     "kind": "Official application icon or project logo",
     "bytes": 1135,
     "sha256": "0e4eb27475f741361b451d010509a5d85a2060d95b8409c1327eeae53ae41d8b"
+  },
+  "concile": {
+    "file": "concile-official.svg",
+    "repo": "concile-dev/concile",
+    "source": "https://raw.githubusercontent.com/concile-dev/concile/main/www/public/brand/concile-mark.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 2599,
+    "sha256": "e0367a09a3def5dda3600bcc69149377c3cf214de75b5882c714bbbd80603921"
   }
 }

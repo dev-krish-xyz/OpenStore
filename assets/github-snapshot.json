@@ -1883,6 +1883,41 @@
         "thingport"
       ],
       "archived": false
+    },
+    "concile-dev/concile": {
+      "full_name": "concile-dev/concile",
+      "html_url": "https://github.com/concile-dev/concile",
+      "description": "The open-source realtime backend you host yourself. Database, live queries, auth, file storage, cron jobs and a dashboard in one binary. Write TypeScript, deploy anywhere.",
+      "homepage": "https://concile.dev",
+      "stargazers_count": 51,
+      "forks_count": 13,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "node_id": "MDc6TGljZW5zZTA=",
+        "spdx_id": "NOASSERTION",
+        "url": null
+      },
+      "pushed_at": "2026-10-05T19:39:40Z",
+      "created_at": "2026-07-21T12:32:09Z",
+      "default_branch": "main",
+      "topics": [
+        "baas",
+        "backend",
+        "cloudflare-workers",
+        "convex-alternative",
+        "live-queries",
+        "offline-first",
+        "open-source",
+        "postgres",
+        "reactive",
+        "realtime",
+        "self-hosted",
+        "sqlite",
+        "typescript",
+        "websocket"
+      ],
+      "archived": false
     }
   }
 }
