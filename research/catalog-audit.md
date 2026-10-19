@@ -199,3 +199,10 @@ All 60 listings render local files from [official-icons.json](../assets/official
 Screenshots also come from official repositories or vendor assets. [asset-sources.json](../assets/asset-sources.json) records their exact URLs. Refreshing assets preserves original identity instead of replacing logos with generic symbols. User-review scores require manual source verification and are not regenerated from GitHub statistics.
 
 OpenShot feedback notes also draw on [G2 user reviews](https://www.g2.com/products/openshot-video-editor/reviews). Its displayed aggregate remains Capterra; the secondary feedback source is linked separately.
+
+
+## Glim — 2026-10-19
+
+Maintainer submission for the local Markdown-preview use case. The comparison is with Marked 2's preview workflow; it does not claim equivalent export, styling or editing features. Primary sources: https://github.com/NeoPanic/Glim, its MIT LICENSE, format support guide, and published Apple Silicon/Intel DMGs. Native Rust/GPUI Kit app; current DMGs are not Apple-notarized.
+
+The official icon is copied byte-for-byte from the project's public branding asset, with its source URL and SHA-256 in official-icons.json. Repository metadata for NeoPanic/Glim was fetched for this addition; existing snapshot entries and the shared fetchedAt timestamp are preserved. No customer-review score, review count, trending placement or Featured status is added.

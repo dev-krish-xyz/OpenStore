@@ -637,5 +637,9 @@
   "thingport-preview.png": {
     "source": "https://raw.githubusercontent.com/TautvydasDerzinskas/Thingport/main/frontend/src/assets/screenshots/04_model_details_3d_preview.png",
     "bytes": 387188
+  },
+  "glim-official.png": {
+    "source": "https://raw.githubusercontent.com/NeoPanic/Glim/main/assets/branding/glim.png",
+    "bytes": 68657
   }
 }

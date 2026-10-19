@@ -510,5 +510,13 @@
     "kind": "Official application icon or project logo",
     "bytes": 1135,
     "sha256": "0e4eb27475f741361b451d010509a5d85a2060d95b8409c1327eeae53ae41d8b"
+  },
+  "glim": {
+    "file": "glim-official.png",
+    "repo": "NeoPanic/Glim",
+    "source": "https://raw.githubusercontent.com/NeoPanic/Glim/main/assets/branding/glim.png",
+    "kind": "Official application icon or project logo",
+    "bytes": 68657,
+    "sha256": "92506fef3dc3deab5c9552c705dc6dd90a1e7d5398da36c93d7c02fb9234481c"
   }
 }

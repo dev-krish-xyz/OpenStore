@@ -1883,6 +1883,46 @@
         "thingport"
       ],
       "archived": false
+    },
+    "NeoPanic/Glim": {
+      "full_name": "NeoPanic/Glim",
+      "html_url": "https://github.com/NeoPanic/Glim",
+      "description": "A free, open-source file viewer for macOS. Markdown, PDFs, images, JSON, CSV and code in one workspace. Apple Silicon & Intel.",
+      "homepage": "https://github.com/NeoPanic/Glim#download",
+      "stargazers_count": 17,
+      "forks_count": 1,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "pushed_at": "2026-10-18T18:38:58Z",
+      "created_at": "2026-10-09T05:56:00Z",
+      "default_branch": "main",
+      "topics": [
+        "csv-viewer",
+        "desktop-app",
+        "developer-tools",
+        "epub-reader",
+        "file-viewer",
+        "git-diff",
+        "gpui",
+        "gpui-kit",
+        "image-viewer",
+        "json-viewer",
+        "macos",
+        "markdown",
+        "markdown-viewer",
+        "mermaid",
+        "open-source",
+        "pdf-viewer",
+        "rust",
+        "safetensors",
+        "sqlite-viewer"
+      ],
+      "archived": false
     }
   }
 }
