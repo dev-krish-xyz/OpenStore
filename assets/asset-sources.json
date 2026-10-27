@@ -637,5 +637,20 @@
   "thingport-preview.png": {
     "source": "https://raw.githubusercontent.com/TautvydasDerzinskas/Thingport/main/frontend/src/assets/screenshots/04_model_details_3d_preview.png",
     "bytes": 387188
+  },
+  "printstash-official.svg": {
+    "repo": "xiao-villamor/PrintStash",
+    "source": "https://raw.githubusercontent.com/xiao-villamor/PrintStash/main/frontend/public/icon-light.svg",
+    "kind": "Official application icon or project logo",
+    "bytes": 953,
+    "sha256": "85fa148adb73b2948784fd3f46ea7a53ce972cd85f72574538d8bc06c316b186"
+  },
+  "printstash-screen.png": {
+    "source": "https://raw.githubusercontent.com/xiao-villamor/PrintStash/main/screenshots/01-vault-overview.png",
+    "bytes": 252848
+  },
+  "printstash-revisions.png": {
+    "source": "https://raw.githubusercontent.com/xiao-villamor/PrintStash/main/screenshots/04-artifact-compare.png",
+    "bytes": 170779
   }
 }
